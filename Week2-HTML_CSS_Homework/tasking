@@ -1,0 +1,48 @@
+a.根据页面结构，选择页面元素
+b.给元素添加布局样式
+c.给元素添加外观样式
+循环abc
+
+CIRCLE1 <header>
+section:header,div
+layout:center,right
+surface:background-color,img
+
+CIRCLE2 <body> (big picture)
+section:main(aside,content,footer)
+layout:left,default,bottom
+surface:background-color
+
+CIRCLE3 <aside>
+section:nav div(ul)
+layout:flex,column
+surface:background-color,color,icons
+
+CIRCLE4 <main-content>
+section:header,nav,6 sections
+layout:flex,center
+surface:background-color,section distance
+
+CIRCLE5 <main-header>
+section:3 sections
+layout: flex
+surface:background-color;div;grid
+
+CIRCLE6 <main-nav>
+section: 3 sections
+layout:flex
+surface:border input
+
+CIRCLE7 <main-section1>
+section: 3
+layout:bootstrap background-color
+
+
+question
+
+span 长宽
+bootstrap 上下居中
+input placeholder
+找不到图标
+
+
