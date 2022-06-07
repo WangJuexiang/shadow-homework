@@ -214,7 +214,8 @@ main .main-content .main-nav .search {
 main .main-content .main-nav .search input {
   position: absolute;
   margin-top: 15px;
-  margin-left: 20px;
+  margin-left: 15px;
+  padding-left: 25px;
   width: 100%;
   height: 100%;
   background: #F3F3F3;
