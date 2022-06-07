@@ -267,7 +267,8 @@ main {
       }
 
       .detail1-status {
-        @include detail-status($background: #7FBC39)
+        @include detail-status($background: #7FBC39);
+        width: 54px;
       }
 
       .detail1-message {
@@ -330,7 +331,7 @@ main {
   }
 
   .detail2-status {
-    @include detail-status($background: #7FBC39)
+    @include detail-status
   }
 
   .detail2-message {
@@ -507,7 +508,7 @@ main {
       }
 
       .detail5-status {
-        @include detail-status
+        @include detail-status($background: #7FBC39)
       }
 
       .detail5-message {
@@ -552,7 +553,7 @@ main {
     }
 
     .detail6-status {
-      @include detail-status
+      @include detail-status($background: #7FBC39)
     }
 
     .detail6-message {

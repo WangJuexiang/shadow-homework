@@ -276,6 +276,7 @@ main .main-content .main-nav .main-button .button-right {
   color: white;
   font-size: 12px;
   background-color: #7FBC39;
+  width: 54px;
 }
 .main-first-section .section1-detail .detail1-top .detail1-message {
   float: right;
@@ -343,7 +344,7 @@ main .main-content .main-nav .main-button .button-right {
   padding-right: 7px;
   color: white;
   font-size: 12px;
-  background-color: #7FBC39;
+  background-color: #FF9A2A;
 }
 .main-second-section .detail2-message {
   float: right;
@@ -555,7 +556,7 @@ main .main-content .main-nav .main-button .button-right {
   padding-right: 7px;
   color: white;
   font-size: 12px;
-  background-color: #FF9A2A;
+  background-color: #7FBC39;
 }
 .main-section5 .section5-detail .detail5-top .detail5-message {
   float: right;
@@ -606,7 +607,7 @@ main .main-content .main-nav .main-button .button-right {
   padding-right: 7px;
   color: white;
   font-size: 12px;
-  background-color: #FF9A2A;
+  background-color: #7FBC39;
 }
 .main-section6 .detail6-top .detail6-message {
   float: right;
