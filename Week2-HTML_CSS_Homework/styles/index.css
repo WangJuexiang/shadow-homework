@@ -97,59 +97,57 @@ aside .history-detail {
 main {
   display: flex;
 }
-
-.main-content {
+main .main-content {
   margin-left: 25px;
   width: 70%;
 }
-
-.main-header {
+main .main-content .main-header {
   display: flex;
   width: 85%;
   height: 140px;
 }
-.main-header .building {
+main .main-content .main-header .building {
   margin-top: 20px;
   height: 100px;
   width: 500px;
   background-color: #FF9A2A;
 }
-.main-header .text-building {
+main .main-content .main-header .text-building {
   padding-left: 10px;
   padding-top: 10px;
   font-size: 18px;
   font-weight: bold;
   color: white;
 }
-.main-header .number-building {
+main .main-content .main-header .number-building {
   text-align: right;
   margin-bottom: -10px;
   margin-right: 15px;
   font-size: 48px;
   color: white;
 }
-.main-header .idle {
+main .main-content .main-header .idle {
   margin-left: 25px;
   margin-top: 20px;
   height: 100px;
   width: 500px;
   background-color: #7FBC39;
 }
-.main-header .text-idle {
+main .main-content .main-header .text-idle {
   padding-left: 10px;
   padding-top: 10px;
   font-size: 18px;
   font-weight: bold;
   color: white;
 }
-.main-header .number-idle {
+main .main-content .main-header .number-idle {
   text-align: right;
   margin-bottom: -10px;
   margin-right: 15px;
   font-size: 48px;
   color: white;
 }
-.main-header .statistics-grid {
+main .main-content .main-header .statistics-grid {
   display: grid;
   grid-template-rows: 50px 50px;
   grid-template-columns: 100px 100px 100px;
@@ -161,23 +159,78 @@ main {
   text-align: center;
   align-items: center;
 }
-.main-header .statistics-grid .text-all {
+main .main-content .main-header .statistics-grid .text-all {
   font-size: 12px;
 }
-.main-header .statistics-grid .text-physical {
+main .main-content .main-header .statistics-grid .text-physical {
   font-size: 12px;
 }
-.main-header .statistics-grid .text-virtual {
+main .main-content .main-header .statistics-grid .text-virtual {
   font-size: 12px;
 }
-.main-header .statistics-grid .figure-left1 {
+main .main-content .main-header .statistics-grid .figure-left1 {
   font-size: 20px;
 }
-.main-header .statistics-grid .figure-left2 {
+main .main-content .main-header .statistics-grid .figure-left2 {
   font-size: 20px;
 }
-.main-header .statistics-grid .figure-left3 {
+main .main-content .main-header .statistics-grid .figure-left3 {
   font-size: 20px;
+}
+main .main-content .main-nav {
+  display: flex;
+  height: 50px;
+  width: 85%;
+  margin-bottom: 20px;
+  background-color: white;
+}
+main .main-content .main-nav .main-nav-text {
+  display: flex;
+  width: 335px;
+}
+main .main-content .main-nav .main-nav-text .all {
+  width: 33%;
+  border-right: solid lightgrey;
+  text-align: center;
+  line-height: 50px;
+}
+main .main-content .main-nav .main-nav-text .physical {
+  width: 33%;
+  border-right: solid lightgrey;
+  text-align: center;
+  line-height: 50px;
+}
+main .main-content .main-nav .main-nav-text .virtual {
+  width: 33%;
+  border-right: solid lightgrey;
+  text-align: center;
+  line-height: 50px;
+}
+main .main-content .main-nav .main-input {
+  display: flex;
+  width: 335px;
+  margin-left: 25px;
+}
+main .main-content .main-nav .input-box {
+  height: 23px;
+  width: 150px;
+  margin-top: 15px;
+  background-color: #E1E4E6;
+}
+main .main-content .main-nav .main-button {
+  justify-content: right;
+  display: flex;
+  width: 300px;
+}
+main .main-content .main-nav .main-button .button-left {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+main .main-content .main-nav .main-button .button-right {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  width: 40px;
+  text-align: right;
 }
 
 /*# sourceMappingURL=index.css.map */
