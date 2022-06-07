@@ -1,2 +1,95 @@
 @import "variables";
+@import "reboot";
 
+@mixin aside-nav-div() {
+  color: $font-white;
+  height: 45px;
+  margin-top: 30px;
+  margin-left: 60px;
+}
+
+@mixin aside-nav-div-text() {
+  font-weight: $aside-font-weight;
+  padding-left: 10px;
+}
+
+header {
+  display: flex;
+  background-color: #F3F3F3;
+
+  .web-head {
+    margin-left: 650px;
+  }
+
+  .cruise-image {
+    margin-left: 140px;
+  }
+
+  .user-login {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+
+  .user-img {
+    margin-left: 470px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  background-color: #2D4054;
+  margin-left: 200px;
+  height: 100%;
+  width: 25%;
+
+  nav {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+
+    .DASHBOARD {
+      @include aside-nav-div;
+      .text-dashboard {
+        @include aside-nav-div-text
+      }
+    }
+
+    .AGENT {
+      @include aside-nav-div;
+      .text-agent {
+        @include aside-nav-div-text
+      }
+    }
+
+    .MY-CRUISE {
+      @include aside-nav-div;
+      .text-mycruise {
+        @include aside-nav-div-text
+      }
+    }
+
+    .HELP {
+      @include aside-nav-div;
+      .text-help {
+        @include aside-nav-div-text
+      }
+    }
+  }
+
+  .history {
+    font-size: 24px;
+    color: #ccc;
+    margin-top: 350px;
+    margin-left: 10px;
+  }
+
+  .history-detail {
+    margin-left: -10px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #999;
+  }
+}
