@@ -1,115 +1,6 @@
 @import "variables";
 @import "reboot";
-
-@mixin aside-nav-div() {
-  color: $font-white;
-  height: 45px;
-  margin-top: 30px;
-  margin-left: 60px;
-}
-
-@mixin aside-nav-div-text() {
-  font-weight: $aside-font-weight;
-  padding-left: 10px;
-}
-
-@mixin main-header($background-color) {
-  margin-top: 20px;
-  height: 100px;
-  width: 500px;
-  background-color: #FF9A2A;
-}
-
-@mixin main-header-div-text() {
-  padding-left: 10px;
-  padding-top: 10px;
-  font-size: 18px;
-  font-weight: bold;
-  color: white;
-}
-
-@mixin main-header-div-number() {
-  text-align: right;
-  margin-bottom: -10px;
-  margin-right: 15px;
-  font-size: 48px;
-  color: white;
-}
-
-@mixin main-section() {
-  display: flex;
-  height: 100px;
-  width: 85%;
-  margin-bottom: 20px;
-  background-color: white;
-}
-
-@mixin section-img() {
-  padding-left: 35px;
-  padding-top: 10px;
-}
-
-@mixin section-detail() {
-  width: 100%;
-  margin-left: 40px;
-}
-
-@mixin detail-top() {
-  margin-top: 15px;
-}
-
-@mixin detail-url() {
-  color: deepskyblue;
-  font-size: 14px;
-  font-weight: bolder;
-  margin-left: 10px;
-}
-
-@mixin detail-status($background:#FF9A2A) {
-  margin-left: 20px;
-  padding-left: 7px;
-  padding-right: 7px;
-  color: white;
-  font-size: 12px;
-  background-color: $background;
-}
-
-@mixin detail-message() {
-  float: right;
-  margin-right: 110px;
-}
-
-@mixin exclamation() {
-  margin-top: 10px;
-  padding-left: 40px;
-}
-
-@mixin detail-ip() {
-  margin-left: 20px;
-  margin-right: 20px;
-}
-
-@mixin detail-address() {
-  margin-left: 5px;
-}
-
-@mixin detail-bottom() {
-  margin-top: 30px;
-}
-
-@mixin browser-icon() {
-  padding: 4px 5px;
-  background-color: #E1E4E6;
-}
-
-@mixin deny-button() {
-  float: right;
-  color: white;
-  font-size: 14px;
-  background-color: #00B4CF;
-  padding: 5px 20px;
-  margin-right: 45px;
-}
+@import "mixin";
 
 header {
   display: flex;
@@ -310,18 +201,14 @@ main {
         }
       }
 
-      .main-input {
-        display: flex;
+      .input-box {
         width: 335px;
         margin-left: 25px;
       }
 
-      .input-box {
-        height: 23px;
-        width: 150px;
-        margin-top: 15px;
-        background-color: #E1E4E6;
-
+      .input-icon {
+        padding-top: 20px;
+        padding-left: 10px;
       }
 
       .main-button {

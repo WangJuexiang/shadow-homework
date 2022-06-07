@@ -206,16 +206,13 @@ main .main-content .main-nav .main-nav-text .virtual {
   text-align: center;
   line-height: 50px;
 }
-main .main-content .main-nav .main-input {
-  display: flex;
+main .main-content .main-nav .input-box {
   width: 335px;
   margin-left: 25px;
 }
-main .main-content .main-nav .input-box {
-  height: 23px;
-  width: 150px;
-  margin-top: 15px;
-  background-color: #E1E4E6;
+main .main-content .main-nav .input-icon {
+  padding-top: 20px;
+  padding-left: 10px;
 }
 main .main-content .main-nav .main-button {
   justify-content: right;
