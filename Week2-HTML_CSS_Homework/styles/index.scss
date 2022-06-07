@@ -216,7 +216,6 @@ main {
         display: flex;
         width: 300px;
 
-
         .button-left {
           padding-top: 20px;
           padding-bottom: 20px;
@@ -392,7 +391,6 @@ main {
         @include detail-ip
       }
 
-
       .detail3-address {
         @include detail-address;
       }
@@ -449,7 +447,6 @@ main {
       .detail4-ip {
         @include detail-ip
       }
-
 
       .detail4-address {
         @include detail-address
@@ -519,69 +516,69 @@ main {
   }
 }
 
-  .main-section6 {
-    @include main-section;
+.main-section6 {
+  @include main-section;
 
-    .section6-img {
-      @include section-img
+  .section6-img {
+    @include section-img
+  }
+
+  .section6-detail {
+    @include section-detail
+  }
+
+  .detail6-top {
+    @include detail-top;
+
+    .detail6-url {
+      @include detail-url
     }
 
-    .section6-detail {
-      @include section-detail
+    .detail6-status {
+      @include detail-status
     }
 
-    .detail6-top {
-      @include detail-top;
+    .detail6-message {
+      @include detail-message;
 
-      .detail6-url {
-        @include detail-url
+      .exclamation6 {
+        @include exclamation
       }
 
-      .detail6-status {
-        @include detail-status
+      .detail6-ip {
+        @include detail-ip
       }
 
-      .detail6-message {
-        @include detail-message;
-
-        .exclamation6 {
-          @include exclamation
-        }
-
-        .detail6-ip {
-          @include detail-ip
-        }
-
-        .detail6-address {
-          @include detail-address;
-        }
-      }
-    }
-
-    .detail6-bottom {
-      @include detail-bottom;
-
-      .firefox6 {
-        margin-left: 10px;
-        @include browser-icon
-      }
-
-      .safari6 {
-        @include browser-icon
-      }
-
-      .ubuntu6 {
-        @include browser-icon
-      }
-
-      .chrome6 {
-        @include browser-icon
+      .detail6-address {
+        @include detail-address;
       }
     }
   }
 
-  footer {
-    display: flex;
-    justify-content: center;
-    background-color: #F3F3F3;
+  .detail6-bottom {
+    @include detail-bottom;
+
+    .firefox6 {
+      margin-left: 10px;
+      @include browser-icon
+    }
+
+    .safari6 {
+      @include browser-icon
+    }
+
+    .ubuntu6 {
+      @include browser-icon
+    }
+
+    .chrome6 {
+      @include browser-icon
+    }
   }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #F3F3F3;
+}
