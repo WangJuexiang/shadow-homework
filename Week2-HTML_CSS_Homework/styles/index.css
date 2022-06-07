@@ -94,4 +94,90 @@ aside .history-detail {
   color: #999;
 }
 
+main {
+  display: flex;
+}
+
+.main-content {
+  margin-left: 25px;
+  width: 70%;
+}
+
+.main-header {
+  display: flex;
+  width: 85%;
+  height: 140px;
+}
+.main-header .building {
+  margin-top: 20px;
+  height: 100px;
+  width: 500px;
+  background-color: #FF9A2A;
+}
+.main-header .text-building {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+.main-header .number-building {
+  text-align: right;
+  margin-bottom: -10px;
+  margin-right: 15px;
+  font-size: 48px;
+  color: white;
+}
+.main-header .idle {
+  margin-left: 25px;
+  margin-top: 20px;
+  height: 100px;
+  width: 500px;
+  background-color: #7FBC39;
+}
+.main-header .text-idle {
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+.main-header .number-idle {
+  text-align: right;
+  margin-bottom: -10px;
+  margin-right: 15px;
+  font-size: 48px;
+  color: white;
+}
+.main-header .statistics-grid {
+  display: grid;
+  grid-template-rows: 50px 50px;
+  grid-template-columns: 100px 100px 100px;
+  margin-left: 25px;
+  margin-top: 20px;
+  height: 100px;
+  width: 500px;
+  background-color: white;
+  text-align: center;
+  align-items: center;
+}
+.main-header .statistics-grid .text-all {
+  font-size: 12px;
+}
+.main-header .statistics-grid .text-physical {
+  font-size: 12px;
+}
+.main-header .statistics-grid .text-virtual {
+  font-size: 12px;
+}
+.main-header .statistics-grid .figure-left1 {
+  font-size: 20px;
+}
+.main-header .statistics-grid .figure-left2 {
+  font-size: 20px;
+}
+.main-header .statistics-grid .figure-left3 {
+  font-size: 20px;
+}
+
 /*# sourceMappingURL=index.css.map */
