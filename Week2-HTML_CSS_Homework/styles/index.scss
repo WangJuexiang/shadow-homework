@@ -14,7 +14,7 @@
 }
 
 @mixin main-header($background-color) {
-  margin-top:20px;
+  margin-top: 20px;
   height: 100px;
   width: 500px;
   background-color: #FF9A2A;
@@ -34,6 +34,81 @@
   margin-right: 15px;
   font-size: 48px;
   color: white;
+}
+
+@mixin main-section() {
+  display: flex;
+  height: 100px;
+  width: 85%;
+  margin-bottom: 20px;
+  background-color: white;
+}
+
+@mixin section-img() {
+  padding-left: 35px;
+  padding-top: 10px;
+}
+
+@mixin section-detail() {
+  width: 100%;
+  margin-left: 40px;
+}
+
+@mixin detail-top() {
+  margin-top: 15px;
+}
+
+@mixin detail-url() {
+  color: deepskyblue;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+
+@mixin detail-status($background:#FF9A2A) {
+  margin-left: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
+  color: white;
+  font-size: 12px;
+  background-color: $background;
+}
+
+@mixin detail-message() {
+  float: right;
+  margin-right: 110px;
+}
+
+@mixin exclamation() {
+  margin-top: 10px;
+  padding-left: 40px;
+}
+
+@mixin detail-ip() {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+@mixin detail-address() {
+  margin-left: 5px;
+}
+
+@mixin detail-bottom() {
+  margin-top: 30px;
+}
+
+@mixin browser-icon() {
+  padding: 4px 5px;
+  background-color: #E1E4E6;
+}
+
+@mixin deny-button() {
+  float: right;
+  color: white;
+  font-size: 14px;
+  background-color: #00B4CF;
+  padding: 5px 20px;
+  margin-right: 45px;
 }
 
 header {
@@ -75,6 +150,7 @@ aside {
 
     .DASHBOARD {
       @include aside-nav-div;
+
       .text-dashboard {
         @include aside-nav-div-text
       }
@@ -82,6 +158,7 @@ aside {
 
     .AGENT {
       @include aside-nav-div;
+
       .text-agent {
         @include aside-nav-div-text
       }
@@ -89,6 +166,7 @@ aside {
 
     .MY-CRUISE {
       @include aside-nav-div;
+
       .text-mycruise {
         @include aside-nav-div-text
       }
@@ -96,6 +174,7 @@ aside {
 
     .HELP {
       @include aside-nav-div;
+
       .text-help {
         @include aside-nav-div-text
       }
@@ -120,11 +199,9 @@ aside {
 main {
   display: flex;
 
-
   .main-content {
     margin-left: 25px;
     width: 70%;
-
 
     .main-header {
       display: flex;
@@ -136,14 +213,14 @@ main {
         height: 100px;
         width: 500px;
         background-color: #FF9A2A;
-      }
 
-      .text-building {
-        @include main-header-div-text
-      }
+        .text-building {
+          @include main-header-div-text
+        }
 
-      .number-building {
-        @include main-header-div-number
+        .number-building {
+          @include main-header-div-number
+        }
       }
 
       .idle {
@@ -152,14 +229,14 @@ main {
         height: 100px;
         width: 500px;
         background-color: #7FBC39;
-      }
 
-      .text-idle {
-        @include main-header-div-text
-      }
+        .text-idle {
+          @include main-header-div-text
+        }
 
-      .number-idle {
-        @include main-header-div-number
+        .number-idle {
+          @include main-header-div-number
+        }
       }
 
       .statistics-grid {
@@ -185,7 +262,6 @@ main {
         .text-virtual {
           font-size: 12px;
         }
-
 
         .figure-left1 {
           font-size: 20px;
@@ -269,3 +345,356 @@ main {
     }
   }
 }
+
+.main-first-section {
+  @include main-section;
+
+  .section1-img {
+    @include section-img
+  }
+
+  .section1-detail {
+    @include section-detail;
+
+    .detail1-top {
+      @include detail-top;
+
+      .detail1-url {
+        @include detail-url
+      }
+
+      .detail1-status {
+        @include detail-status($background: #7FBC39)
+      }
+
+      .detail1-message {
+        @include detail-message;
+
+        .exclamation1 {
+          @include exclamation
+        }
+
+        .detail1-ip {
+          @include detail-ip
+        }
+
+        .detail1-address {
+          @include detail-address
+        }
+      }
+    }
+
+    .detail1-bottom {
+      @include detail-bottom;
+
+      .firefox1 {
+        @include browser-icon;
+        margin-left: 10px;
+      }
+
+      .safari1 {
+        @include browser-icon
+      }
+
+      .ubuntu1 {
+        @include browser-icon
+      }
+
+      .chrome1 {
+        @include browser-icon
+      }
+    }
+  }
+}
+
+.main-second-section {
+  @include main-section;
+
+  .second2-img {
+    @include section-img
+  }
+
+  .section2-detail {
+    @include section-detail;
+  }
+
+  .detail2-top {
+    @include detail-top;
+  }
+
+  .detail2-url {
+    @include detail-url
+  }
+
+  .detail2-status {
+    @include detail-status($background: #7FBC39)
+  }
+
+  .detail2-message {
+    @include detail-message;
+
+    .exclamation2 {
+      @include exclamation
+    }
+
+    .detail2-ip {
+      @include detail-ip
+    }
+
+    .detail2-address {
+      @include detail-address
+    }
+  }
+
+  .detail2-bottom {
+    @include detail-bottom;
+  }
+
+  .firefox2 {
+    @include browser-icon;
+    margin-left: 10px;
+  }
+
+  .safari2 {
+    @include browser-icon
+  }
+
+  .ubuntu2 {
+    @include browser-icon
+  }
+
+  .chrome2 {
+    @include browser-icon
+  }
+
+  .deny2 {
+    @include deny-button
+  }
+}
+
+.main-section3 {
+  @include main-section;
+
+  .section3-img {
+    @include section-img;
+  }
+
+  .section3-detail {
+    @include section-detail;
+
+    .detail3-top {
+      @include detail-top;
+
+      .detail3-url {
+        @include detail-url
+      }
+
+      .detail3-status {
+        @include detail-status
+      }
+
+      .detail3-message {
+        @include detail-message
+      }
+
+      .exclamation3 {
+        @include exclamation
+      }
+
+      .detail3-ip {
+        @include detail-ip
+      }
+
+
+      .detail3-address {
+        @include detail-address;
+      }
+    }
+
+    .detail3-bottom {
+      @include detail-bottom
+    }
+
+    .firefox3 {
+      margin-left: 10px;
+      @include browser-icon
+    }
+
+    .safari3 {
+      @include browser-icon
+    }
+
+    .deny3 {
+      @include deny-button
+    }
+  }
+}
+
+.main-section4 {
+  @include main-section;
+
+  .section4-img {
+    @include section-img
+  }
+
+  .section4-detail {
+    @include section-detail
+  }
+
+  .detail4-top {
+    @include detail-top;
+
+    .detail4-url {
+      @include detail-url
+    }
+
+    .detail4-status {
+      @include detail-status
+    }
+
+    .detail4-message {
+      @include detail-message;
+
+      .exclamation4 {
+        @include exclamation
+      }
+
+      .detail4-ip {
+        @include detail-ip
+      }
+
+
+      .detail4-address {
+        @include detail-address
+      }
+    }
+  }
+
+  .detail4-bottom {
+    @include detail-bottom;
+
+    .firefox4 {
+      @include browser-icon;
+      margin-left: 10px;
+    }
+
+    .safari4 {
+      @include browser-icon;
+    }
+
+    .deny4 {
+      @include deny-button
+    }
+  }
+}
+
+.main-section5 {
+  @include main-section;
+
+  .section5-img {
+    @include section-img
+  }
+
+  .section5-detail {
+    @include section-detail;
+
+    .detail5-top {
+      @include detail-top;
+
+      .detail5-url {
+        @include detail-url
+      }
+
+      .detail5-status {
+        @include detail-status
+      }
+
+      .detail5-message {
+        @include detail-message;
+
+        .exclamation5 {
+          @include exclamation
+        }
+
+        .detail5-ip {
+          @include detail-ip
+        }
+
+        .detail5-address {
+          @include detail-address
+        }
+      }
+    }
+
+    .detail5-bottom {
+      @include detail-bottom
+    }
+  }
+}
+
+  .main-section6 {
+    @include main-section;
+
+    .section6-img {
+      @include section-img
+    }
+
+    .section6-detail {
+      @include section-detail
+    }
+
+    .detail6-top {
+      @include detail-top;
+
+      .detail6-url {
+        @include detail-url
+      }
+
+      .detail6-status {
+        @include detail-status
+      }
+
+      .detail6-message {
+        @include detail-message;
+
+        .exclamation6 {
+          @include exclamation
+        }
+
+        .detail6-ip {
+          @include detail-ip
+        }
+
+        .detail6-address {
+          @include detail-address;
+        }
+      }
+    }
+
+    .detail6-bottom {
+      @include detail-bottom;
+
+      .firefox6 {
+        margin-left: 10px;
+        @include browser-icon
+      }
+
+      .safari6 {
+        @include browser-icon
+      }
+
+      .ubuntu6 {
+        @include browser-icon
+      }
+
+      .chrome6 {
+        @include browser-icon
+      }
+    }
+  }
+
+  footer {
+    display: flex;
+    justify-content: center;
+    background-color: #F3F3F3;
+  }

@@ -112,14 +112,14 @@ main .main-content .main-header .building {
   width: 500px;
   background-color: #FF9A2A;
 }
-main .main-content .main-header .text-building {
+main .main-content .main-header .building .text-building {
   padding-left: 10px;
   padding-top: 10px;
   font-size: 18px;
   font-weight: bold;
   color: white;
 }
-main .main-content .main-header .number-building {
+main .main-content .main-header .building .number-building {
   text-align: right;
   margin-bottom: -10px;
   margin-right: 15px;
@@ -133,14 +133,14 @@ main .main-content .main-header .idle {
   width: 500px;
   background-color: #7FBC39;
 }
-main .main-content .main-header .text-idle {
+main .main-content .main-header .idle .text-idle {
   padding-left: 10px;
   padding-top: 10px;
   font-size: 18px;
   font-weight: bold;
   color: white;
 }
-main .main-content .main-header .number-idle {
+main .main-content .main-header .idle .number-idle {
   text-align: right;
   margin-bottom: -10px;
   margin-right: 15px;
@@ -231,6 +231,411 @@ main .main-content .main-nav .main-button .button-right {
   padding-bottom: 20px;
   width: 40px;
   text-align: right;
+}
+
+.main-first-section {
+  display: flex;
+  height: 100px;
+  width: 85%;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.main-first-section .section1-img {
+  padding-left: 35px;
+  padding-top: 10px;
+}
+.main-first-section .section1-detail {
+  width: 100%;
+  margin-left: 40px;
+}
+.main-first-section .section1-detail .detail1-top {
+  margin-top: 15px;
+}
+.main-first-section .section1-detail .detail1-top .detail1-url {
+  color: deepskyblue;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+.main-first-section .section1-detail .detail1-top .detail1-status {
+  margin-left: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
+  color: white;
+  font-size: 12px;
+  background-color: #7FBC39;
+}
+.main-first-section .section1-detail .detail1-top .detail1-message {
+  float: right;
+  margin-right: 110px;
+}
+.main-first-section .section1-detail .detail1-top .detail1-message .exclamation1 {
+  margin-top: 10px;
+  padding-left: 40px;
+}
+.main-first-section .section1-detail .detail1-top .detail1-message .detail1-ip {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.main-first-section .section1-detail .detail1-top .detail1-message .detail1-address {
+  margin-left: 5px;
+}
+.main-first-section .section1-detail .detail1-bottom {
+  margin-top: 30px;
+}
+.main-first-section .section1-detail .detail1-bottom .firefox1 {
+  padding: 4px 5px;
+  background-color: #E1E4E6;
+  margin-left: 10px;
+}
+.main-first-section .section1-detail .detail1-bottom .safari1 {
+  padding: 4px 5px;
+  background-color: #E1E4E6;
+}
+.main-first-section .section1-detail .detail1-bottom .ubuntu1 {
+  padding: 4px 5px;
+  background-color: #E1E4E6;
+}
+.main-first-section .section1-detail .detail1-bottom .chrome1 {
+  padding: 4px 5px;
+  background-color: #E1E4E6;
+}
+
+.main-second-section {
+  display: flex;
+  height: 100px;
+  width: 85%;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.main-second-section .second2-img {
+  padding-left: 35px;
+  padding-top: 10px;
+}
+.main-second-section .section2-detail {
+  width: 100%;
+  margin-left: 40px;
+}
+.main-second-section .detail2-top {
+  margin-top: 15px;
+}
+.main-second-section .detail2-url {
+  color: deepskyblue;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+.main-second-section .detail2-status {
+  margin-left: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
+  color: white;
+  font-size: 12px;
+  background-color: #7FBC39;
+}
+.main-second-section .detail2-message {
+  float: right;
+  margin-right: 110px;
+}
+.main-second-section .detail2-message .exclamation2 {
+  margin-top: 10px;
+  padding-left: 40px;
+}
+.main-second-section .detail2-message .detail2-ip {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.main-second-section .detail2-message .detail2-address {
+  margin-left: 5px;
+}
+.main-second-section .detail2-bottom {
+  margin-top: 30px;
+}
+.main-second-section .firefox2 {
+  padding: 4px 5px;
+  background-color: #E1E4E6;
+  margin-left: 10px;
+}
+.main-second-section .safari2 {
+  padding: 4px 5px;
+  background-color: #E1E4E6;
+}
+.main-second-section .ubuntu2 {
+  padding: 4px 5px;
+  background-color: #E1E4E6;
+}
+.main-second-section .chrome2 {
+  padding: 4px 5px;
+  background-color: #E1E4E6;
+}
+.main-second-section .deny2 {
+  float: right;
+  color: white;
+  font-size: 14px;
+  background-color: #00B4CF;
+  padding: 5px 20px;
+  margin-right: 45px;
+}
+
+.main-section3 {
+  display: flex;
+  height: 100px;
+  width: 85%;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.main-section3 .section3-img {
+  padding-left: 35px;
+  padding-top: 10px;
+}
+.main-section3 .section3-detail {
+  width: 100%;
+  margin-left: 40px;
+}
+.main-section3 .section3-detail .detail3-top {
+  margin-top: 15px;
+}
+.main-section3 .section3-detail .detail3-top .detail3-url {
+  color: deepskyblue;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+.main-section3 .section3-detail .detail3-top .detail3-status {
+  margin-left: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
+  color: white;
+  font-size: 12px;
+  background-color: #FF9A2A;
+}
+.main-section3 .section3-detail .detail3-top .detail3-message {
+  float: right;
+  margin-right: 110px;
+}
+.main-section3 .section3-detail .detail3-top .exclamation3 {
+  margin-top: 10px;
+  padding-left: 40px;
+}
+.main-section3 .section3-detail .detail3-top .detail3-ip {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.main-section3 .section3-detail .detail3-top .detail3-address {
+  margin-left: 5px;
+}
+.main-section3 .section3-detail .detail3-bottom {
+  margin-top: 30px;
+}
+.main-section3 .section3-detail .firefox3 {
+  margin-left: 10px;
+  padding: 4px 5px;
+  background-color: #E1E4E6;
+}
+.main-section3 .section3-detail .safari3 {
+  padding: 4px 5px;
+  background-color: #E1E4E6;
+}
+.main-section3 .section3-detail .deny3 {
+  float: right;
+  color: white;
+  font-size: 14px;
+  background-color: #00B4CF;
+  padding: 5px 20px;
+  margin-right: 45px;
+}
+
+.main-section4 {
+  display: flex;
+  height: 100px;
+  width: 85%;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.main-section4 .section4-img {
+  padding-left: 35px;
+  padding-top: 10px;
+}
+.main-section4 .section4-detail {
+  width: 100%;
+  margin-left: 40px;
+}
+.main-section4 .detail4-top {
+  margin-top: 15px;
+}
+.main-section4 .detail4-top .detail4-url {
+  color: deepskyblue;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+.main-section4 .detail4-top .detail4-status {
+  margin-left: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
+  color: white;
+  font-size: 12px;
+  background-color: #FF9A2A;
+}
+.main-section4 .detail4-top .detail4-message {
+  float: right;
+  margin-right: 110px;
+}
+.main-section4 .detail4-top .detail4-message .exclamation4 {
+  margin-top: 10px;
+  padding-left: 40px;
+}
+.main-section4 .detail4-top .detail4-message .detail4-ip {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.main-section4 .detail4-top .detail4-message .detail4-address {
+  margin-left: 5px;
+}
+.main-section4 .detail4-bottom {
+  margin-top: 30px;
+}
+.main-section4 .detail4-bottom .firefox4 {
+  padding: 4px 5px;
+  background-color: #E1E4E6;
+  margin-left: 10px;
+}
+.main-section4 .detail4-bottom .safari4 {
+  padding: 4px 5px;
+  background-color: #E1E4E6;
+}
+.main-section4 .detail4-bottom .deny4 {
+  float: right;
+  color: white;
+  font-size: 14px;
+  background-color: #00B4CF;
+  padding: 5px 20px;
+  margin-right: 45px;
+}
+
+.main-section5 {
+  display: flex;
+  height: 100px;
+  width: 85%;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.main-section5 .section5-img {
+  padding-left: 35px;
+  padding-top: 10px;
+}
+.main-section5 .section5-detail {
+  width: 100%;
+  margin-left: 40px;
+}
+.main-section5 .section5-detail .detail5-top {
+  margin-top: 15px;
+}
+.main-section5 .section5-detail .detail5-top .detail5-url {
+  color: deepskyblue;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+.main-section5 .section5-detail .detail5-top .detail5-status {
+  margin-left: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
+  color: white;
+  font-size: 12px;
+  background-color: #FF9A2A;
+}
+.main-section5 .section5-detail .detail5-top .detail5-message {
+  float: right;
+  margin-right: 110px;
+}
+.main-section5 .section5-detail .detail5-top .detail5-message .exclamation5 {
+  margin-top: 10px;
+  padding-left: 40px;
+}
+.main-section5 .section5-detail .detail5-top .detail5-message .detail5-ip {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.main-section5 .section5-detail .detail5-top .detail5-message .detail5-address {
+  margin-left: 5px;
+}
+.main-section5 .section5-detail .detail5-bottom {
+  margin-top: 30px;
+}
+
+.main-section6 {
+  display: flex;
+  height: 100px;
+  width: 85%;
+  margin-bottom: 20px;
+  background-color: white;
+}
+.main-section6 .section6-img {
+  padding-left: 35px;
+  padding-top: 10px;
+}
+.main-section6 .section6-detail {
+  width: 100%;
+  margin-left: 40px;
+}
+.main-section6 .detail6-top {
+  margin-top: 15px;
+}
+.main-section6 .detail6-top .detail6-url {
+  color: deepskyblue;
+  font-size: 14px;
+  font-weight: bolder;
+  margin-left: 10px;
+}
+.main-section6 .detail6-top .detail6-status {
+  margin-left: 20px;
+  padding-left: 7px;
+  padding-right: 7px;
+  color: white;
+  font-size: 12px;
+  background-color: #FF9A2A;
+}
+.main-section6 .detail6-top .detail6-message {
+  float: right;
+  margin-right: 110px;
+}
+.main-section6 .detail6-top .detail6-message .exclamation6 {
+  margin-top: 10px;
+  padding-left: 40px;
+}
+.main-section6 .detail6-top .detail6-message .detail6-ip {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.main-section6 .detail6-top .detail6-message .detail6-address {
+  margin-left: 5px;
+}
+.main-section6 .detail6-bottom {
+  margin-top: 30px;
+}
+.main-section6 .detail6-bottom .firefox6 {
+  margin-left: 10px;
+  padding: 4px 5px;
+  background-color: #E1E4E6;
+}
+.main-section6 .detail6-bottom .safari6 {
+  padding: 4px 5px;
+  background-color: #E1E4E6;
+}
+.main-section6 .detail6-bottom .ubuntu6 {
+  padding: 4px 5px;
+  background-color: #E1E4E6;
+}
+.main-section6 .detail6-bottom .chrome6 {
+  padding: 4px 5px;
+  background-color: #E1E4E6;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color: #F3F3F3;
 }
 
 /*# sourceMappingURL=index.css.map */
