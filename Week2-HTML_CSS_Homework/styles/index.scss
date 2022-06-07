@@ -4,7 +4,7 @@
 
 header {
   display: flex;
-  background-color: #F3F3F3;
+  background-color:$lighter-gray;
 
   .web-head {
     margin-left: 650px;
@@ -31,7 +31,7 @@ aside {
   display: flex;
   flex-direction: column;
   background-color: #2D4054;
-  margin-left: 200px;
+  margin-left: 11%;
   height: 100%;
   width: 25%;
 
@@ -201,20 +201,36 @@ main {
         }
       }
 
-      .input-box {
-        width: 335px;
-        margin-left: 25px;
+      .search {
+        position: relative;
+        width: 150px;
+        height: 20px;
       }
 
-      .input-icon {
-        padding-top: 20px;
-        padding-left: 10px;
+      .search input {
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 20px;
+        width: 100%;
+        height: 100%;
+        background: $lighter-gray;
+        outline: none;
+        border: none;
       }
 
-      .main-button {
+      .search i {
+        position: relative;
+        left: 40px;
+        top:18px;
+        z-index: 10;
+        color: gray;
+      }
+
+
+        .main-button {
         justify-content: right;
         display: flex;
-        width: 300px;
+        width: 500px;
 
         .button-left {
           padding-top: 20px;
@@ -580,5 +596,5 @@ main {
 footer {
   display: flex;
   justify-content: center;
-  background-color: #F3F3F3;
+  background-color:$lighter-gray;
 }

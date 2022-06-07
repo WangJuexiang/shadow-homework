@@ -33,7 +33,7 @@ aside {
   display: flex;
   flex-direction: column;
   background-color: #2D4054;
-  margin-left: 200px;
+  margin-left: 11%;
   height: 100%;
   width: 25%;
 }
@@ -206,18 +206,32 @@ main .main-content .main-nav .main-nav-text .virtual {
   text-align: center;
   line-height: 50px;
 }
-main .main-content .main-nav .input-box {
-  width: 335px;
-  margin-left: 25px;
+main .main-content .main-nav .search {
+  position: relative;
+  width: 150px;
+  height: 20px;
 }
-main .main-content .main-nav .input-icon {
-  padding-top: 20px;
-  padding-left: 10px;
+main .main-content .main-nav .search input {
+  position: absolute;
+  margin-top: 15px;
+  margin-left: 20px;
+  width: 100%;
+  height: 100%;
+  background: #F3F3F3;
+  outline: none;
+  border: none;
+}
+main .main-content .main-nav .search i {
+  position: relative;
+  left: 40px;
+  top: 18px;
+  z-index: 10;
+  color: gray;
 }
 main .main-content .main-nav .main-button {
   justify-content: right;
   display: flex;
-  width: 300px;
+  width: 500px;
 }
 main .main-content .main-nav .main-button .button-left {
   padding-top: 20px;

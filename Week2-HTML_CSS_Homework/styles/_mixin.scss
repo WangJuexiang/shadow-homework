@@ -96,7 +96,7 @@
 
 @mixin browser-icon() {
   padding: 4px 5px;
-  background-color: #E1E4E6;
+  background-color: $primary-gray;
 }
 
 @mixin deny-button() {
