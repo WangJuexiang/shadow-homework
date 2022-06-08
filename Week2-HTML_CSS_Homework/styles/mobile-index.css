@@ -101,31 +101,56 @@ main .main-content .main-header .idle .number-idle {
   color: white;
 }
 main .main-content .statistics {
-  display: flex;
+  margin-left: 25px;
+  margin-top: 20px;
+  width: 90px;
+  height: 100px;
+  background-color: white;
 }
 main .main-content .statistics .statistics-text {
   display: flex;
 }
 main .main-content .statistics .statistics-text .text-all {
-  font-size: 12px;
+  width: 50px;
+  height: 30px;
+  font-size: 8px;
+  text-align: center;
+  margin-top: 20px;
 }
 main .main-content .statistics .statistics-text .text-physical {
-  font-size: 12px;
+  width: 50px;
+  height: 30px;
+  font-size: 8px;
+  text-align: center;
+  margin-top: 20px;
 }
 main .main-content .statistics .statistics-text .text-virtual {
-  font-size: 12px;
+  width: 50px;
+  height: 30px;
+  font-size: 8px;
+  text-align: center;
+  margin-top: 20px;
 }
 main .main-content .statistics .statistics-figure {
   display: flex;
 }
-main .main-content .statistics .statistics-figure .figure-left1 {
-  font-size: 20px;
+main .main-content .statistics .statistics-figure .figure-all {
+  width: 50px;
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
 }
-main .main-content .statistics .statistics-figure .figure-left2 {
-  font-size: 20px;
+main .main-content .statistics .statistics-figure .figure-physical {
+  width: 50px;
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
 }
-main .main-content .statistics .statistics-figure .figure-left3 {
-  font-size: 20px;
+main .main-content .statistics .statistics-figure .figure-virtual {
+  width: 50px;
+  height: 30px;
+  font-size: 15px;
+  text-align: center;
 }
 main .main-content .main-nav {
   display: flex;
