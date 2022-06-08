@@ -12,23 +12,30 @@ header {
   }
 
   .web-head {
-    margin-left: 650px;
+    display: flex;
+    width: 50%;
+    text-align: right;
+    margin-left: 800px;
+
   }
 
   .cruise-image {
-    margin-left: 140px;
+    display: flex;
   }
 
   .user-login {
+    width: 50%;
+    display: flex;
     margin-top: 20px;
     margin-left: 100px;
   }
 
   .user-img {
-    margin-left: 470px;
+    display: flex;
     height: 40px;
     width: 40px;
     border-radius: 50%;
+    margin-left: 150px;
   }
 }
 
