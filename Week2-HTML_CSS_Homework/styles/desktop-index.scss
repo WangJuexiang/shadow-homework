@@ -136,40 +136,54 @@ main {
         }
       }
 
-      .statistics-grid {
-        display: grid;
-        grid-template-rows: 50px 50px;
-        grid-template-columns: 100px 100px 100px;
+      .statistics {
         margin-left: 25px;
         margin-top: 20px;
         height: 100px;
         width: 500px;
         background-color: white;
-        text-align: center;
-        align-items: center;
 
-        .text-all {
-          font-size: 12px;
+        .statistics-text {
+          display: flex;
+
+          .text-all {
+            @include statistics-item;
+            margin-top: 10px;
+            font-size: 12px;
+          }
+
+          .text-physical {
+            @include statistics-item;
+            margin-top: 10px;
+            font-size: 12px;
+
+          }
+          .text-virtual {
+            @include statistics-item;
+            margin-top: 10px;
+            font-size: 12px;
+          }
         }
 
-        .text-physical {
-          font-size: 12px;
-        }
+        .statistics-figure {
+          display: flex;
 
-        .text-virtual {
-          font-size: 12px;
-        }
+          .figure-all {
+            @include statistics-item;
+            font-size: 20px;
+          }
 
-        .figure-left1 {
-          font-size: 20px;
-        }
+          .figure-physical {
+            @include statistics-item;
+            font-size: 20px;
 
-        .figure-left2 {
-          font-size: 20px;
-        }
+          }
 
-        .figure-left3 {
-          font-size: 20px;
+          .figure-virtual {
+            @include statistics-item;
+            font-size: 20px;
+
+          }
         }
       }
     }

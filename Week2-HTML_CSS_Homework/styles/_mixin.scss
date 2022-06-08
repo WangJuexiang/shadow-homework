@@ -33,6 +33,12 @@
   color: white;
 }
 
+@mixin statistics-item() {
+  text-align: center;
+  width: 112px;
+  height: 50px;
+}
+
 @mixin main-section() {
   display: flex;
   height: 100px;
