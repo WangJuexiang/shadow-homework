@@ -92,39 +92,55 @@ main {
         }
       }
 
-      .statistics-grid {
-        display: grid;
-        grid-template-rows: 33px 33px 33px;
-        grid-template-columns: 124px 124px;
+      .statistics{
+        display: flex;
         margin-left: 25px;
         margin-top: 20px;
         height: 100px;
         width: 500px;
         background-color: white;
-        text-align: center;
-        align-items: center;
 
         .text-all {
+          margin-top: 10px;
+          text-align: center;
+          width: 135px;
+          height: 33px;
           font-size: 12px;
         }
 
         .text-physical {
+          text-align: center;
+          width: 135px;
+          height: 33px;
           font-size: 12px;
         }
 
         .text-virtual {
+          text-align: center;
+          width: 135px;
+          height: 33px;
           font-size: 12px;
         }
 
-        .figure-left1 {
+        .figure-all {
+          margin-top: 5px;
+          text-align: center;
+          width: 135px;
+          height: 33px;
           font-size: 20px;
         }
 
-        .figure-left2 {
+        .figure-physical {
+          text-align: center;
+          width: 135px;
+          height: 33px;
           font-size: 20px;
         }
 
-        .figure-left3 {
+        .figure-virtual {
+          text-align: center;
+          width: 135px;
+          height: 33px;
           font-size: 20px;
         }
       }
