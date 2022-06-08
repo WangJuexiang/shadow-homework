@@ -9,7 +9,7 @@ html {
 header {
   display: flex;
   width: 100%;
-  background-color:white;
+  background-color: white;
   border: solid 2px lightgray;
   border-bottom: none;
 
@@ -50,6 +50,7 @@ main {
   display: flex;
 
   .main-content {
+    height: 100%;
     width: 100%;
     border: solid 2px lightgray;
 
@@ -212,7 +213,7 @@ main {
       .search i {
         position: relative;
         left: 20px;
-        top:18px;
+        top: 18px;
         z-index: 10;
         color: gray;
       }
@@ -225,385 +226,444 @@ main {
   }
 }
 
-.main-first-section {
-  display: flex;
-  height: 100px;
-  margin: 50px 10px 20px;
-  background-color: white;
+.main-section {
+  font-size: 18px;
 
-  .section1-img {
-    display: none;
-  }
+  .main-section1 {
+    display: flex;
+    height: 170px;
+    margin: 50px 10px 20px;
+    background-color: white;
 
-  .section1-detail {
-    width: 100%;
-    margin-left: 10px;
+    .section1-img {
+      display: none;
+    }
 
-    .detail1-top {
-      @include detail-top;
+    .section1-detail {
+      width: 100%;
+      margin-left: 10px;
 
       .detail1-url {
-        @include detail-url
+        height: 20px;
+        margin-top: 10px;
+
+        .url1-text {
+          color: deepskyblue;
+          margin-left: 2px;
+        }
       }
 
       .detail1-status {
         display: none;
       }
 
-      .detail1-message {
-        @include detail-message;
+      .detail1-ip {
+        height: 20px;
+        margin-top: 10px;
+      }
 
-        .exclamation1 {
-          @include exclamation
+      .detail1-location {
+        height: 20px;
+        margin-top: 10px;
+      }
+
+      .detail1-bottom {
+        display: flex;
+        margin-top: 10px;
+
+        .detail1-browser {
+          margin-left: 10px;
         }
 
-        .detail1-ip {
-          @include detail-ip
+        .detail1-line1 {
+
+          .firefox1 {
+            @include browser-icon;
+          }
+
+          .safari1 {
+            @include browser-icon;
+          }
         }
 
-        .detail1-address {
-          @include detail-address
+        .detail1-line2 {
+          margin-top: 10px;
+
+          .ubuntu1 {
+            @include browser-icon
+          }
+
+          .chrome1 {
+            @include browser-icon
+          }
         }
       }
     }
+  }
 
-    .detail1-bottom {
-      @include detail-bottom;
+  .main-section2 {
+    display: flex;
+    height: 215px;
+    margin: -10px 10px 20px;
+    background-color: white;
 
-      .firefox1 {
-        @include browser-icon;
-        margin-left: 10px;
+    .section2-img {
+      display: none;
+    }
+
+    .section2-detail {
+      width: 100%;
+      margin-left: 10px;
+
+      .detail2-url {
+        height: 20px;
+        margin-top: 10px;
+
+        .url2-text {
+          color: deepskyblue;
+          margin-left: 2px;
+        }
       }
 
-      .safari1 {
-        @include browser-icon
+      .detail2-status {
+        display: none;
       }
 
-      .ubuntu1 {
-        @include browser-icon
+      .detail2-ip {
+        height: 20px;
+        margin-top: 10px;
       }
 
-      .chrome1 {
-        @include browser-icon
+      .detail2-location {
+        height: 20px;
+        margin-top: 10px;
+      }
+
+      .detail2-bottom {
+        display: flex;
+        margin-top: 10px;
+
+        .detail2-browser {
+          margin-left: 10px;
+        }
+
+        .detail2-line1 {
+
+          .firefox2 {
+            @include browser-icon
+          }
+
+          .safari2 {
+            @include browser-icon
+          }
+        }
+
+        .detail2-line2 {
+          margin-top: 10px;
+
+          .ubuntu2 {
+            @include browser-icon
+          }
+
+          .chrome2 {
+            @include browser-icon
+          }
+        }
+      }
+
+      .deny2 {
+        float: right;
+        color: white;
+        font-size: 16px;
+        background-color: #00B4CF;
+        padding: 5px 30px;
+        margin-top: 15px;
+        margin-right: 20px;
+
       }
     }
   }
-}
 
-.main-second-section {
-  display: flex;
-  height: 100px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  background-color: white;
+  .main-section3 {
+    display: flex;
+    height: 180px;
+    margin: -10px 10px 20px;
+    background-color: white;
 
-  .section2-img {
-    display: none;
-  }
-
-  .section2-detail {
-    width: 100%;
-    margin-left: 10px;
-  }
-
-  .detail2-top {
-    @include detail-top;
-  }
-
-  .detail2-url {
-    @include detail-url
-  }
-
-  .detail2-status {
-    display: none;
-  }
-
-  .detail2-message {
-    @include detail-message;
-
-    .exclamation2 {
-      @include exclamation
+    .section3-img {
+      display: none;
     }
 
-    .detail2-ip {
-      @include detail-ip
-    }
-
-    .detail2-address {
-      @include detail-address
-    }
-  }
-
-  .detail2-bottom {
-    @include detail-bottom;
-  }
-
-  .firefox2 {
-    @include browser-icon;
-    margin-left: 10px;
-  }
-
-  .safari2 {
-    @include browser-icon
-  }
-
-  .ubuntu2 {
-    @include browser-icon
-  }
-
-  .chrome2 {
-    @include browser-icon
-  }
-
-  .deny2 {
-    @include deny-button
-  }
-}
-
-.main-section3 {
-  display: flex;
-  height: 100px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  background-color: white;
-
-  .section3-img {
-    display: none;
-  }
-
-  .section3-detail {
-    width: 100%;
-    margin-left: 10px;
-
-    .detail3-top {
-      @include detail-top;
+    .section3-detail {
+      width: 100%;
+      margin-left: 10px;
 
       .detail3-url {
-        @include detail-url
+        height: 20px;
+        margin-top: 10px;
+
+        .url3-text {
+          color: deepskyblue;
+          margin-left: 2px;
+        }
       }
 
       .detail3-status {
         display: none;
       }
 
-      .detail3-message {
-        @include detail-message
-      }
-
-      .exclamation3 {
-        @include exclamation
-      }
-
       .detail3-ip {
-        @include detail-ip
+        height: 20px;
+        margin-top: 10px;
       }
 
-      .detail3-address {
-        @include detail-address;
+      .detail3-location {
+        height: 20px;
+        margin-top: 10px;
+      }
+
+      .detail3-bottom {
+        display: flex;
+        margin-top: 10px;
+
+        .detail3-browser {
+          margin-left: 10px;
+        }
+
+        .detail3-line1 {
+
+          .firefox3 {
+            @include browser-icon
+          }
+
+          .safari3 {
+            @include browser-icon
+          }
+        }
+      }
+      .deny3 {
+        float: right;
+        color: white;
+        font-size: 16px;
+        background-color: #00B4CF;
+        padding: 5px 30px;
+        margin-top: 15px;
+        margin-right: 20px;
       }
     }
-
-    .detail3-bottom {
-      @include detail-bottom
-    }
-
-    .firefox3 {
-      margin-left: 10px;
-      @include browser-icon
-    }
-
-    .safari3 {
-      @include browser-icon
-    }
-
-    .deny3 {
-      @include deny-button
-    }
-  }
-}
-
-.main-section4 {
-  display: flex;
-  height: 100px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  background-color: white;
-
-  .section4-img {
-    display: none;
   }
 
-  .section4-detail {
-    width: 100%;
-    margin-left: 10px;
-  }
+  .main-section4 {
+    display: flex;
+    height: 180px;
+    margin: -10px 10px 20px;
+    background-color: white;
 
-  .detail4-top {
-    @include detail-top;
-
-    .detail4-url {
-      @include detail-url
-    }
-
-    .detail4-status {
+    .section4-img {
       display: none;
     }
 
-    .detail4-message {
-      @include detail-message;
+    .section4-detail {
+      width: 100%;
+      margin-left: 10px;
 
-      .exclamation4 {
-        @include exclamation
+      .detail4-url {
+        height: 20px;
+        margin-top: 10px;
+
+        .url4-text {
+          color: deepskyblue;
+          margin-left: 2px;
+        }
+      }
+
+      .detail4-status {
+        display: none;
       }
 
       .detail4-ip {
-        @include detail-ip
+        height: 20px;
+        margin-top: 10px;
       }
 
-      .detail4-address {
-        @include detail-address
+      .detail4-location {
+        height: 20px;
+        margin-top: 10px;
+      }
+
+      .detail4-bottom {
+        display: flex;
+        margin-top: 10px;
+
+        .detail4-browser {
+          margin-left: 10px;
+        }
+
+        .detail4-line1 {
+
+          .firefox4 {
+            @include browser-icon
+          }
+
+          .safari4 {
+            @include browser-icon
+          }
+        }
+      }
+      .deny4 {
+        float: right;
+        color: white;
+        font-size: 16px;
+        background-color: #00B4CF;
+        padding: 5px 30px;
+        margin-top: 15px;
+        margin-right: 20px;
       }
     }
   }
 
-  .detail4-bottom {
-    @include detail-bottom;
+  .main-section5 {
+    display: flex;
+    height: 180px;
+    margin: -10px 10px 20px;
+    background-color: white;
 
-    .firefox4 {
-      @include browser-icon;
+    .section5-img {
+      display: none;
+    }
+
+    .section5-detail {
+      width: 100%;
       margin-left: 10px;
-    }
-
-    .safari4 {
-      @include browser-icon;
-    }
-
-    .deny4 {
-      @include deny-button
-    }
-  }
-}
-
-.main-section5 {
-  display: flex;
-  height: 100px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  background-color: white;
-
-  .section5-img {
-    display: none;
-  }
-
-  .section5-detail {
-    width: 100%;
-    margin-left: 10px;
-
-    .detail5-top {
-      @include detail-top;
 
       .detail5-url {
-        @include detail-url
+        height: 20px;
+        margin-top: 10px;
+
+        .url5-text {
+          color: deepskyblue;
+          margin-left: 2px;
+        }
       }
 
       .detail5-status {
         display: none;
       }
 
-      .detail5-message {
-        @include detail-message;
+      .detail5-ip {
+        height: 20px;
+        margin-top: 10px;
+      }
 
-        .exclamation5 {
-          @include exclamation
-        }
+      .detail5-location {
+        height: 20px;
+        margin-top: 10px;
+      }
 
-        .detail5-ip {
-          @include detail-ip
-        }
+      .detail5-bottom {
+        display: flex;
+        margin-top: 10px;
 
-        .detail5-address {
-          @include detail-address
+        .detail5-browser {
+          margin-left: 10px;
         }
       }
-    }
 
-    .detail5-bottom {
-      @include detail-bottom
+      .deny5 {
+        float: right;
+        color: white;
+        font-size: 16px;
+        background-color: #00B4CF;
+        padding: 5px 30px;
+        margin-top: 15px;
+        margin-right: 20px;
+      }
     }
   }
-}
 
-.main-section6 {
-  display: flex;
-  height: 100px;
-  margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
-  background-color: white;
+  .main-section6 {
+    display: flex;
+    height: 215px;
+    margin: -10px 10px 20px;
+    background-color: white;
 
-  .section6-img {
-    display: none;
-  }
-
-  .section6-detail {
-    width: 100%;
-    margin-left: 10px;
-  }
-
-  .detail6-top {
-    @include detail-top;
-
-    .detail6-url {
-      @include detail-url
-    }
-
-    .detail6-status {
+    .section6-img {
       display: none;
     }
 
-    .detail6-message {
-      @include detail-message;
+    .section6-detail {
+      width: 100%;
+      margin-left: 10px;
 
-      .exclamation6 {
-        @include exclamation
+      .detail6-url {
+        height: 20px;
+        margin-top: 10px;
+
+        .url6-text {
+          color: deepskyblue;
+          margin-left: 2px;
+        }
+      }
+
+      .detail6-status {
+        display: none;
       }
 
       .detail6-ip {
-        @include detail-ip
+        height: 20px;
+        margin-top: 10px;
       }
 
-      .detail6-address {
-        @include detail-address;
+      .detail6-location {
+        height: 20px;
+        margin-top: 10px;
       }
-    }
-  }
 
-  .detail6-bottom {
-    @include detail-bottom;
+      .detail6-bottom {
+        display: flex;
+        margin-top: 10px;
 
-    .firefox6 {
-      margin-left: 10px;
-      @include browser-icon
-    }
+        .detail6-browser {
+          margin-left: 10px;
+        }
 
-    .safari6 {
-      @include browser-icon
-    }
+        .detail6-line1 {
 
-    .ubuntu6 {
-      @include browser-icon
-    }
+          .firefox6 {
+            @include browser-icon
+          }
 
-    .chrome6 {
-      @include browser-icon
+          .safari6 {
+            @include browser-icon
+          }
+        }
+
+        .detail6-line2 {
+          margin-top: 10px;
+
+          .ubuntu6 {
+            @include browser-icon
+          }
+
+          .chrome6 {
+            @include browser-icon
+          }
+        }
+      }
+
+      .deny6 {
+        float: right;
+        color: white;
+        font-size: 16px;
+        background-color: #00B4CF;
+        padding: 5px 30px;
+        margin-top: 15px;
+        margin-right: 20px;
+
+      }
     }
   }
 }
-
 footer {
   display: flex;
   justify-content: center;
