@@ -5,6 +5,7 @@
 header {
   display: flex;
   background-color:$lighter-gray;
+  z-index: 99;
 
   .head-nav {
     display: none;
@@ -93,6 +94,7 @@ aside {
 
 main {
   display: flex;
+  z-index: 99;
 
   .main-content {
     margin-left: 25px;

@@ -11,10 +11,6 @@ body {
 header {
   display: flex;
   background-color: #F3F3F3;
-  z-index: 99;
-}
-header .head-nav {
-  display: none;
 }
 header .web-head {
   margin-left: 650px;
@@ -34,73 +30,11 @@ header .user-img {
 }
 
 aside {
-  display: flex;
-  flex-direction: column;
-  background-color: #2D4054;
-  margin-left: 11%;
-  height: 100%;
-  width: 25%;
-}
-aside nav {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-}
-aside nav .DASHBOARD {
-  color: white;
-  height: 45px;
-  margin-top: 30px;
-  margin-left: 60px;
-}
-aside nav .DASHBOARD .text-dashboard {
-  font-weight: lighter;
-  padding-left: 10px;
-}
-aside nav .AGENT {
-  color: white;
-  height: 45px;
-  margin-top: 30px;
-  margin-left: 60px;
-}
-aside nav .AGENT .text-agent {
-  font-weight: lighter;
-  padding-left: 10px;
-}
-aside nav .MY-CRUISE {
-  color: white;
-  height: 45px;
-  margin-top: 30px;
-  margin-left: 60px;
-}
-aside nav .MY-CRUISE .text-mycruise {
-  font-weight: lighter;
-  padding-left: 10px;
-}
-aside nav .HELP {
-  color: white;
-  height: 45px;
-  margin-top: 30px;
-  margin-left: 60px;
-}
-aside nav .HELP .text-help {
-  font-weight: lighter;
-  padding-left: 10px;
-}
-aside .history {
-  font-size: 24px;
-  color: #ccc;
-  margin-top: 350px;
-  margin-left: 10px;
-}
-aside .history-detail {
-  margin-left: -10px;
-  line-height: 25px;
-  font-size: 12px;
-  color: #999;
+  display: none;
 }
 
 main {
   display: flex;
-  z-index: 99;
 }
 main .main-content {
   margin-left: 25px;
@@ -326,7 +260,7 @@ main .main-content .main-nav .main-button .button-right {
   margin-bottom: 20px;
   background-color: white;
 }
-.main-second-section .section2-img {
+.main-second-section .second2-img {
   padding-left: 35px;
   padding-top: 10px;
 }
@@ -656,4 +590,4 @@ footer {
   background-color: #F3F3F3;
 }
 
-/*# sourceMappingURL=desktop-index.css.map */
+/*# sourceMappingURL=tablab-index.css.map */

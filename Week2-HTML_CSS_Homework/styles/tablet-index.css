@@ -8,6 +8,10 @@ body {
   font-size: 14px;
 }
 
+html {
+  background-color: #F3F3F3;
+}
+
 header {
   display: flex;
   width: 100%;
@@ -100,8 +104,8 @@ main .main-content .main-header .idle .number-idle {
 }
 main .main-content .main-header .statistics-grid {
   display: grid;
-  grid-template-rows: 50px 50px;
-  grid-template-columns: 100px 100px 100px;
+  grid-template-rows: 33px 33px 33px;
+  grid-template-columns: 124px 124px;
   margin-left: 25px;
   margin-top: 20px;
   height: 100px;
