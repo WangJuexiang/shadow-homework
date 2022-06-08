@@ -3,12 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <title>CRUISE</title>
-    <link rel="stylesheet" href="styles/index.css">
-    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles/desktop-index.css"  media="screen and (min-width: 900px)">
+    <link rel="stylesheet" href="styles/tablet-index.css"  media="screen and (min-width: 400px) and (max-width:900px)">
+    <link rel="stylesheet" href="styles/desktop-index.css"  media="screen and (max-width: 400px)">
+
+    <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.css">
 </head>
 
 <body>
 <header>
+    <div class="head-nav">
+        <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" fill="currentColor" class="bi bi-grid-fill" viewBox="0 0 16 16">
+            <path d="M1 2.5A1.5 1.5 0 0 1 2.5 1h3A1.5 1.5 0 0 1 7 2.5v3A1.5 1.5 0 0 1 5.5 7h-3A1.5 1.5 0 0 1 1 5.5v-3zm8 0A1.5 1.5 0 0 1 10.5 1h3A1.5 1.5 0 0 1 15 2.5v3A1.5 1.5 0 0 1 13.5 7h-3A1.5 1.5 0 0 1 9 5.5v-3zm-8 8A1.5 1.5 0 0 1 2.5 9h3A1.5 1.5 0 0 1 7 10.5v3A1.5 1.5 0 0 1 5.5 15h-3A1.5 1.5 0 0 1 1 13.5v-3zm8 0A1.5 1.5 0 0 1 10.5 9h3a1.5 1.5 0 0 1 1.5 1.5v3a1.5 1.5 0 0 1-1.5 1.5h-3A1.5 1.5 0 0 1 9 13.5v-3z"/>
+        </svg>
+    </div>
     <h1 class="web-head">
         <img class="cruise-image" height="40px" src="img/logo.svg" alt="CRUISE">
     </h1>
@@ -104,7 +112,7 @@
             </div>
             <div class="search">
                 <i class="fa fa-search" id="i-advanced-search-i"></i>
-                <input type="text" id="search-content">
+                <label for="search-content"></label><input type="text" id="search-content">
             </div>
             <div class="main-button">
                 <div class="button-left">
@@ -173,7 +181,7 @@
 
         <div class="main-second-section">
             <div>
-                <img class="second2-img" src="img/windows.png" alt="windows">
+                <img class="section2-img" src="img/windows.png" alt="windows">
             </div>
             <div class="section2-detail">
                 <div class="detail2-top">

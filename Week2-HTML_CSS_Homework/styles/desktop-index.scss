@@ -1,0 +1,606 @@
+@import "variables";
+@import "reboot";
+@import "mixin";
+
+header {
+  display: flex;
+  background-color:$lighter-gray;
+
+  .head-nav {
+    display: none;
+  }
+
+  .web-head {
+    margin-left: 650px;
+  }
+
+  .cruise-image {
+    margin-left: 140px;
+  }
+
+  .user-login {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+
+  .user-img {
+    margin-left: 470px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+  }
+}
+
+aside {
+  display: flex;
+  flex-direction: column;
+  background-color: #2D4054;
+  margin-left: 11%;
+  height: 100%;
+  width: 25%;
+
+  nav {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+
+    .DASHBOARD {
+      @include aside-nav-div;
+
+      .text-dashboard {
+        @include aside-nav-div-text
+      }
+    }
+
+    .AGENT {
+      @include aside-nav-div;
+
+      .text-agent {
+        @include aside-nav-div-text
+      }
+    }
+
+    .MY-CRUISE {
+      @include aside-nav-div;
+
+      .text-mycruise {
+        @include aside-nav-div-text
+      }
+    }
+
+    .HELP {
+      @include aside-nav-div;
+
+      .text-help {
+        @include aside-nav-div-text
+      }
+    }
+  }
+
+  .history {
+    font-size: 24px;
+    color: #ccc;
+    margin-top: 350px;
+    margin-left: 10px;
+  }
+
+  .history-detail {
+    margin-left: -10px;
+    line-height: 25px;
+    font-size: 12px;
+    color: #999;
+  }
+}
+
+main {
+  display: flex;
+
+  .main-content {
+    margin-left: 25px;
+    width: 70%;
+
+    .main-header {
+      display: flex;
+      width: 85%;
+      height: 140px;
+
+      .building {
+        margin-top: 20px;
+        height: 100px;
+        width: 500px;
+        background-color: #FF9A2A;
+
+        .text-building {
+          @include main-header-div-text
+        }
+
+        .number-building {
+          @include main-header-div-number
+        }
+      }
+
+      .idle {
+        margin-left: 25px;
+        margin-top: 20px;
+        height: 100px;
+        width: 500px;
+        background-color: #7FBC39;
+
+        .text-idle {
+          @include main-header-div-text
+        }
+
+        .number-idle {
+          @include main-header-div-number
+        }
+      }
+
+      .statistics-grid {
+        display: grid;
+        grid-template-rows: 50px 50px;
+        grid-template-columns: 100px 100px 100px;
+        margin-left: 25px;
+        margin-top: 20px;
+        height: 100px;
+        width: 500px;
+        background-color: white;
+        text-align: center;
+        align-items: center;
+
+        .text-all {
+          font-size: 12px;
+        }
+
+        .text-physical {
+          font-size: 12px;
+        }
+
+        .text-virtual {
+          font-size: 12px;
+        }
+
+        .figure-left1 {
+          font-size: 20px;
+        }
+
+        .figure-left2 {
+          font-size: 20px;
+        }
+
+        .figure-left3 {
+          font-size: 20px;
+        }
+      }
+    }
+
+    .main-nav {
+      display: flex;
+      height: 50px;
+      width: 85%;
+      margin-bottom: 20px;
+      background-color: white;
+
+      .main-nav-text {
+        display: flex;
+        width: 335px;
+
+        .all {
+          width: 33%;
+          border-right: solid lightgrey;
+          text-align: center;
+          line-height: 50px;
+        }
+
+        .physical {
+          width: 33%;
+          border-right: solid lightgrey;
+          text-align: center;
+          line-height: 50px;
+        }
+
+        .virtual {
+          width: 33%;
+          border-right: solid lightgrey;
+          text-align: center;
+          line-height: 50px;
+        }
+      }
+
+      .search {
+        position: relative;
+        width: 150px;
+        height: 20px;
+      }
+
+      .search input {
+        position: absolute;
+        margin-top: 15px;
+        margin-left: 15px;
+        padding-left: 25px;
+        width: 100%;
+        height: 100%;
+        background: $lighter-gray;
+        outline: none;
+        border: none;
+      }
+
+      .search i {
+        position: relative;
+        left: 40px;
+        top:18px;
+        z-index: 10;
+        color: gray;
+      }
+
+
+        .main-button {
+        justify-content: right;
+        display: flex;
+        width: 500px;
+
+        .button-left {
+          padding-top: 20px;
+          padding-bottom: 20px;
+        }
+
+        .button-right {
+          padding-top: 20px;
+          padding-bottom: 20px;
+          width: 40px;
+          text-align: right;
+        }
+      }
+    }
+  }
+}
+
+.main-first-section {
+  @include main-section;
+
+  .section1-img {
+    @include section-img
+  }
+
+  .section1-detail {
+    @include section-detail;
+
+    .detail1-top {
+      @include detail-top;
+
+      .detail1-url {
+        @include detail-url
+      }
+
+      .detail1-status {
+        @include detail-status($background: #7FBC39);
+        width: 54px;
+      }
+
+      .detail1-message {
+        @include detail-message;
+
+        .exclamation1 {
+          @include exclamation
+        }
+
+        .detail1-ip {
+          @include detail-ip
+        }
+
+        .detail1-address {
+          @include detail-address
+        }
+      }
+    }
+
+    .detail1-bottom {
+      @include detail-bottom;
+
+      .firefox1 {
+        @include browser-icon;
+        margin-left: 10px;
+      }
+
+      .safari1 {
+        @include browser-icon
+      }
+
+      .ubuntu1 {
+        @include browser-icon
+      }
+
+      .chrome1 {
+        @include browser-icon
+      }
+    }
+  }
+}
+
+.main-second-section {
+  @include main-section;
+
+  .section2-img {
+    @include section-img
+  }
+
+  .section2-detail {
+    @include section-detail;
+  }
+
+  .detail2-top {
+    @include detail-top;
+  }
+
+  .detail2-url {
+    @include detail-url
+  }
+
+  .detail2-status {
+    @include detail-status
+  }
+
+  .detail2-message {
+    @include detail-message;
+
+    .exclamation2 {
+      @include exclamation
+    }
+
+    .detail2-ip {
+      @include detail-ip
+    }
+
+    .detail2-address {
+      @include detail-address
+    }
+  }
+
+  .detail2-bottom {
+    @include detail-bottom;
+  }
+
+  .firefox2 {
+    @include browser-icon;
+    margin-left: 10px;
+  }
+
+  .safari2 {
+    @include browser-icon
+  }
+
+  .ubuntu2 {
+    @include browser-icon
+  }
+
+  .chrome2 {
+    @include browser-icon
+  }
+
+  .deny2 {
+    @include deny-button
+  }
+}
+
+.main-section3 {
+  @include main-section;
+
+  .section3-img {
+    @include section-img;
+  }
+
+  .section3-detail {
+    @include section-detail;
+
+    .detail3-top {
+      @include detail-top;
+
+      .detail3-url {
+        @include detail-url
+      }
+
+      .detail3-status {
+        @include detail-status
+      }
+
+      .detail3-message {
+        @include detail-message
+      }
+
+      .exclamation3 {
+        @include exclamation
+      }
+
+      .detail3-ip {
+        @include detail-ip
+      }
+
+      .detail3-address {
+        @include detail-address;
+      }
+    }
+
+    .detail3-bottom {
+      @include detail-bottom
+    }
+
+    .firefox3 {
+      margin-left: 10px;
+      @include browser-icon
+    }
+
+    .safari3 {
+      @include browser-icon
+    }
+
+    .deny3 {
+      @include deny-button
+    }
+  }
+}
+
+.main-section4 {
+  @include main-section;
+
+  .section4-img {
+    @include section-img
+  }
+
+  .section4-detail {
+    @include section-detail
+  }
+
+  .detail4-top {
+    @include detail-top;
+
+    .detail4-url {
+      @include detail-url
+    }
+
+    .detail4-status {
+      @include detail-status
+    }
+
+    .detail4-message {
+      @include detail-message;
+
+      .exclamation4 {
+        @include exclamation
+      }
+
+      .detail4-ip {
+        @include detail-ip
+      }
+
+      .detail4-address {
+        @include detail-address
+      }
+    }
+  }
+
+  .detail4-bottom {
+    @include detail-bottom;
+
+    .firefox4 {
+      @include browser-icon;
+      margin-left: 10px;
+    }
+
+    .safari4 {
+      @include browser-icon;
+    }
+
+    .deny4 {
+      @include deny-button
+    }
+  }
+}
+
+.main-section5 {
+  @include main-section;
+
+  .section5-img {
+    @include section-img
+  }
+
+  .section5-detail {
+    @include section-detail;
+
+    .detail5-top {
+      @include detail-top;
+
+      .detail5-url {
+        @include detail-url
+      }
+
+      .detail5-status {
+        @include detail-status($background: #7FBC39)
+      }
+
+      .detail5-message {
+        @include detail-message;
+
+        .exclamation5 {
+          @include exclamation
+        }
+
+        .detail5-ip {
+          @include detail-ip
+        }
+
+        .detail5-address {
+          @include detail-address
+        }
+      }
+    }
+
+    .detail5-bottom {
+      @include detail-bottom
+    }
+  }
+}
+
+.main-section6 {
+  @include main-section;
+
+  .section6-img {
+    @include section-img
+  }
+
+  .section6-detail {
+    @include section-detail
+  }
+
+  .detail6-top {
+    @include detail-top;
+
+    .detail6-url {
+      @include detail-url
+    }
+
+    .detail6-status {
+      @include detail-status($background: #7FBC39)
+    }
+
+    .detail6-message {
+      @include detail-message;
+
+      .exclamation6 {
+        @include exclamation
+      }
+
+      .detail6-ip {
+        @include detail-ip
+      }
+
+      .detail6-address {
+        @include detail-address;
+      }
+    }
+  }
+
+  .detail6-bottom {
+    @include detail-bottom;
+
+    .firefox6 {
+      margin-left: 10px;
+      @include browser-icon
+    }
+
+    .safari6 {
+      @include browser-icon
+    }
+
+    .ubuntu6 {
+      @include browser-icon
+    }
+
+    .chrome6 {
+      @include browser-icon
+    }
+  }
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  background-color:$lighter-gray;
+}

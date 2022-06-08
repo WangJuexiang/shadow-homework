@@ -35,14 +35,13 @@ surface:border input
 
 CIRCLE7 <main-section1>
 section: 3
-layout:bootstrap background-color
+layout:bootstrap, left right, right-top bottom
+surface:background-color, items-align:right
 
+CIRCLE8 <main-section2-6>
+same as section1
 
-question
-
-span 长宽
-bootstrap 上下居中
-input placeholder
-找不到图标
+CIRCLE9 Refactor
+layout, sass
 
 

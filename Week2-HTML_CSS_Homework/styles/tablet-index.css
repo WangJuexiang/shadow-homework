@@ -10,101 +10,52 @@ body {
 
 header {
   display: flex;
-  background-color: #F3F3F3;
+  width: 100%;
+  background-color: white;
+  border: solid 2px lightgray;
+  border-bottom: none;
+}
+header .head-nav {
+  margin-top: 30px;
+  margin-left: 20px;
 }
 header .web-head {
-  margin-left: 650px;
+  margin-left: 250px;
 }
 header .cruise-image {
   margin-left: 140px;
 }
 header .user-login {
+  display: flex;
+  width: 30%;
   margin-top: 20px;
   margin-left: 100px;
+  margin-right: 10%;
 }
 header .user-img {
-  margin-left: 470px;
+  display: flex;
+  margin-left: 150px;
   height: 40px;
   width: 40px;
   border-radius: 50%;
 }
 
 aside {
-  display: flex;
-  flex-direction: column;
-  background-color: #2D4054;
-  margin-left: 11%;
-  height: 100%;
-  width: 25%;
-}
-aside nav {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-}
-aside nav .DASHBOARD {
-  color: white;
-  height: 45px;
-  margin-top: 30px;
-  margin-left: 60px;
-}
-aside nav .DASHBOARD .text-dashboard {
-  font-weight: lighter;
-  padding-left: 10px;
-}
-aside nav .AGENT {
-  color: white;
-  height: 45px;
-  margin-top: 30px;
-  margin-left: 60px;
-}
-aside nav .AGENT .text-agent {
-  font-weight: lighter;
-  padding-left: 10px;
-}
-aside nav .MY-CRUISE {
-  color: white;
-  height: 45px;
-  margin-top: 30px;
-  margin-left: 60px;
-}
-aside nav .MY-CRUISE .text-mycruise {
-  font-weight: lighter;
-  padding-left: 10px;
-}
-aside nav .HELP {
-  color: white;
-  height: 45px;
-  margin-top: 30px;
-  margin-left: 60px;
-}
-aside nav .HELP .text-help {
-  font-weight: lighter;
-  padding-left: 10px;
-}
-aside .history {
-  font-size: 24px;
-  color: #ccc;
-  margin-top: 350px;
-  margin-left: 10px;
-}
-aside .history-detail {
-  margin-left: -10px;
-  line-height: 25px;
-  font-size: 12px;
-  color: #999;
+  display: none;
 }
 
 main {
   display: flex;
 }
 main .main-content {
-  margin-left: 25px;
-  width: 70%;
+  width: 100%;
+  border: solid 2px lightgray;
 }
 main .main-content .main-header {
   display: flex;
-  width: 85%;
   height: 140px;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 main .main-content .main-header .building {
   margin-top: 20px;
@@ -180,9 +131,10 @@ main .main-content .main-header .statistics-grid .figure-left3 {
 main .main-content .main-nav {
   display: flex;
   height: 50px;
-  width: 85%;
   margin-bottom: 20px;
   background-color: white;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 main .main-content .main-nav .main-nav-text {
   display: flex;
@@ -208,7 +160,7 @@ main .main-content .main-nav .main-nav-text .virtual {
 }
 main .main-content .main-nav .search {
   position: relative;
-  width: 150px;
+  width: 135px;
   height: 20px;
 }
 main .main-content .main-nav .search input {
@@ -230,8 +182,8 @@ main .main-content .main-nav .search i {
   color: gray;
 }
 main .main-content .main-nav .main-button {
+  display: none;
   justify-content: right;
-  display: flex;
   width: 500px;
 }
 main .main-content .main-nav .main-button .button-left {
@@ -248,17 +200,17 @@ main .main-content .main-nav .main-button .button-right {
 .main-first-section {
   display: flex;
   height: 100px;
-  width: 85%;
   margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   background-color: white;
 }
 .main-first-section .section1-img {
-  padding-left: 35px;
-  padding-top: 10px;
+  display: none;
 }
 .main-first-section .section1-detail {
   width: 100%;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 .main-first-section .section1-detail .detail1-top {
   margin-top: 15px;
@@ -317,17 +269,17 @@ main .main-content .main-nav .main-button .button-right {
 .main-second-section {
   display: flex;
   height: 100px;
-  width: 85%;
   margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   background-color: white;
 }
-.main-second-section .second2-img {
-  padding-left: 35px;
-  padding-top: 10px;
+.main-second-section .section2-img {
+  display: none;
 }
 .main-second-section .section2-detail {
   width: 100%;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 .main-second-section .detail2-top {
   margin-top: 15px;
@@ -393,17 +345,17 @@ main .main-content .main-nav .main-button .button-right {
 .main-section3 {
   display: flex;
   height: 100px;
-  width: 85%;
   margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   background-color: white;
 }
 .main-section3 .section3-img {
-  padding-left: 35px;
-  padding-top: 10px;
+  display: none;
 }
 .main-section3 .section3-detail {
   width: 100%;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 .main-section3 .section3-detail .detail3-top {
   margin-top: 15px;
@@ -461,17 +413,17 @@ main .main-content .main-nav .main-button .button-right {
 .main-section4 {
   display: flex;
   height: 100px;
-  width: 85%;
   margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   background-color: white;
 }
 .main-section4 .section4-img {
-  padding-left: 35px;
-  padding-top: 10px;
+  display: none;
 }
 .main-section4 .section4-detail {
   width: 100%;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 .main-section4 .detail4-top {
   margin-top: 15px;
@@ -529,17 +481,17 @@ main .main-content .main-nav .main-button .button-right {
 .main-section5 {
   display: flex;
   height: 100px;
-  width: 85%;
   margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   background-color: white;
 }
 .main-section5 .section5-img {
-  padding-left: 35px;
-  padding-top: 10px;
+  display: none;
 }
 .main-section5 .section5-detail {
   width: 100%;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 .main-section5 .section5-detail .detail5-top {
   margin-top: 15px;
@@ -580,17 +532,17 @@ main .main-content .main-nav .main-button .button-right {
 .main-section6 {
   display: flex;
   height: 100px;
-  width: 85%;
   margin-bottom: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   background-color: white;
 }
 .main-section6 .section6-img {
-  padding-left: 35px;
-  padding-top: 10px;
+  display: none;
 }
 .main-section6 .section6-detail {
   width: 100%;
-  margin-left: 40px;
+  margin-left: 10px;
 }
 .main-section6 .detail6-top {
   margin-top: 15px;
@@ -651,4 +603,4 @@ footer {
   background-color: #F3F3F3;
 }
 
-/*# sourceMappingURL=index.css.map */
+/*# sourceMappingURL=tablet-index.css.map */
