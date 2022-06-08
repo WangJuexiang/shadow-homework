@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -54,13 +55,16 @@ main .main-content {
   border: solid 2px lightgray;
 }
 main .main-content .main-header {
-  display: flex;
-  height: 140px;
+  height: 250px;
   margin-left: 10px;
   margin-right: 10px;
 }
+main .main-content .main-header .header-status {
+  display: flex;
+  width: 100%;
+}
 main .main-content .main-header .building {
-  margin-top: 20px;
+  margin-top: 15px;
   height: 100px;
   width: 500px;
   background-color: #FF9A2A;
@@ -80,8 +84,8 @@ main .main-content .main-header .building .number-building {
   color: white;
 }
 main .main-content .main-header .idle {
-  margin-left: 25px;
-  margin-top: 20px;
+  margin-left: 10px;
+  margin-top: 15px;
   height: 100px;
   width: 500px;
   background-color: #7FBC39;
@@ -101,9 +105,8 @@ main .main-content .main-header .idle .number-idle {
   color: white;
 }
 main .main-content .statistics {
-  margin-left: 25px;
-  margin-top: 20px;
-  width: 90px;
+  margin-top: 15px;
+  width: 100%;
   height: 100px;
   background-color: white;
 }
@@ -111,23 +114,23 @@ main .main-content .statistics .statistics-text {
   display: flex;
 }
 main .main-content .statistics .statistics-text .text-all {
-  width: 50px;
+  width: 110px;
   height: 30px;
-  font-size: 8px;
+  font-size: 14px;
   text-align: center;
   margin-top: 20px;
 }
 main .main-content .statistics .statistics-text .text-physical {
-  width: 50px;
+  width: 110px;
   height: 30px;
-  font-size: 8px;
+  font-size: 14px;
   text-align: center;
   margin-top: 20px;
 }
 main .main-content .statistics .statistics-text .text-virtual {
-  width: 50px;
+  width: 110px;
   height: 30px;
-  font-size: 8px;
+  font-size: 14px;
   text-align: center;
   margin-top: 20px;
 }
@@ -135,21 +138,21 @@ main .main-content .statistics .statistics-figure {
   display: flex;
 }
 main .main-content .statistics .statistics-figure .figure-all {
-  width: 50px;
-  height: 30px;
-  font-size: 15px;
+  width: 110px;
+  height: 110px;
+  font-size: 24px;
   text-align: center;
 }
 main .main-content .statistics .statistics-figure .figure-physical {
-  width: 50px;
+  width: 110px;
   height: 30px;
-  font-size: 15px;
+  font-size: 24px;
   text-align: center;
 }
 main .main-content .statistics .statistics-figure .figure-virtual {
-  width: 50px;
+  width: 110px;
   height: 30px;
-  font-size: 15px;
+  font-size: 24px;
   text-align: center;
 }
 main .main-content .main-nav {

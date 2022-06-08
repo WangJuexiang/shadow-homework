@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -48,7 +49,6 @@ aside {
   width: 25%;
 }
 aside nav {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
   font-size: 14px;
 }
 aside nav .DASHBOARD {
@@ -116,6 +116,10 @@ main .main-content .main-header {
   display: flex;
   width: 85%;
   height: 140px;
+}
+main .main-content .main-header .header-status {
+  display: flex;
+  width: 60%;
 }
 main .main-content .main-header .building {
   margin-top: 20px;

@@ -48,7 +48,6 @@ aside {
   width: 25%;
 
   nav {
-    font-family: Avenir, Helvetica, Arial, sans-serif;
     font-size: 14px;
 
     .DASHBOARD {
@@ -111,6 +110,11 @@ main {
       display: flex;
       width: 85%;
       height: 140px;
+
+      .header-status {
+        display: flex;
+        width: 60%;
+      }
 
       .building {
         margin-top: 20px;

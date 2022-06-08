@@ -1,5 +1,6 @@
 html {
   height: 100%;
+  font-family: Avenir, Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -24,9 +25,11 @@ header .head-nav {
   margin-left: 20px;
 }
 header .web-head {
+  display: flex;
   margin-left: 250px;
 }
 header .cruise-image {
+  display: flex;
   margin-left: 140px;
 }
 header .user-login {
@@ -60,6 +63,10 @@ main .main-content .main-header {
   height: 140px;
   margin-left: 10px;
   margin-right: 10px;
+}
+main .main-content .main-header .header-status {
+  display: flex;
+  width: 60%;
 }
 main .main-content .main-header .building {
   margin-top: 20px;
