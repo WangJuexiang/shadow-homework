@@ -282,31 +282,34 @@ main .main-content .main-nav .main-button .button-right {
   text-align: right;
 }
 
-.main-first-section {
+.main-section1 {
   display: flex;
   height: 100px;
   width: 85%;
   margin-bottom: 20px;
   background-color: white;
 }
-.main-first-section .section1-img {
+.main-section1 .section1-img {
   padding-left: 35px;
   padding-top: 10px;
 }
-.main-first-section .section1-detail {
-  width: 100%;
+.main-section1 .section1-detail .detail1-top {
+  display: flex;
+}
+.main-section1 .section1-detail .detail1-top .detail1-url {
   margin-left: 40px;
 }
-.main-first-section .section1-detail .detail1-top {
+.main-section1 .section1-detail .detail1-top {
   margin-top: 15px;
 }
-.main-first-section .section1-detail .detail1-top .detail1-url {
+.main-section1 .section1-detail .detail1-top .url1-text {
   color: deepskyblue;
   font-size: 14px;
   font-weight: bolder;
   margin-left: 10px;
+  margin-left: 10px;
 }
-.main-first-section .section1-detail .detail1-top .detail1-status {
+.main-section1 .section1-detail .detail1-top .detail1-status {
   margin-left: 20px;
   padding-left: 7px;
   padding-right: 7px;
@@ -315,67 +318,72 @@ main .main-content .main-nav .main-button .button-right {
   background-color: #7FBC39;
   width: 54px;
 }
-.main-first-section .section1-detail .detail1-top .detail1-message {
-  float: right;
-  margin-right: 110px;
+.main-section1 .section1-detail .detail1-top .detail1-ip {
+  margin-left: 60px;
 }
-.main-first-section .section1-detail .detail1-top .detail1-message .exclamation1 {
-  margin-top: 10px;
-  padding-left: 40px;
-}
-.main-first-section .section1-detail .detail1-top .detail1-message .detail1-ip {
+.main-section1 .section1-detail .detail1-top .detail1-location {
   margin-left: 20px;
-  margin-right: 20px;
 }
-.main-first-section .section1-detail .detail1-top .detail1-message .detail1-address {
-  margin-left: 5px;
+.main-section1 .section1-detail .detail1-bottom {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 25px;
 }
-.main-first-section .section1-detail .detail1-bottom {
-  margin-top: 30px;
+.main-section1 .section1-detail .detail1-bottom .detail1-browser {
+  display: flex;
 }
-.main-first-section .section1-detail .detail1-bottom .firefox1 {
-  padding: 4px 5px;
+.main-section1 .section1-detail .detail1-bottom .detail1-line1 {
+  display: flex;
+}
+.main-section1 .section1-detail .detail1-bottom .detail1-line1 .firefox1 {
+  padding: 2px 5px;
   background-color: #E1E4E6;
   margin-left: 10px;
 }
-.main-first-section .section1-detail .detail1-bottom .safari1 {
-  padding: 4px 5px;
+.main-section1 .section1-detail .detail1-bottom .detail1-line1 .safari1 {
+  padding: 2px 5px;
   background-color: #E1E4E6;
+  margin-left: 10px;
 }
-.main-first-section .section1-detail .detail1-bottom .ubuntu1 {
-  padding: 4px 5px;
-  background-color: #E1E4E6;
+.main-section1 .section1-detail .detail1-bottom .detail1-line2 {
+  display: flex;
 }
-.main-first-section .section1-detail .detail1-bottom .chrome1 {
-  padding: 4px 5px;
+.main-section1 .section1-detail .detail1-bottom .detail1-line2 .ubuntu1 {
+  padding: 2px 5px;
   background-color: #E1E4E6;
+  margin-left: 10px;
+}
+.main-section1 .section1-detail .detail1-bottom .detail1-line2 .chrome1 {
+  padding: 2px 5px;
+  background-color: #E1E4E6;
+  margin-left: 10px;
 }
 
-.main-second-section {
+.main-section2 {
   display: flex;
   height: 100px;
   width: 85%;
   margin-bottom: 20px;
   background-color: white;
 }
-.main-second-section .section2-img {
+.main-section2 .section2-img {
   padding-left: 35px;
   padding-top: 10px;
 }
-.main-second-section .section2-detail {
+.main-section2 .section2-detail {
   width: 100%;
   margin-left: 40px;
 }
-.main-second-section .detail2-top {
+.main-section2 .detail2-top {
   margin-top: 15px;
 }
-.main-second-section .detail2-url {
+.main-section2 .detail2-url {
   color: deepskyblue;
   font-size: 14px;
   font-weight: bolder;
   margin-left: 10px;
 }
-.main-second-section .detail2-status {
+.main-section2 .detail2-status {
   margin-left: 20px;
   padding-left: 7px;
   padding-right: 7px;
@@ -383,42 +391,42 @@ main .main-content .main-nav .main-button .button-right {
   font-size: 12px;
   background-color: #FF9A2A;
 }
-.main-second-section .detail2-message {
+.main-section2 .detail2-message {
   float: right;
   margin-right: 110px;
 }
-.main-second-section .detail2-message .exclamation2 {
+.main-section2 .detail2-message .exclamation2 {
   margin-top: 10px;
   padding-left: 40px;
 }
-.main-second-section .detail2-message .detail2-ip {
+.main-section2 .detail2-message .detail2-ip {
   margin-left: 20px;
   margin-right: 20px;
 }
-.main-second-section .detail2-message .detail2-address {
+.main-section2 .detail2-message .detail2-address {
   margin-left: 5px;
 }
-.main-second-section .detail2-bottom {
+.main-section2 .detail2-bottom {
   margin-top: 30px;
 }
-.main-second-section .firefox2 {
-  padding: 4px 5px;
+.main-section2 .firefox2 {
+  padding: 2px 5px;
   background-color: #E1E4E6;
   margin-left: 10px;
 }
-.main-second-section .safari2 {
-  padding: 4px 5px;
+.main-section2 .safari2 {
+  padding: 2px 5px;
   background-color: #E1E4E6;
 }
-.main-second-section .ubuntu2 {
-  padding: 4px 5px;
+.main-section2 .ubuntu2 {
+  padding: 2px 5px;
   background-color: #E1E4E6;
 }
-.main-second-section .chrome2 {
-  padding: 4px 5px;
+.main-section2 .chrome2 {
+  padding: 2px 5px;
   background-color: #E1E4E6;
 }
-.main-second-section .deny2 {
+.main-section2 .deny2 {
   float: right;
   color: white;
   font-size: 14px;
@@ -479,11 +487,11 @@ main .main-content .main-nav .main-button .button-right {
 }
 .main-section3 .section3-detail .firefox3 {
   margin-left: 10px;
-  padding: 4px 5px;
+  padding: 2px 5px;
   background-color: #E1E4E6;
 }
 .main-section3 .section3-detail .safari3 {
-  padding: 4px 5px;
+  padding: 2px 5px;
   background-color: #E1E4E6;
 }
 .main-section3 .section3-detail .deny3 {
@@ -546,12 +554,12 @@ main .main-content .main-nav .main-button .button-right {
   margin-top: 30px;
 }
 .main-section4 .detail4-bottom .firefox4 {
-  padding: 4px 5px;
+  padding: 2px 5px;
   background-color: #E1E4E6;
   margin-left: 10px;
 }
 .main-section4 .detail4-bottom .safari4 {
-  padding: 4px 5px;
+  padding: 2px 5px;
   background-color: #E1E4E6;
 }
 .main-section4 .detail4-bottom .deny4 {
@@ -666,19 +674,19 @@ main .main-content .main-nav .main-button .button-right {
 }
 .main-section6 .detail6-bottom .firefox6 {
   margin-left: 10px;
-  padding: 4px 5px;
+  padding: 2px 5px;
   background-color: #E1E4E6;
 }
 .main-section6 .detail6-bottom .safari6 {
-  padding: 4px 5px;
+  padding: 2px 5px;
   background-color: #E1E4E6;
 }
 .main-section6 .detail6-bottom .ubuntu6 {
-  padding: 4px 5px;
+  padding: 2px 5px;
   background-color: #E1E4E6;
 }
 .main-section6 .detail6-bottom .chrome6 {
-  padding: 4px 5px;
+  padding: 2px 5px;
   background-color: #E1E4E6;
 }
 

@@ -280,69 +280,98 @@ main {
   }
 }
 
-.main-first-section {
+.main-section1 {
   @include main-section;
 
   .section1-img {
-    @include section-img
+    @include section-img;
   }
 
   .section1-detail {
-    @include section-detail;
+    .detail1-top {
+      display: flex;
+
+      .detail1-url {
+        margin-left: 40px;
+      }
+
+    }
+
+
 
     .detail1-top {
       @include detail-top;
 
-      .detail1-url {
-        @include detail-url
+
+      .url1-text {
+        @include detail-url;
+        margin-left: 10px;
       }
 
-      .detail1-status {
+
+   .detail1-status {
         @include detail-status($background: #7FBC39);
         width: 54px;
       }
 
-      .detail1-message {
-        @include detail-message;
-
-        .exclamation1 {
-          @include exclamation
-        }
-
-        .detail1-ip {
-          @include detail-ip
-        }
-
-        .detail1-address {
-          @include detail-address
-        }
+      .detail1-ip {
+        margin-left: 60px;
       }
+
+      .detail1-location {
+        margin-left: 20px;
+      }
+
     }
 
     .detail1-bottom {
-      @include detail-bottom;
+      display: flex;
+      margin-left: 40px;
+      margin-top: 25px;
 
-      .firefox1 {
-        @include browser-icon;
-        margin-left: 10px;
+
+      .detail1-browser {
+        display: flex;
       }
 
-      .safari1 {
-        @include browser-icon
+      .detail1-line1 {
+        display: flex;
+
+
+
+
+        .firefox1 {
+          @include browser-icon;
+          margin-left: 10px;
+        }
+
+        .safari1 {
+          @include browser-icon;
+          margin-left: 10px;
+
+        }
       }
 
-      .ubuntu1 {
-        @include browser-icon
-      }
+      .detail1-line2 {
+        display: flex;
 
-      .chrome1 {
-        @include browser-icon
+        .ubuntu1 {
+          @include browser-icon;
+          margin-left: 10px;
+
+        }
+
+        .chrome1 {
+          @include browser-icon;
+          margin-left: 10px;
+
+        }
       }
     }
   }
 }
 
-.main-second-section {
+.main-section2 {
   @include main-section;
 
   .section2-img {
