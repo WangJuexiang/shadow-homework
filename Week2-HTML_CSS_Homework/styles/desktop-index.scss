@@ -7,29 +7,29 @@ header {
   background-color:$lighter-gray;
   z-index: 99;
 
-  .head-nav {
+  .head_nav {
     display: none;
   }
 
-  .web-head {
+  .web_head {
     display: flex;
     width: 50%;
     text-align: right;
     margin-left: 800px;
   }
 
-  .cruise-image {
+  .cruise_image {
     display: flex;
   }
 
-  .user-login {
+  .user_login {
     width: 50%;
     display: flex;
     margin-top: 20px;
     margin-left: 100px;
   }
 
-  .user-img {
+  .user_img {
     display: flex;
     height: 40px;
     width: 40px;
@@ -49,35 +49,35 @@ aside {
   nav {
     font-size: 14px;
 
-    .DASHBOARD {
-      @include aside-nav-div;
+    .dashboard {
+      @include aside_nav_div;
 
-      .text-dashboard {
-        @include aside-nav-div-text
+      .text_dashboard {
+        @include aside_nav_div_text
       }
     }
 
-    .AGENT {
-      @include aside-nav-div;
+    .agent {
+      @include aside_nav_div;
 
-      .text-agent {
-        @include aside-nav-div-text
+      .text_agent {
+        @include aside_nav_div_text
       }
     }
 
-    .MY-CRUISE {
-      @include aside-nav-div;
+    .my_cruise {
+      @include aside_nav_div;
 
-      .text-mycruise {
-        @include aside-nav-div-text
+      .text_mycruise {
+        @include aside_nav_div_text
       }
     }
 
-    .HELP {
-      @include aside-nav-div;
+    .help {
+      @include aside_nav_div;
 
-      .text-help {
-        @include aside-nav-div-text
+      .text_help {
+        @include aside_nav_div_text
       }
     }
   }
@@ -89,7 +89,7 @@ aside {
     margin-left: 10px;
   }
 
-  .history-detail {
+  .history_detail {
     margin-left: -10px;
     line-height: 25px;
     font-size: 12px;
@@ -101,16 +101,16 @@ main {
   display: flex;
   z-index: 99;
 
-  .main-content {
+  .main_content {
     margin-left: 25px;
     width: 70%;
 
-    .main-header {
+    .main_header {
       display: flex;
       width: 85%;
       height: 140px;
 
-      .header-status {
+      .header_status {
         display: flex;
         width: 60%;
       }
@@ -121,12 +121,12 @@ main {
         width: 500px;
         background-color: #FF9A2A;
 
-        .text-building {
-          @include main-header-div-text
+        .text_building {
+          @include main_header_div_text
         }
 
-        .number-building {
-          @include main-header-div-number
+        .number_building {
+          @include main_header_div_number
         }
       }
 
@@ -137,12 +137,12 @@ main {
         width: 500px;
         background-color: #7FBC39;
 
-        .text-idle {
-          @include main-header-div-text
+        .text_idle {
+          @include main_header_div_text
         }
 
-        .number-idle {
-          @include main-header-div-number
+        .number_idle {
+          @include main_header_div_number
         }
       }
 
@@ -153,37 +153,37 @@ main {
         width: 500px;
         background-color: white;
 
-        .statistics-text {
+        .statistics_text {
           display: flex;
 
-          .text-all {
-            @include statistics-item;
+          .text_all {
+            @include statistics_item;
           }
 
-          .text-physical {
-            @include statistics-item;
+          .text_physical {
+            @include statistics_item;
           }
-          .text-virtual {
-            @include statistics-item;
+          .text_virtual {
+            @include statistics_item;
           }
         }
 
-        .statistics-figure {
+        .statistics_figure {
           display: flex;
 
-          .figure-all {
-            @include statistics-item;
+          .figure_all {
+            @include statistics_item;
             font-size: 20px;
           }
 
-          .figure-physical {
-            @include statistics-item;
+          .figure_physical {
+            @include statistics_item;
             font-size: 20px;
 
           }
 
-          .figure-virtual {
-            @include statistics-item;
+          .figure_virtual {
+            @include statistics_item;
             font-size: 20px;
 
           }
@@ -191,14 +191,14 @@ main {
       }
     }
 
-    .main-nav {
+    .main_nav {
       display: flex;
       height: 50px;
       width: 85%;
       margin-bottom: 20px;
       background-color: white;
 
-      .main-nav-text {
+      .main_nav_text {
         display: flex;
         width: 335px;
 
@@ -250,17 +250,17 @@ main {
         color: gray;
       }
 
-        .main-button {
+        .main_button {
         justify-content: right;
         display: flex;
         width: 500px;
 
-        .button-left {
+        .button_left {
           padding-top: 20px;
           padding-bottom: 20px;
         }
 
-        .button-right {
+        .button_right {
           padding-top: 20px;
           padding-bottom: 20px;
           width: 40px;
@@ -271,14 +271,14 @@ main {
   }
 }
 
-.main-section1 {
-  @include main-section;
+.main_section1 {
+  @include main_section;
 
-  .section1-img {
-    @include section-img;
+  .section1_img {
+    @include section_img;
   }
 
-  .section1-detail {
+  .section1_detail {
     .detail1-top {
       display: flex;
 
@@ -288,16 +288,16 @@ main {
     }
 
     .detail1-top {
-      @include detail-top;
+      @include detail_top;
 
 
       .url1-text {
-        @include detail-url;
+        @include detail_url;
         margin-left: 10px;
       }
 
    .detail1-status {
-        @include detail-status($background: #7FBC39);
+        @include detail_status($background: #7FBC39);
         width: 54px;
       }
 
@@ -311,7 +311,7 @@ main {
     }
 
     .detail1-bottom {
-      @include detail-bottom;
+      @include detail_bottom;
 
       .detail1-browser {
         display: flex;
@@ -321,11 +321,11 @@ main {
         display: flex;
 
         .firefox1 {
-          @include browser-icon;
+          @include browser_icon;
         }
 
         .safari1 {
-          @include browser-icon;
+          @include browser_icon;
         }
       }
 
@@ -333,11 +333,11 @@ main {
         display: flex;
 
         .ubuntu1 {
-          @include browser-icon;
+          @include browser_icon;
         }
 
         .chrome1 {
-          @include browser-icon;
+          @include browser_icon;
         }
       }
     }
@@ -345,10 +345,10 @@ main {
 }
 
 .main-section2 {
-  @include main-section;
+  @include main_section;
 
   .section2-img {
-    @include section-img;
+    @include section_img;
   }
 
   .section2-detail {
@@ -361,16 +361,16 @@ main {
     }
 
     .detail2-top {
-      @include detail-top;
+      @include detail_top;
 
 
       .url2-text {
-        @include detail-url;
+        @include detail_url;
         margin-left: 10px;
       }
 
       .detail2-status {
-        @include detail-status($background: #FF9A2A);
+        @include detail_status($background: #FF9A2A);
         width: 54px;
       }
 
@@ -387,7 +387,7 @@ main {
       display: flex;
 
       .detail2-bottom {
-        @include detail-bottom;
+        @include detail_bottom;
 
         .detail2-browser {
           display: flex;
@@ -397,11 +397,11 @@ main {
           display: flex;
 
           .firefox2 {
-            @include browser-icon;
+            @include browser_icon;
           }
 
           .safari2 {
-            @include browser-icon;
+            @include browser_icon;
           }
         }
 
@@ -409,27 +409,27 @@ main {
           display: flex;
 
           .ubuntu2 {
-            @include browser-icon;
+            @include browser_icon;
           }
 
           .chrome2 {
-            @include browser-icon;
+            @include browser_icon;
           }
         }
       }
 
       .deny2 {
-        @include deny-button;
+        @include deny_button;
       }
     }
   }
 }
 
 .main-section3 {
-  @include main-section;
+  @include main_section;
 
   .section3-img {
-    @include section-img;
+    @include section_img;
   }
 
   .section3-detail {
@@ -442,17 +442,17 @@ main {
     }
 
     .detail3-top {
-      @include detail-top;
+      @include detail_top;
 
 
       .url3-text {
-        @include detail-url;
+        @include detail_url;
         margin-left: 10px;
       }
 
 
       .detail3-status {
-        @include detail-status($background: #FF9A2A);
+        @include detail_status($background: #FF9A2A);
         width: 54px;
       }
 
@@ -469,7 +469,7 @@ main {
       display: flex;
 
       .detail3-bottom {
-        @include detail-bottom;
+        @include detail_bottom;
 
         .detail3-browser {
           display: flex;
@@ -479,26 +479,26 @@ main {
           display: flex;
 
           .firefox3 {
-            @include browser-icon;
+            @include browser_icon;
           }
 
           .safari3 {
-            @include browser-icon;
+            @include browser_icon;
           }
         }
       }
       .deny3 {
-        @include deny-button;
+        @include deny_button;
       }
     }
   }
 }
 
 .main-section4 {
-  @include main-section;
+  @include main_section;
 
   .section4-img {
-    @include section-img;
+    @include section_img;
   }
 
   .section4-detail {
@@ -511,15 +511,15 @@ main {
     }
 
     .detail4-top {
-      @include detail-top;
+      @include detail_top;
 
       .url4-text {
-        @include detail-url;
+        @include detail_url;
         margin-left: 10px;
       }
 
       .detail4-status {
-        @include detail-status($background: #FF9A2A);
+        @include detail_status($background: #FF9A2A);
         width: 54px;
       }
 
@@ -536,7 +536,7 @@ main {
       display: flex;
 
       .detail4-bottom {
-        @include detail-bottom;
+        @include detail_bottom;
 
         .detail4-browser {
           display: flex;
@@ -546,11 +546,11 @@ main {
           display: flex;
 
           .firefox4 {
-            @include browser-icon;
+            @include browser_icon;
           }
 
           .safari4 {
-            @include browser-icon;
+            @include browser_icon;
           }
         }
 
@@ -558,27 +558,27 @@ main {
           display: flex;
 
           .ubuntu4 {
-            @include browser-icon;
+            @include browser_icon;
           }
 
           .chrome4 {
-            @include browser-icon;
+            @include browser_icon;
           }
         }
       }
 
       .deny4 {
-        @include deny-button;
+        @include deny_button;
       }
     }
   }
 }
 
 .main-section5 {
-  @include main-section;
+  @include main_section;
 
   .section5-img {
-    @include section-img;
+    @include section_img;
   }
 
   .section5-detail {
@@ -591,16 +591,16 @@ main {
     }
 
     .detail5-top {
-      @include detail-top;
+      @include detail_top;
 
 
       .url5-text {
-        @include detail-url;
+        @include detail_url;
         margin-left: 10px;
       }
 
       .detail5-status {
-        @include detail-status($background: #7FBC39);
+        @include detail_status($background: #7FBC39);
         width: 54px;
       }
 
@@ -614,16 +614,16 @@ main {
     }
 
     .detail5-bottom {
-      @include detail-bottom;
+      @include detail_bottom;
     }
   }
 }
 
 .main-section6 {
-  @include main-section;
+  @include main_section;
 
   .section6-img {
-    @include section-img;
+    @include section_img;
   }
 
   .section6-detail {
@@ -636,15 +636,15 @@ main {
     }
 
     .detail6-top {
-      @include detail-top;
+      @include detail_top;
 
       .url6-text {
-        @include detail-url;
+        @include detail_url;
         margin-left: 10px;
       }
 
       .detail6-status {
-        @include detail-status($background: #7FBC39);
+        @include detail_status($background: #7FBC39);
         width: 54px;
       }
 
@@ -658,7 +658,7 @@ main {
     }
 
     .detail6-bottom {
-      @include detail-bottom;
+      @include detail_bottom;
 
       .detail6-browser {
         display: flex;
@@ -668,22 +668,22 @@ main {
         display: flex;
 
         .firefox6 {
-          @include browser-icon;
+          @include browser_icon;
         }
 
         .safari6 {
-          @include browser-icon;
+          @include browser_icon;
         }
       }
       .detail6-line2 {
         display: flex;
 
-        .ubuntu6 {
-          @include browser-icon;
+        .ubuntu6{
+          @include browser_icon;
         }
 
         .chrome6 {
-          @include browser-icon;
+          @include browser_icon;
         }
       }
     }

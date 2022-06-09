@@ -20,26 +20,26 @@ header {
   border: solid 2px lightgray;
   border-bottom: none;
 }
-header .head-nav {
+header .head_nav {
   margin-top: 30px;
   margin-left: 20px;
 }
-header .web-head {
+header .web_head {
   display: flex;
   margin-left: 250px;
 }
-header .cruise-image {
+header .cruise_image {
   display: flex;
   margin-left: 140px;
 }
-header .user-login {
+header .user_login {
   display: flex;
   width: 30%;
   margin-top: 20px;
   margin-left: 100px;
   margin-right: 10%;
 }
-header .user-img {
+header .user_img {
   display: flex;
   margin-left: 150px;
   height: 40px;
@@ -54,63 +54,63 @@ aside {
 main {
   display: flex;
 }
-main .main-content {
+main .main_content {
   width: 100%;
   border: solid 2px lightgray;
   background-color: #E1E4E6;
 }
-main .main-content .main-header {
+main .main_content .main_header {
   display: flex;
   height: 140px;
   margin-left: 10px;
   margin-right: 10px;
 }
-main .main-content .main-header .header-status {
+main .main_content .main_header .header_status {
   display: flex;
   width: 60%;
 }
-main .main-content .main-header .building {
+main .main_content .main_header .building {
   margin-top: 20px;
   height: 100px;
   width: 500px;
   background-color: #FF9A2A;
 }
-main .main-content .main-header .building .text-building {
+main .main_content .main_header .building .text_building {
   padding-left: 10px;
   padding-top: 10px;
   font-size: 18px;
   font-weight: bold;
   color: white;
 }
-main .main-content .main-header .building .number-building {
+main .main_content .main_header .building .number_building {
   text-align: right;
   margin-bottom: -10px;
   margin-right: 15px;
   font-size: 48px;
   color: white;
 }
-main .main-content .main-header .idle {
+main .main_content .main_header .idle {
   margin-left: 25px;
   margin-top: 20px;
   height: 100px;
   width: 500px;
   background-color: #7FBC39;
 }
-main .main-content .main-header .idle .text-idle {
+main .main_content .main_header .idle .text_idle {
   padding-left: 10px;
   padding-top: 10px;
   font-size: 18px;
   font-weight: bold;
   color: white;
 }
-main .main-content .main-header .idle .number-idle {
+main .main_content .main_header .idle .number_idle {
   text-align: right;
   margin-bottom: -10px;
   margin-right: 15px;
   font-size: 48px;
   color: white;
 }
-main .main-content .main-header .statistics {
+main .main_content .main_header .statistics {
   display: flex;
   margin-left: 25px;
   margin-top: 20px;
@@ -118,45 +118,45 @@ main .main-content .main-header .statistics {
   width: 500px;
   background-color: white;
 }
-main .main-content .main-header .statistics .text-all {
+main .main_content .main_header .statistics .text_all {
   margin-top: 10px;
   text-align: center;
   width: 135px;
   height: 33px;
   font-size: 12px;
 }
-main .main-content .main-header .statistics .text-physical {
+main .main_content .main_header .statistics .text_physical {
   text-align: center;
   width: 135px;
   height: 33px;
   font-size: 12px;
 }
-main .main-content .main-header .statistics .text-virtual {
+main .main_content .main_header .statistics .text_virtual {
   text-align: center;
   width: 135px;
   height: 33px;
   font-size: 12px;
 }
-main .main-content .main-header .statistics .figure-all {
+main .main_content .main_header .statistics .figure_all {
   margin-top: 5px;
   text-align: center;
   width: 135px;
   height: 33px;
   font-size: 20px;
 }
-main .main-content .main-header .statistics .figure-physical {
+main .main_content .main_header .statistics .figure_physical {
   text-align: center;
   width: 135px;
   height: 33px;
   font-size: 20px;
 }
-main .main-content .main-header .statistics .figure-virtual {
+main .main_content .main_header .statistics .figure_virtual {
   text-align: center;
   width: 135px;
   height: 33px;
   font-size: 20px;
 }
-main .main-content .main-nav {
+main .main_content .main_nav {
   display: flex;
   height: 50px;
   margin-bottom: 20px;
@@ -164,34 +164,34 @@ main .main-content .main-nav {
   margin-left: 10px;
   margin-right: 10px;
 }
-main .main-content .main-nav .main-nav-text {
+main .main_content .main_nav .main_nav_text {
   display: flex;
   width: 335px;
 }
-main .main-content .main-nav .main-nav-text .all {
+main .main_content .main_nav .main_nav_text .all {
   width: 33%;
   border-right: solid lightgrey;
   text-align: center;
   line-height: 50px;
 }
-main .main-content .main-nav .main-nav-text .physical {
+main .main_content .main_nav .main_nav_text .physical {
   width: 33%;
   border-right: solid lightgrey;
   text-align: center;
   line-height: 50px;
 }
-main .main-content .main-nav .main-nav-text .virtual {
+main .main_content .main_nav .main_nav_text .virtual {
   width: 33%;
   border-right: solid lightgrey;
   text-align: center;
   line-height: 50px;
 }
-main .main-content .main-nav .search {
+main .main_content .main_nav .search {
   position: relative;
   width: 135px;
   height: 20px;
 }
-main .main-content .main-nav .search input {
+main .main_content .main_nav .search input {
   position: absolute;
   margin-top: 15px;
   margin-left: 15px;
@@ -202,33 +202,33 @@ main .main-content .main-nav .search input {
   outline: none;
   border: none;
 }
-main .main-content .main-nav .search i {
+main .main_content .main_nav .search i {
   position: relative;
   left: 40px;
   top: 18px;
   z-index: 10;
   color: gray;
 }
-main .main-content .main-nav .main-button {
+main .main_content .main_nav .main_button {
   display: none;
   justify-content: right;
   width: 500px;
 }
-main .main-content .main-nav .main-button .button-left {
+main .main_content .main_nav .main_button .button_left {
   padding-top: 20px;
   padding-bottom: 20px;
 }
-main .main-content .main-nav .main-button .button-right {
+main .main_content .main_nav .main_button .button_right {
   padding-top: 20px;
   padding-bottom: 20px;
   width: 40px;
   text-align: right;
 }
 
-.main-section {
+.main_section {
   background-color: #E1E4E6;
 }
-.main-section .main-section1 {
+.main_section .main_section1 {
   display: flex;
   height: 100px;
   width: 85%;
@@ -238,26 +238,26 @@ main .main-content .main-nav .main-button .button-right {
   margin-left: 10px;
   margin-right: 10px;
 }
-.main-section .main-section1 .section1-img {
+.main_section .main_section1 .section1_img {
   display: none;
 }
-.main-section .main-section1 .section1-detail .detail1-top {
+.main_section .main_section1 .section1_detail .detail1-top {
   display: flex;
 }
-.main-section .main-section1 .section1-detail .detail1-top .detail1-url {
+.main_section .main_section1 .section1_detail .detail1-top .detail1-url {
   margin-left: 10px;
 }
-.main-section .main-section1 .section1-detail .detail1-top {
+.main_section .main_section1 .section1_detail .detail1-top {
   margin-top: 15px;
 }
-.main-section .main-section1 .section1-detail .detail1-top .url1-text {
+.main_section .main_section1 .section1_detail .detail1-top .url1-text {
   color: deepskyblue;
   font-size: 14px;
   font-weight: bolder;
   margin-left: 10px;
   margin-left: 10px;
 }
-.main-section .main-section1 .section1-detail .detail1-top .detail1-status {
+.main_section .main_section1 .section1_detail .detail1-top .detail1-status {
   margin-left: 20px;
   padding-left: 7px;
   padding-right: 7px;
@@ -266,48 +266,48 @@ main .main-content .main-nav .main-button .button-right {
   background-color: #7FBC39;
   width: 54px;
 }
-.main-section .main-section1 .section1-detail .detail1-top .detail1-ip {
+.main_section .main_section1 .section1_detail .detail1-top .detail1-ip {
   margin-left: 60px;
 }
-.main-section .main-section1 .section1-detail .detail1-top .detail1-location {
+.main_section .main_section1 .section1_detail .detail1-top .detail1-location {
   margin-left: 20px;
 }
-.main-section .main-section1 .section1-detail .detail1-bottom {
+.main_section .main_section1 .section1_detail .detail1-bottom {
   display: flex;
   margin-left: 40px;
   margin-top: 25px;
   margin-left: 10px;
 }
-.main-section .main-section1 .section1-detail .detail1-bottom .detail1-browser {
+.main_section .main_section1 .section1_detail .detail1-bottom .detail1-browser {
   display: flex;
 }
-.main-section .main-section1 .section1-detail .detail1-bottom .detail1-line1 {
+.main_section .main_section1 .section1_detail .detail1-bottom .detail1-line1 {
   display: flex;
 }
-.main-section .main-section1 .section1-detail .detail1-bottom .detail1-line1 .firefox1 {
+.main_section .main_section1 .section1_detail .detail1-bottom .detail1-line1 .firefox1 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section1 .section1-detail .detail1-bottom .detail1-line1 .safari1 {
+.main_section .main_section1 .section1_detail .detail1-bottom .detail1-line1 .safari1 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section1 .section1-detail .detail1-bottom .detail1-line2 {
+.main_section .main_section1 .section1_detail .detail1-bottom .detail1-line2 {
   display: flex;
 }
-.main-section .main-section1 .section1-detail .detail1-bottom .detail1-line2 .ubuntu1 {
+.main_section .main_section1 .section1_detail .detail1-bottom .detail1-line2 .ubuntu1 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section1 .section1-detail .detail1-bottom .detail1-line2 .chrome1 {
+.main_section .main_section1 .section1_detail .detail1-bottom .detail1-line2 .chrome1 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section2 {
+.main_section .main-section2 {
   display: flex;
   height: 100px;
   width: 85%;
@@ -317,26 +317,26 @@ main .main-content .main-nav .main-button .button-right {
   margin-left: 10px;
   margin-right: 10px;
 }
-.main-section .main-section2 .section2-img {
+.main_section .main-section2 .section2-img {
   display: none;
 }
-.main-section .main-section2 .section2-detail .detail2-top {
+.main_section .main-section2 .section2-detail .detail2-top {
   display: flex;
 }
-.main-section .main-section2 .section2-detail .detail2-top .detail2-url {
+.main_section .main-section2 .section2-detail .detail2-top .detail2-url {
   margin-left: 10px;
 }
-.main-section .main-section2 .section2-detail .detail2-top {
+.main_section .main-section2 .section2-detail .detail2-top {
   margin-top: 15px;
 }
-.main-section .main-section2 .section2-detail .detail2-top .url2-text {
+.main_section .main-section2 .section2-detail .detail2-top .url2-text {
   color: deepskyblue;
   font-size: 14px;
   font-weight: bolder;
   margin-left: 10px;
   margin-left: 10px;
 }
-.main-section .main-section2 .section2-detail .detail2-top .detail2-status {
+.main_section .main-section2 .section2-detail .detail2-top .detail2-status {
   margin-left: 20px;
   padding-left: 7px;
   padding-right: 7px;
@@ -345,51 +345,51 @@ main .main-content .main-nav .main-button .button-right {
   background-color: #FF9A2A;
   width: 54px;
 }
-.main-section .main-section2 .section2-detail .detail2-top .detail2-ip {
+.main_section .main-section2 .section2-detail .detail2-top .detail2-ip {
   margin-left: 35px;
 }
-.main-section .main-section2 .section2-detail .detail2-top .detail2-location {
+.main_section .main-section2 .section2-detail .detail2-top .detail2-location {
   margin-left: 20px;
 }
-.main-section .main-section2 .section2-detail .detail2-middle {
+.main_section .main-section2 .section2-detail .detail2-middle {
   display: flex;
 }
-.main-section .main-section2 .section2-detail .detail2-middle .detail2-bottom {
+.main_section .main-section2 .section2-detail .detail2-middle .detail2-bottom {
   display: flex;
   margin-left: 40px;
   margin-top: 25px;
   margin-left: 10px;
 }
-.main-section .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-browser {
+.main_section .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-browser {
   display: flex;
 }
-.main-section .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line1 {
+.main_section .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line1 {
   display: flex;
 }
-.main-section .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line1 .firefox2 {
+.main_section .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line1 .firefox2 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line1 .safari2 {
+.main_section .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line1 .safari2 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line2 {
+.main_section .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line2 {
   display: flex;
 }
-.main-section .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line2 .ubuntu2 {
+.main_section .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line2 .ubuntu2 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line2 .chrome2 {
+.main_section .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line2 .chrome2 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section2 .section2-detail .detail2-middle .deny2 {
+.main_section .main-section2 .section2-detail .detail2-middle .deny2 {
   position: absolute;
   right: 250px;
   margin-top: 15px;
@@ -402,7 +402,7 @@ main .main-content .main-nav .main-button .button-right {
   background-color: #00B4CF;
   right: 50px;
 }
-.main-section .main-section3 {
+.main_section .main-section3 {
   display: flex;
   height: 100px;
   width: 85%;
@@ -412,26 +412,26 @@ main .main-content .main-nav .main-button .button-right {
   margin-left: 10px;
   margin-right: 10px;
 }
-.main-section .main-section3 .section3-img {
+.main_section .main-section3 .section3-img {
   display: none;
 }
-.main-section .main-section3 .section3-detail .detail3-top {
+.main_section .main-section3 .section3-detail .detail3-top {
   display: flex;
 }
-.main-section .main-section3 .section3-detail .detail3-top .detail3-url {
+.main_section .main-section3 .section3-detail .detail3-top .detail3-url {
   margin-left: 10px;
 }
-.main-section .main-section3 .section3-detail .detail3-top {
+.main_section .main-section3 .section3-detail .detail3-top {
   margin-top: 15px;
 }
-.main-section .main-section3 .section3-detail .detail3-top .url3-text {
+.main_section .main-section3 .section3-detail .detail3-top .url3-text {
   color: deepskyblue;
   font-size: 14px;
   font-weight: bolder;
   margin-left: 10px;
   margin-left: 10px;
 }
-.main-section .main-section3 .section3-detail .detail3-top .detail3-status {
+.main_section .main-section3 .section3-detail .detail3-top .detail3-status {
   margin-left: 20px;
   padding-left: 7px;
   padding-right: 7px;
@@ -440,38 +440,38 @@ main .main-content .main-nav .main-button .button-right {
   background-color: #FF9A2A;
   width: 54px;
 }
-.main-section .main-section3 .section3-detail .detail3-top .detail3-ip {
+.main_section .main-section3 .section3-detail .detail3-top .detail3-ip {
   margin-left: 35px;
 }
-.main-section .main-section3 .section3-detail .detail3-top .detail3-location {
+.main_section .main-section3 .section3-detail .detail3-top .detail3-location {
   margin-left: 20px;
 }
-.main-section .main-section3 .section3-detail .detail3-middle {
+.main_section .main-section3 .section3-detail .detail3-middle {
   display: flex;
 }
-.main-section .main-section3 .section3-detail .detail3-middle .detail3-bottom {
+.main_section .main-section3 .section3-detail .detail3-middle .detail3-bottom {
   display: flex;
   margin-left: 40px;
   margin-top: 25px;
   margin-left: 10px;
 }
-.main-section .main-section3 .section3-detail .detail3-middle .detail3-bottom .detail3-browser {
+.main_section .main-section3 .section3-detail .detail3-middle .detail3-bottom .detail3-browser {
   display: flex;
 }
-.main-section .main-section3 .section3-detail .detail3-middle .detail3-bottom .detail3-line1 {
+.main_section .main-section3 .section3-detail .detail3-middle .detail3-bottom .detail3-line1 {
   display: flex;
 }
-.main-section .main-section3 .section3-detail .detail3-middle .detail3-bottom .detail3-line1 .firefox3 {
+.main_section .main-section3 .section3-detail .detail3-middle .detail3-bottom .detail3-line1 .firefox3 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section3 .section3-detail .detail3-middle .detail3-bottom .detail3-line1 .safari3 {
+.main_section .main-section3 .section3-detail .detail3-middle .detail3-bottom .detail3-line1 .safari3 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section3 .section3-detail .detail3-middle .deny3 {
+.main_section .main-section3 .section3-detail .detail3-middle .deny3 {
   position: absolute;
   right: 250px;
   margin-top: 15px;
@@ -484,7 +484,7 @@ main .main-content .main-nav .main-button .button-right {
   background-color: #00B4CF;
   right: 50px;
 }
-.main-section .main-section4 {
+.main_section .main-section4 {
   display: flex;
   height: 100px;
   width: 85%;
@@ -494,26 +494,26 @@ main .main-content .main-nav .main-button .button-right {
   margin-left: 10px;
   margin-right: 10px;
 }
-.main-section .main-section4 .section4-img {
+.main_section .main-section4 .section4-img {
   display: none;
 }
-.main-section .main-section4 .section4-detail .detail4-top {
+.main_section .main-section4 .section4-detail .detail4-top {
   display: flex;
 }
-.main-section .main-section4 .section4-detail .detail4-top .detail4-url {
+.main_section .main-section4 .section4-detail .detail4-top .detail4-url {
   margin-left: 10px;
 }
-.main-section .main-section4 .section4-detail .detail4-top {
+.main_section .main-section4 .section4-detail .detail4-top {
   margin-top: 15px;
 }
-.main-section .main-section4 .section4-detail .detail4-top .url4-text {
+.main_section .main-section4 .section4-detail .detail4-top .url4-text {
   color: deepskyblue;
   font-size: 14px;
   font-weight: bolder;
   margin-left: 10px;
   margin-left: 10px;
 }
-.main-section .main-section4 .section4-detail .detail4-top .detail4-status {
+.main_section .main-section4 .section4-detail .detail4-top .detail4-status {
   margin-left: 20px;
   padding-left: 7px;
   padding-right: 7px;
@@ -522,51 +522,51 @@ main .main-content .main-nav .main-button .button-right {
   background-color: #FF9A2A;
   width: 54px;
 }
-.main-section .main-section4 .section4-detail .detail4-top .detail4-ip {
+.main_section .main-section4 .section4-detail .detail4-top .detail4-ip {
   margin-left: 35px;
 }
-.main-section .main-section4 .section4-detail .detail4-top .detail4-location {
+.main_section .main-section4 .section4-detail .detail4-top .detail4-location {
   margin-left: 20px;
 }
-.main-section .main-section4 .section4-detail .detail4-middle {
+.main_section .main-section4 .section4-detail .detail4-middle {
   display: flex;
 }
-.main-section .main-section4 .section4-detail .detail4-middle .detail4-bottom {
+.main_section .main-section4 .section4-detail .detail4-middle .detail4-bottom {
   display: flex;
   margin-left: 40px;
   margin-top: 25px;
   margin-left: 10px;
 }
-.main-section .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-browser {
+.main_section .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-browser {
   display: flex;
 }
-.main-section .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line1 {
+.main_section .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line1 {
   display: flex;
 }
-.main-section .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line1 .firefox4 {
+.main_section .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line1 .firefox4 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line1 .safari4 {
+.main_section .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line1 .safari4 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line2 {
+.main_section .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line2 {
   display: flex;
 }
-.main-section .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line2 .ubuntu4 {
+.main_section .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line2 .ubuntu4 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line2 .chrome4 {
+.main_section .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line2 .chrome4 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section4 .section4-detail .detail4-middle .deny4 {
+.main_section .main-section4 .section4-detail .detail4-middle .deny4 {
   position: absolute;
   right: 250px;
   margin-top: 15px;
@@ -579,7 +579,7 @@ main .main-content .main-nav .main-button .button-right {
   background-color: #00B4CF;
   right: 50px;
 }
-.main-section .main-section5 {
+.main_section .main-section5 {
   display: flex;
   height: 100px;
   width: 85%;
@@ -589,26 +589,26 @@ main .main-content .main-nav .main-button .button-right {
   margin-left: 10px;
   margin-right: 10px;
 }
-.main-section .main-section5 .section5-img {
+.main_section .main-section5 .section5-img {
   display: none;
 }
-.main-section .main-section5 .section5-detail .detail5-top {
+.main_section .main-section5 .section5-detail .detail5-top {
   display: flex;
 }
-.main-section .main-section5 .section5-detail .detail5-top .detail5-url {
+.main_section .main-section5 .section5-detail .detail5-top .detail5-url {
   margin-left: 10px;
 }
-.main-section .main-section5 .section5-detail .detail5-top {
+.main_section .main-section5 .section5-detail .detail5-top {
   margin-top: 15px;
 }
-.main-section .main-section5 .section5-detail .detail5-top .url5-text {
+.main_section .main-section5 .section5-detail .detail5-top .url5-text {
   color: deepskyblue;
   font-size: 14px;
   font-weight: bolder;
   margin-left: 10px;
   margin-left: 10px;
 }
-.main-section .main-section5 .section5-detail .detail5-top .detail5-status {
+.main_section .main-section5 .section5-detail .detail5-top .detail5-status {
   margin-left: 20px;
   padding-left: 7px;
   padding-right: 7px;
@@ -617,22 +617,22 @@ main .main-content .main-nav .main-button .button-right {
   background-color: #7FBC39;
   width: 54px;
 }
-.main-section .main-section5 .section5-detail .detail5-top .detail5-ip {
+.main_section .main-section5 .section5-detail .detail5-top .detail5-ip {
   margin-left: 60px;
 }
-.main-section .main-section5 .section5-detail .detail5-top .detail5-location {
+.main_section .main-section5 .section5-detail .detail5-top .detail5-location {
   margin-left: 20px;
 }
-.main-section .main-section5 .section5-detail .detail5-bottom {
+.main_section .main-section5 .section5-detail .detail5-bottom {
   display: flex;
   margin-left: 40px;
   margin-top: 25px;
   margin-left: 10px;
 }
-.main-section .main-section5 .section5-detail .detail5-bottom .detail5-browser {
+.main_section .main-section5 .section5-detail .detail5-bottom .detail5-browser {
   display: flex;
 }
-.main-section .main-section6 {
+.main_section .main-section6 {
   display: flex;
   height: 100px;
   width: 85%;
@@ -642,26 +642,26 @@ main .main-content .main-nav .main-button .button-right {
   margin-left: 10px;
   margin-right: 10px;
 }
-.main-section .main-section6 .section6-img {
+.main_section .main-section6 .section6-img {
   display: none;
 }
-.main-section .main-section6 .section6-detail .detail6-top {
+.main_section .main-section6 .section6-detail .detail6-top {
   display: flex;
 }
-.main-section .main-section6 .section6-detail .detail6-top .detail6-url {
+.main_section .main-section6 .section6-detail .detail6-top .detail6-url {
   margin-left: 10px;
 }
-.main-section .main-section6 .section6-detail .detail6-top {
+.main_section .main-section6 .section6-detail .detail6-top {
   margin-top: 15px;
 }
-.main-section .main-section6 .section6-detail .detail6-top .url6-text {
+.main_section .main-section6 .section6-detail .detail6-top .url6-text {
   color: deepskyblue;
   font-size: 14px;
   font-weight: bolder;
   margin-left: 10px;
   margin-left: 10px;
 }
-.main-section .main-section6 .section6-detail .detail6-top .detail6-status {
+.main_section .main-section6 .section6-detail .detail6-top .detail6-status {
   margin-left: 20px;
   padding-left: 7px;
   padding-right: 7px;
@@ -670,43 +670,43 @@ main .main-content .main-nav .main-button .button-right {
   background-color: #7FBC39;
   width: 54px;
 }
-.main-section .main-section6 .section6-detail .detail6-top .detail6-ip {
+.main_section .main-section6 .section6-detail .detail6-top .detail6-ip {
   margin-left: 60px;
 }
-.main-section .main-section6 .section6-detail .detail6-top .detail6-location {
+.main_section .main-section6 .section6-detail .detail6-top .detail6-location {
   margin-left: 20px;
 }
-.main-section .main-section6 .section6-detail .detail6-bottom {
+.main_section .main-section6 .section6-detail .detail6-bottom {
   display: flex;
   margin-left: 40px;
   margin-top: 25px;
   margin-left: 10px;
 }
-.main-section .main-section6 .section6-detail .detail6-bottom .detail6-browser {
+.main_section .main-section6 .section6-detail .detail6-bottom .detail6-browser {
   display: flex;
 }
-.main-section .main-section6 .section6-detail .detail6-bottom .detail6-line1 {
+.main_section .main-section6 .section6-detail .detail6-bottom .detail6-line1 {
   display: flex;
 }
-.main-section .main-section6 .section6-detail .detail6-bottom .detail6-line1 .firefox6 {
+.main_section .main-section6 .section6-detail .detail6-bottom .detail6-line1 .firefox6 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section6 .section6-detail .detail6-bottom .detail6-line1 .safari6 {
+.main_section .main-section6 .section6-detail .detail6-bottom .detail6-line1 .safari6 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section6 .section6-detail .detail6-bottom .detail6-line2 {
+.main_section .main-section6 .section6-detail .detail6-bottom .detail6-line2 {
   display: flex;
 }
-.main-section .main-section6 .section6-detail .detail6-bottom .detail6-line2 .ubuntu6 {
+.main_section .main-section6 .section6-detail .detail6-bottom .detail6-line2 .ubuntu6 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section6 .section6-detail .detail6-bottom .detail6-line2 .chrome6 {
+.main_section .main-section6 .section6-detail .detail6-bottom .detail6-line2 .chrome6 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;

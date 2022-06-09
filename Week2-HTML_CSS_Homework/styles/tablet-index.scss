@@ -9,35 +9,35 @@ html {
 header {
   display: flex;
   width: 100%;
-  background-color:white;
+  background-color: white;
   border: solid 2px lightgray;
   border-bottom: none;
 
-  .head-nav {
+  .head_nav {
     margin-top: 30px;
     margin-left: 20px;
 
   }
 
-  .web-head {
+  .web_head {
     display: flex;
     margin-left: 250px;
   }
 
-  .cruise-image {
+  .cruise_image {
     display: flex;
     margin-left: 140px;
   }
 
-  .user-login {
+  .user_login {
     display: flex;
-    width:30%;
+    width: 30%;
     margin-top: 20px;
     margin-left: 100px;
     margin-right: 10%;
   }
 
-  .user-img {
+  .user_img {
     display: flex;
     margin-left: 150px;
     height: 40px;
@@ -53,18 +53,18 @@ aside {
 main {
   display: flex;
 
-  .main-content {
+  .main_content {
     width: 100%;
     border: solid 2px lightgray;
     background-color: $primary-gray;
 
-    .main-header {
+    .main_header {
       display: flex;
       height: 140px;
       margin-left: 10px;
       margin-right: 10px;
 
-      .header-status {
+      .header_status {
         display: flex;
         width: 60%;
       }
@@ -75,12 +75,12 @@ main {
         width: 500px;
         background-color: #FF9A2A;
 
-        .text-building {
-          @include main-header-div-text
+        .text_building {
+          @include main_header_div_text
         }
 
-        .number-building {
-          @include main-header-div-number
+        .number_building {
+          @include main_header_div_number
         }
       }
 
@@ -91,16 +91,16 @@ main {
         width: 500px;
         background-color: #7FBC39;
 
-        .text-idle {
-          @include main-header-div-text
+        .text_idle {
+          @include main_header_div_text
         }
 
-        .number-idle {
-          @include main-header-div-number
+        .number_idle {
+          @include main_header_div_number
         }
       }
 
-      .statistics{
+      .statistics {
         display: flex;
         margin-left: 25px;
         margin-top: 20px;
@@ -108,7 +108,7 @@ main {
         width: 500px;
         background-color: white;
 
-        .text-all {
+        .text_all {
           margin-top: 10px;
           text-align: center;
           width: 135px;
@@ -116,21 +116,21 @@ main {
           font-size: 12px;
         }
 
-        .text-physical {
+        .text_physical {
           text-align: center;
           width: 135px;
           height: 33px;
           font-size: 12px;
         }
 
-        .text-virtual {
+        .text_virtual {
           text-align: center;
           width: 135px;
           height: 33px;
           font-size: 12px;
         }
 
-        .figure-all {
+        .figure_all {
           margin-top: 5px;
           text-align: center;
           width: 135px;
@@ -138,14 +138,14 @@ main {
           font-size: 20px;
         }
 
-        .figure-physical {
+        .figure_physical {
           text-align: center;
           width: 135px;
           height: 33px;
           font-size: 20px;
         }
 
-        .figure-virtual {
+        .figure_virtual {
           text-align: center;
           width: 135px;
           height: 33px;
@@ -154,7 +154,7 @@ main {
       }
     }
 
-    .main-nav {
+    .main_nav {
       display: flex;
       height: 50px;
       margin-bottom: 20px;
@@ -163,7 +163,7 @@ main {
       margin-right: 10px;
 
 
-      .main-nav-text {
+      .main_nav_text {
         display: flex;
         width: 335px;
 
@@ -210,23 +210,23 @@ main {
       .search i {
         position: relative;
         left: 40px;
-        top:18px;
+        top: 18px;
         z-index: 10;
         color: gray;
       }
 
 
-      .main-button {
+      .main_button {
         display: none;
         justify-content: right;
         width: 500px;
 
-        .button-left {
+        .button_left {
           padding-top: 20px;
           padding-bottom: 20px;
         }
 
-        .button-right {
+        .button_right {
           padding-top: 20px;
           padding-bottom: 20px;
           width: 40px;
@@ -237,472 +237,470 @@ main {
   }
 }
 
-.main-section {
+.main_section {
   background-color: $primary-gray;
 
 
-.main-section1 {
-  @include main-section;
-  width: 863px;
-  margin-left: 10px;
-  margin-right: 10px;
+  .main_section1 {
+    @include main_section;
+    width: 863px;
+    margin-left: 10px;
+    margin-right: 10px;
 
 
-  .section1-img {
-    display: none;
+    .section1_img {
+      display: none;
+    }
+
+    .section1_detail {
+
+      .detail1-top {
+        display: flex;
+
+        .detail1-url {
+          margin-left: 10px;
+        }
+      }
+
+      .detail1-top {
+        @include detail_top;
+
+
+        .url1-text {
+          @include detail_url;
+          margin-left: 10px;
+        }
+
+        .detail1-status {
+          @include detail_status($background: #7FBC39);
+          width: 54px;
+        }
+
+        .detail1-ip {
+          margin-left: 60px;
+        }
+
+        .detail1-location {
+          margin-left: 20px;
+        }
+      }
+
+      .detail1-bottom {
+        @include detail_bottom;
+        margin-left: 10px;
+
+        .detail1-browser {
+          display: flex;
+        }
+
+        .detail1-line1 {
+          display: flex;
+
+          .firefox1 {
+            @include browser_icon;
+          }
+
+          .safari1 {
+            @include browser_icon;
+          }
+        }
+
+        .detail1-line2 {
+          display: flex;
+
+          .ubuntu1 {
+            @include browser_icon;
+          }
+
+          .chrome1 {
+            @include browser_icon;
+          }
+        }
+      }
+    }
   }
 
-  .section1-detail {
+  .main-section2 {
+    @include main_section;
+    width: 863px;
+    margin-left: 10px;
+    margin-right: 10px;
 
-    .detail1-top {
-      display: flex;
-
-      .detail1-url {
-        margin-left: 10px;
-      }
+    .section2-img {
+      display: none;
     }
 
-    .detail1-top {
-      @include detail-top;
+    .section2-detail {
 
+      .detail2-top {
+        display: flex;
 
-      .url1-text {
-        @include detail-url;
-        margin-left: 10px;
+        .detail2-url {
+          margin-left: 10px;
+        }
       }
 
-      .detail1-status {
-        @include detail-status($background: #7FBC39);
-        width: 54px;
+      .detail2-top {
+        @include detail_top;
+
+
+        .url2-text {
+          @include detail_url;
+          margin-left: 10px;
+        }
+
+        .detail2-status {
+          @include detail_status($background: #FF9A2A);
+          width: 54px;
+        }
+
+        .detail2-ip {
+          margin-left: 35px;
+        }
+
+        .detail2-location {
+          margin-left: 20px;
+        }
       }
 
-      .detail1-ip {
-        margin-left: 60px;
-      }
+      .detail2-middle {
+        display: flex;
 
-      .detail1-location {
-        margin-left: 20px;
+        .detail2-bottom {
+          @include detail_bottom;
+          margin-left: 10px;
+
+          .detail2-browser {
+            display: flex;
+          }
+
+          .detail2-line1 {
+            display: flex;
+
+            .firefox2 {
+              @include browser_icon;
+            }
+
+            .safari2 {
+              @include browser_icon;
+            }
+          }
+
+          .detail2-line2 {
+            display: flex;
+
+            .ubuntu2 {
+              @include browser_icon;
+            }
+
+            .chrome2 {
+              @include browser_icon;
+            }
+          }
+        }
+
+        .deny2 {
+          @include deny_button;
+          right: 50px;
+        }
       }
     }
+  }
 
-    .detail1-bottom {
-      @include detail-bottom;
-      margin-left: 10px;
+  .main-section3 {
+    @include main_section;
+    width: 863px;
+    margin-left: 10px;
+    margin-right: 10px;
 
-      .detail1-browser {
+    .section3-img {
+      display: none;
+    }
+
+    .section3-detail {
+
+      .detail3-top {
         display: flex;
+
+        .detail3-url {
+          margin-left: 10px;
+        }
       }
 
-      .detail1-line1 {
-        display: flex;
+      .detail3-top {
+        @include detail_top;
 
-        .firefox1 {
-          @include browser-icon;
+
+        .url3-text {
+          @include detail_url;
+          margin-left: 10px;
         }
 
-        .safari1 {
-          @include browser-icon;
+        .detail3-status {
+          @include detail_status($background: #FF9A2A);
+          width: 54px;
+        }
+
+        .detail3-ip {
+          margin-left: 35px;
+        }
+
+        .detail3-location {
+          margin-left: 20px;
         }
       }
 
-      .detail1-line2 {
+      .detail3-middle {
         display: flex;
 
-        .ubuntu1 {
-          @include browser-icon;
+        .detail3-bottom {
+          @include detail_bottom;
+          margin-left: 10px;
+
+          .detail3-browser {
+            display: flex;
+          }
+
+          .detail3-line1 {
+            display: flex;
+
+            .firefox3 {
+              @include browser_icon;
+            }
+
+            .safari3 {
+              @include browser_icon;
+            }
+          }
         }
 
-        .chrome1 {
-          @include browser-icon;
+        .deny3 {
+          @include deny_button;
+          right: 50px;
+        }
+      }
+    }
+  }
+
+  .main-section4 {
+    @include main_section;
+    width: 863px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    .section4-img {
+      display: none;
+    }
+
+    .section4-detail {
+
+      .detail4-top {
+        display: flex;
+
+        .detail4-url {
+          margin-left: 10px;
+        }
+      }
+
+      .detail4-top {
+        @include detail_top;
+
+
+        .url4-text {
+          @include detail_url;
+          margin-left: 10px;
+        }
+
+        .detail4-status {
+          @include detail_status($background: #FF9A2A);
+          width: 54px;
+        }
+
+        .detail4-ip {
+          margin-left: 35px;
+        }
+
+        .detail4-location {
+          margin-left: 20px;
+        }
+      }
+
+      .detail4-middle {
+        display: flex;
+
+        .detail4-bottom {
+          @include detail_bottom;
+          margin-left: 10px;
+
+          .detail4-browser {
+            display: flex;
+          }
+
+          .detail4-line1 {
+            display: flex;
+
+            .firefox4 {
+              @include browser_icon;
+            }
+
+            .safari4 {
+              @include browser_icon;
+            }
+          }
+
+          .detail4-line2 {
+            display: flex;
+
+            .ubuntu4 {
+              @include browser_icon;
+            }
+
+            .chrome4 {
+              @include browser_icon;
+            }
+          }
+        }
+
+        .deny4 {
+          @include deny_button;
+          right: 50px;
+        }
+      }
+    }
+  }
+
+  .main-section5 {
+    @include main_section;
+    width: 863px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    .section5-img {
+      display: none;
+    }
+
+    .section5-detail {
+
+      .detail5-top {
+        display: flex;
+
+        .detail5-url {
+          margin-left: 10px;
+        }
+      }
+
+      .detail5-top {
+        @include detail_top;
+
+
+        .url5-text {
+          @include detail_url;
+          margin-left: 10px;
+        }
+
+        .detail5-status {
+          @include detail_status($background: #7FBC39);
+          width: 54px;
+        }
+
+        .detail5-ip {
+          margin-left: 60px;
+        }
+
+        .detail5-location {
+          margin-left: 20px;
+        }
+      }
+
+      .detail5-bottom {
+        @include detail_bottom;
+        margin-left: 10px;
+
+        .detail5-browser {
+          display: flex;
+        }
+      }
+    }
+  }
+
+  .main-section6 {
+    @include main_section;
+    width: 863px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    .section6-img {
+      display: none;
+    }
+
+    .section6-detail {
+
+      .detail6-top {
+        display: flex;
+
+        .detail6-url {
+          margin-left: 10px;
+        }
+      }
+
+      .detail6-top {
+        @include detail_top;
+
+
+        .url6-text {
+          @include detail_url;
+          margin-left: 10px;
+        }
+
+        .detail6-status {
+          @include detail_status($background: #7FBC39);
+          width: 54px;
+        }
+
+        .detail6-ip {
+          margin-left: 60px;
+        }
+
+        .detail6-location {
+          margin-left: 20px;
+        }
+      }
+
+      .detail6-bottom {
+        @include detail_bottom;
+        margin-left: 10px;
+
+        .detail6-browser {
+          display: flex;
+        }
+
+        .detail6-line1 {
+          display: flex;
+
+          .firefox6 {
+            @include browser_icon;
+          }
+
+          .safari6 {
+            @include browser_icon;
+          }
+        }
+
+        .detail6-line2 {
+          display: flex;
+
+          .ubuntu6 {
+            @include browser_icon;
+          }
+
+          .chrome6 {
+            @include browser_icon;
+          }
         }
       }
     }
   }
 }
-
-.main-section2 {
-  @include main-section;
-  width: 863px;
-  margin-left: 10px;
-  margin-right: 10px;
-
-  .section2-img {
-    display: none;
-  }
-
-  .section2-detail {
-
-    .detail2-top {
-      display: flex;
-
-      .detail2-url {
-        margin-left: 10px;
-      }
-    }
-
-    .detail2-top {
-      @include detail-top;
-
-
-      .url2-text {
-        @include detail-url;
-        margin-left: 10px;
-      }
-
-      .detail2-status {
-        @include detail-status($background: #FF9A2A);
-        width: 54px;
-      }
-
-      .detail2-ip {
-        margin-left: 35px;
-      }
-
-      .detail2-location {
-        margin-left: 20px;
-      }
-    }
-
-    .detail2-middle {
-      display: flex;
-
-      .detail2-bottom {
-        @include detail-bottom;
-        margin-left: 10px;
-
-        .detail2-browser {
-          display: flex;
-        }
-
-        .detail2-line1 {
-          display: flex;
-
-          .firefox2 {
-            @include browser-icon;
-          }
-
-          .safari2 {
-            @include browser-icon;
-          }
-        }
-
-        .detail2-line2 {
-          display: flex;
-
-          .ubuntu2 {
-            @include browser-icon;
-          }
-
-          .chrome2 {
-            @include browser-icon;
-          }
-        }
-      }
-      .deny2 {
-        @include deny-button;
-        right: 50px;
-      }
-    }
-  }
-}
-
-.main-section3 {
-  @include main-section;
-  width: 863px;
-  margin-left: 10px;
-  margin-right: 10px;
-
-  .section3-img {
-    display: none;
-  }
-
-  .section3-detail {
-
-    .detail3-top {
-      display: flex;
-
-      .detail3-url {
-        margin-left: 10px;
-      }
-    }
-
-    .detail3-top {
-      @include detail-top;
-
-
-      .url3-text {
-        @include detail-url;
-        margin-left: 10px;
-      }
-
-      .detail3-status {
-        @include detail-status($background: #FF9A2A);
-        width: 54px;
-      }
-
-      .detail3-ip {
-        margin-left: 35px;
-      }
-
-      .detail3-location {
-        margin-left: 20px;
-      }
-    }
-
-    .detail3-middle {
-      display: flex;
-
-      .detail3-bottom {
-        @include detail-bottom;
-        margin-left: 10px;
-
-        .detail3-browser {
-          display: flex;
-        }
-
-        .detail3-line1 {
-          display: flex;
-
-          .firefox3 {
-            @include browser-icon;
-          }
-
-          .safari3 {
-            @include browser-icon;
-          }
-        }
-      }
-
-      .deny3 {
-        @include deny-button;
-        right: 50px;
-      }
-    }
-  }
-}
-
-.main-section4 {
-  @include main-section;
-  width: 863px;
-  margin-left: 10px;
-  margin-right: 10px;
-
-  .section4-img {
-    display: none;
-  }
-
-  .section4-detail {
-
-    .detail4-top {
-      display: flex;
-
-      .detail4-url {
-        margin-left: 10px;
-      }
-    }
-
-    .detail4-top {
-      @include detail-top;
-
-
-      .url4-text {
-        @include detail-url;
-        margin-left: 10px;
-      }
-
-      .detail4-status {
-        @include detail-status($background: #FF9A2A);
-        width: 54px;
-      }
-
-      .detail4-ip {
-        margin-left: 35px;
-      }
-
-      .detail4-location {
-        margin-left: 20px;
-      }
-    }
-
-    .detail4-middle {
-      display: flex;
-
-      .detail4-bottom {
-        @include detail-bottom;
-        margin-left: 10px;
-
-        .detail4-browser {
-          display: flex;
-        }
-
-        .detail4-line1 {
-          display: flex;
-
-          .firefox4 {
-            @include browser-icon;
-          }
-
-          .safari4 {
-            @include browser-icon;
-          }
-        }
-
-        .detail4-line2 {
-          display: flex;
-
-          .ubuntu4 {
-            @include browser-icon;
-          }
-
-          .chrome4 {
-            @include browser-icon;
-          }
-        }
-      }
-
-      .deny4 {
-        @include deny-button;
-        right: 50px;
-      }
-    }
-  }
-}
-
-
-
-.main-section5 {
-  @include main-section;
-  width: 863px;
-  margin-left: 10px;
-  margin-right: 10px;
-
-  .section5-img {
-    display: none;
-  }
-
-  .section5-detail {
-
-    .detail5-top {
-      display: flex;
-
-      .detail5-url {
-        margin-left: 10px;
-      }
-    }
-
-    .detail5-top {
-      @include detail-top;
-
-
-      .url5-text {
-        @include detail-url;
-        margin-left: 10px;
-      }
-
-      .detail5-status {
-        @include detail-status($background: #7FBC39);
-        width: 54px;
-      }
-
-      .detail5-ip {
-        margin-left: 60px;
-      }
-
-      .detail5-location {
-        margin-left: 20px;
-      }
-    }
-
-    .detail5-bottom {
-      @include detail-bottom;
-      margin-left: 10px;
-
-      .detail5-browser {
-        display: flex;
-      }
-    }
-  }
-}
-
-.main-section6 {
-  @include main-section;
-  width: 863px;
-  margin-left: 10px;
-  margin-right: 10px;
-
-  .section6-img {
-    display: none;
-  }
-
-  .section6-detail {
-
-    .detail6-top {
-      display: flex;
-
-      .detail6-url {
-        margin-left: 10px;
-      }
-    }
-
-    .detail6-top {
-      @include detail-top;
-
-
-      .url6-text {
-        @include detail-url;
-        margin-left: 10px;
-      }
-
-      .detail6-status {
-        @include detail-status($background: #7FBC39);
-        width: 54px;
-      }
-
-      .detail6-ip {
-        margin-left: 60px;
-      }
-
-      .detail6-location {
-        margin-left: 20px;
-      }
-    }
-
-    .detail6-bottom {
-      @include detail-bottom;
-      margin-left: 10px;
-
-      .detail6-browser {
-        display: flex;
-      }
-
-      .detail6-line1 {
-        display: flex;
-
-        .firefox6 {
-          @include browser-icon;
-        }
-
-        .safari6 {
-          @include browser-icon;
-        }
-      }
-
-      .detail6-line2 {
-        display: flex;
-
-        .ubuntu6 {
-          @include browser-icon;
-        }
-
-        .chrome6 {
-          @include browser-icon;
-        }
-      }
-    }
-    }
-  }
-}
-
 
 footer {
   display: flex;

@@ -13,26 +13,26 @@ header {
   border: solid 2px lightgray;
   border-bottom: none;
 
-  .head-nav {
+  .head_nav {
     margin-top: 30px;
     margin-left: 20px;
 
   }
 
-  .web-head {
+  .web_head {
     margin-left: 250px;
   }
 
-  .cruise-image {
+  .cruise_image {
     margin-left: -160px;
   }
 
-  .user-login {
+  .user_login {
     display: flex;
     margin-right: 100px;
   }
 
-  .user-img {
+  .user_img {
     display: flex;
     margin-top: 20px;
     margin-left: 20px;
@@ -49,17 +49,17 @@ aside {
 main {
   display: flex;
 
-  .main-content {
+  .main_content {
     height: 100%;
     width: 100%;
     border: solid 2px lightgray;
 
-    .main-header {
+    .main_header {
       height: 250px;
       margin-left: 10px;
       margin-right: 10px;
 
-      .header-status {
+      .header_status {
         display: flex;
         width: 100%;
       }
@@ -70,12 +70,12 @@ main {
         width: 500px;
         background-color: #FF9A2A;
 
-        .text-building {
-          @include main-header-div-text
+        .text_building {
+          @include main_header_div_text
         }
 
-        .number-building {
-          @include main-header-div-number
+        .number_building {
+          @include main_header_div_number
         }
       }
 
@@ -86,12 +86,12 @@ main {
         width: 500px;
         background-color: #7FBC39;
 
-        .text-idle {
-          @include main-header-div-text
+        .text_idle {
+          @include main_header_div_text
         }
 
-        .number-idle {
-          @include main-header-div-number
+        .number_idle {
+          @include main_header_div_number
         }
       }
     }
@@ -102,10 +102,10 @@ main {
       height: 100px;
       background-color: white;
 
-      .statistics-text {
+      .statistics_text {
         display: flex;
 
-        .text-all {
+        .text_all {
           width: 110px;
           height: 30px;
           font-size: 14px;
@@ -113,7 +113,7 @@ main {
           margin-top: 20px;
         }
 
-        .text-physical {
+        .text_physical {
           width: 110px;
           height: 30px;
           font-size: 14px;
@@ -121,7 +121,7 @@ main {
           margin-top: 20px;
         }
 
-        .text-virtual {
+        .text_virtual {
           width: 110px;
           height: 30px;
           font-size: 14px;
@@ -130,24 +130,24 @@ main {
         }
       }
 
-      .statistics-figure {
+      .statistics_figure {
         display: flex;
 
-        .figure-all {
+        .figure_all {
           width: 110px;
           height: 110px;
           font-size: 24px;
           text-align: center;
         }
 
-        .figure-physical {
+        .figure_physical {
           width: 110px;
           height: 30px;
           font-size: 24px;
           text-align: center;
         }
 
-        .figure-virtual {
+        .figure_virtual {
           width: 110px;
           height: 30px;
           font-size: 24px;
@@ -156,7 +156,7 @@ main {
       }
     }
 
-    .main-nav {
+    .main_nav {
       height: 50px;
       margin-bottom: 20px;
       background-color: white;
@@ -164,7 +164,7 @@ main {
       margin-right: 10px;
 
 
-      .main-nav-text {
+      .main_nav_text {
         display: flex;
         width: 100%;
 
@@ -216,27 +216,27 @@ main {
       }
 
 
-      .main-button {
+      .main_button {
         display: none;
       }
     }
   }
 }
 
-.main-section {
+.main_section {
   font-size: 18px;
 
-  .main-section1 {
+  .main_section1 {
     display: flex;
     height: 170px;
     margin: 50px 10px 20px;
     background-color: white;
 
-    .section1-img {
+    .section1_img {
       display: none;
     }
 
-    .section1-detail {
+    .section1_detail {
       width: 100%;
       margin-left: 10px;
 
@@ -275,11 +275,11 @@ main {
         .detail1-line1 {
 
           .firefox1 {
-            @include browser-icon;
+            @include browser_icon;
           }
 
           .safari1 {
-            @include browser-icon;
+            @include browser_icon;
           }
         }
 
@@ -287,11 +287,11 @@ main {
           margin-top: 10px;
 
           .ubuntu1 {
-            @include browser-icon
+            @include browser_icon
           }
 
           .chrome1 {
-            @include browser-icon
+            @include browser_icon
           }
         }
       }
@@ -347,11 +347,11 @@ main {
         .detail2-line1 {
 
           .firefox2 {
-            @include browser-icon
+            @include browser_icon
           }
 
           .safari2 {
-            @include browser-icon
+            @include browser_icon
           }
         }
 
@@ -359,14 +359,15 @@ main {
           margin-top: 10px;
 
           .ubuntu2 {
-            @include browser-icon
+            @include browser_icon
           }
 
           .chrome2 {
-            @include browser-icon
+            @include browser_icon
           }
         }
       }
+
       .deny2 {
         float: right;
         color: white;
@@ -428,14 +429,15 @@ main {
         .detail3-line1 {
 
           .firefox3 {
-            @include browser-icon
+            @include browser_icon
           }
 
           .safari3 {
-            @include browser-icon
+            @include browser_icon
           }
         }
       }
+
       .deny3 {
         float: right;
         color: white;
@@ -497,14 +499,15 @@ main {
         .detail4-line1 {
 
           .firefox4 {
-            @include browser-icon
+            @include browser_icon
           }
 
           .safari4 {
-            @include browser-icon
+            @include browser_icon
           }
         }
       }
+
       .deny4 {
         float: right;
         color: white;
@@ -625,11 +628,11 @@ main {
         .detail6-line1 {
 
           .firefox6 {
-            @include browser-icon
+            @include browser_icon
           }
 
           .safari6 {
-            @include browser-icon
+            @include browser_icon
           }
         }
 
@@ -637,11 +640,11 @@ main {
           margin-top: 10px;
 
           .ubuntu6 {
-            @include browser-icon
+            @include browser_icon
           }
 
           .chrome6 {
-            @include browser-icon
+            @include browser_icon
           }
         }
       }
@@ -659,6 +662,7 @@ main {
     }
   }
 }
+
 footer {
   display: flex;
   justify-content: center;

@@ -20,21 +20,21 @@ header {
   border: solid 2px lightgray;
   border-bottom: none;
 }
-header .head-nav {
+header .head_nav {
   margin-top: 30px;
   margin-left: 20px;
 }
-header .web-head {
+header .web_head {
   margin-left: 250px;
 }
-header .cruise-image {
+header .cruise_image {
   margin-left: -160px;
 }
-header .user-login {
+header .user_login {
   display: flex;
   margin-right: 100px;
 }
-header .user-img {
+header .user_img {
   display: flex;
   margin-top: 20px;
   margin-left: 20px;
@@ -50,146 +50,146 @@ aside {
 main {
   display: flex;
 }
-main .main-content {
+main .main_content {
   height: 100%;
   width: 100%;
   border: solid 2px lightgray;
 }
-main .main-content .main-header {
+main .main_content .main_header {
   height: 250px;
   margin-left: 10px;
   margin-right: 10px;
 }
-main .main-content .main-header .header-status {
+main .main_content .main_header .header_status {
   display: flex;
   width: 100%;
 }
-main .main-content .main-header .building {
+main .main_content .main_header .building {
   margin-top: 15px;
   height: 100px;
   width: 500px;
   background-color: #FF9A2A;
 }
-main .main-content .main-header .building .text-building {
+main .main_content .main_header .building .text_building {
   padding-left: 10px;
   padding-top: 10px;
   font-size: 18px;
   font-weight: bold;
   color: white;
 }
-main .main-content .main-header .building .number-building {
+main .main_content .main_header .building .number_building {
   text-align: right;
   margin-bottom: -10px;
   margin-right: 15px;
   font-size: 48px;
   color: white;
 }
-main .main-content .main-header .idle {
+main .main_content .main_header .idle {
   margin-left: 10px;
   margin-top: 15px;
   height: 100px;
   width: 500px;
   background-color: #7FBC39;
 }
-main .main-content .main-header .idle .text-idle {
+main .main_content .main_header .idle .text_idle {
   padding-left: 10px;
   padding-top: 10px;
   font-size: 18px;
   font-weight: bold;
   color: white;
 }
-main .main-content .main-header .idle .number-idle {
+main .main_content .main_header .idle .number_idle {
   text-align: right;
   margin-bottom: -10px;
   margin-right: 15px;
   font-size: 48px;
   color: white;
 }
-main .main-content .statistics {
+main .main_content .statistics {
   margin-top: 15px;
   width: 100%;
   height: 100px;
   background-color: white;
 }
-main .main-content .statistics .statistics-text {
+main .main_content .statistics .statistics_text {
   display: flex;
 }
-main .main-content .statistics .statistics-text .text-all {
+main .main_content .statistics .statistics_text .text_all {
   width: 110px;
   height: 30px;
   font-size: 14px;
   text-align: center;
   margin-top: 20px;
 }
-main .main-content .statistics .statistics-text .text-physical {
+main .main_content .statistics .statistics_text .text_physical {
   width: 110px;
   height: 30px;
   font-size: 14px;
   text-align: center;
   margin-top: 20px;
 }
-main .main-content .statistics .statistics-text .text-virtual {
+main .main_content .statistics .statistics_text .text_virtual {
   width: 110px;
   height: 30px;
   font-size: 14px;
   text-align: center;
   margin-top: 20px;
 }
-main .main-content .statistics .statistics-figure {
+main .main_content .statistics .statistics_figure {
   display: flex;
 }
-main .main-content .statistics .statistics-figure .figure-all {
+main .main_content .statistics .statistics_figure .figure_all {
   width: 110px;
   height: 110px;
   font-size: 24px;
   text-align: center;
 }
-main .main-content .statistics .statistics-figure .figure-physical {
+main .main_content .statistics .statistics_figure .figure_physical {
   width: 110px;
   height: 30px;
   font-size: 24px;
   text-align: center;
 }
-main .main-content .statistics .statistics-figure .figure-virtual {
+main .main_content .statistics .statistics_figure .figure_virtual {
   width: 110px;
   height: 30px;
   font-size: 24px;
   text-align: center;
 }
-main .main-content .main-nav {
+main .main_content .main_nav {
   height: 50px;
   margin-bottom: 20px;
   background-color: white;
   margin-left: 10px;
   margin-right: 10px;
 }
-main .main-content .main-nav .main-nav-text {
+main .main_content .main_nav .main_nav_text {
   display: flex;
   width: 100%;
 }
-main .main-content .main-nav .main-nav-text .all {
+main .main_content .main_nav .main_nav_text .all {
   width: 33%;
   border-right: solid lightgrey;
   text-align: center;
   line-height: 50px;
 }
-main .main-content .main-nav .main-nav-text .physical {
+main .main_content .main_nav .main_nav_text .physical {
   width: 33%;
   border-right: solid lightgrey;
   text-align: center;
   line-height: 50px;
 }
-main .main-content .main-nav .main-nav-text .virtual {
+main .main_content .main_nav .main_nav_text .virtual {
   width: 33%;
   border-right: solid lightgrey;
   text-align: center;
   line-height: 50px;
 }
-main .main-content .main-nav .search {
+main .main_content .main_nav .search {
   width: 100%;
   height: 20px;
 }
-main .main-content .main-nav .search input {
+main .main_content .main_nav .search input {
   position: absolute;
   margin-top: 15px;
   margin-left: -13px;
@@ -200,145 +200,145 @@ main .main-content .main-nav .search input {
   outline: none;
   border: none;
 }
-main .main-content .main-nav .search i {
+main .main_content .main_nav .search i {
   position: relative;
   left: 20px;
   top: 18px;
   z-index: 10;
   color: gray;
 }
-main .main-content .main-nav .main-button {
+main .main_content .main_nav .main_button {
   display: none;
 }
 
-.main-section {
+.main_section {
   font-size: 18px;
 }
-.main-section .main-section1 {
+.main_section .main_section1 {
   display: flex;
   height: 170px;
   margin: 50px 10px 20px;
   background-color: white;
 }
-.main-section .main-section1 .section1-img {
+.main_section .main_section1 .section1_img {
   display: none;
 }
-.main-section .main-section1 .section1-detail {
+.main_section .main_section1 .section1_detail {
   width: 100%;
   margin-left: 10px;
 }
-.main-section .main-section1 .section1-detail .detail1-url {
+.main_section .main_section1 .section1_detail .detail1-url {
   height: 20px;
   margin-top: 10px;
 }
-.main-section .main-section1 .section1-detail .detail1-url .url1-text {
+.main_section .main_section1 .section1_detail .detail1-url .url1-text {
   color: deepskyblue;
   margin-left: 2px;
 }
-.main-section .main-section1 .section1-detail .detail1-status {
+.main_section .main_section1 .section1_detail .detail1-status {
   display: none;
 }
-.main-section .main-section1 .section1-detail .detail1-ip {
+.main_section .main_section1 .section1_detail .detail1-ip {
   height: 20px;
   margin-top: 10px;
 }
-.main-section .main-section1 .section1-detail .detail1-location {
+.main_section .main_section1 .section1_detail .detail1-location {
   height: 20px;
   margin-top: 10px;
 }
-.main-section .main-section1 .section1-detail .detail1-bottom {
+.main_section .main_section1 .section1_detail .detail1-bottom {
   display: flex;
   margin-top: 10px;
 }
-.main-section .main-section1 .section1-detail .detail1-bottom .detail1-browser {
+.main_section .main_section1 .section1_detail .detail1-bottom .detail1-browser {
   margin-left: 10px;
 }
-.main-section .main-section1 .section1-detail .detail1-bottom .detail1-line1 .firefox1 {
+.main_section .main_section1 .section1_detail .detail1-bottom .detail1-line1 .firefox1 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section1 .section1-detail .detail1-bottom .detail1-line1 .safari1 {
+.main_section .main_section1 .section1_detail .detail1-bottom .detail1-line1 .safari1 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section1 .section1-detail .detail1-bottom .detail1-line2 {
+.main_section .main_section1 .section1_detail .detail1-bottom .detail1-line2 {
   margin-top: 10px;
 }
-.main-section .main-section1 .section1-detail .detail1-bottom .detail1-line2 .ubuntu1 {
+.main_section .main_section1 .section1_detail .detail1-bottom .detail1-line2 .ubuntu1 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section1 .section1-detail .detail1-bottom .detail1-line2 .chrome1 {
+.main_section .main_section1 .section1_detail .detail1-bottom .detail1-line2 .chrome1 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section2 {
+.main_section .main-section2 {
   display: flex;
   height: 215px;
   margin: -10px 10px 20px;
   background-color: white;
 }
-.main-section .main-section2 .section2-img {
+.main_section .main-section2 .section2-img {
   display: none;
 }
-.main-section .main-section2 .section2-detail {
+.main_section .main-section2 .section2-detail {
   width: 100%;
   margin-left: 10px;
 }
-.main-section .main-section2 .section2-detail .detail2-url {
+.main_section .main-section2 .section2-detail .detail2-url {
   height: 20px;
   margin-top: 10px;
 }
-.main-section .main-section2 .section2-detail .detail2-url .url2-text {
+.main_section .main-section2 .section2-detail .detail2-url .url2-text {
   color: deepskyblue;
   margin-left: 2px;
 }
-.main-section .main-section2 .section2-detail .detail2-status {
+.main_section .main-section2 .section2-detail .detail2-status {
   display: none;
 }
-.main-section .main-section2 .section2-detail .detail2-ip {
+.main_section .main-section2 .section2-detail .detail2-ip {
   height: 20px;
   margin-top: 10px;
 }
-.main-section .main-section2 .section2-detail .detail2-location {
+.main_section .main-section2 .section2-detail .detail2-location {
   height: 20px;
   margin-top: 10px;
 }
-.main-section .main-section2 .section2-detail .detail2-bottom {
+.main_section .main-section2 .section2-detail .detail2-bottom {
   display: flex;
   margin-top: 10px;
 }
-.main-section .main-section2 .section2-detail .detail2-bottom .detail2-browser {
+.main_section .main-section2 .section2-detail .detail2-bottom .detail2-browser {
   margin-left: 10px;
 }
-.main-section .main-section2 .section2-detail .detail2-bottom .detail2-line1 .firefox2 {
+.main_section .main-section2 .section2-detail .detail2-bottom .detail2-line1 .firefox2 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section2 .section2-detail .detail2-bottom .detail2-line1 .safari2 {
+.main_section .main-section2 .section2-detail .detail2-bottom .detail2-line1 .safari2 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section2 .section2-detail .detail2-bottom .detail2-line2 {
+.main_section .main-section2 .section2-detail .detail2-bottom .detail2-line2 {
   margin-top: 10px;
 }
-.main-section .main-section2 .section2-detail .detail2-bottom .detail2-line2 .ubuntu2 {
+.main_section .main-section2 .section2-detail .detail2-bottom .detail2-line2 .ubuntu2 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section2 .section2-detail .detail2-bottom .detail2-line2 .chrome2 {
+.main_section .main-section2 .section2-detail .detail2-bottom .detail2-line2 .chrome2 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section2 .section2-detail .deny2 {
+.main_section .main-section2 .section2-detail .deny2 {
   float: right;
   color: white;
   font-size: 16px;
@@ -347,56 +347,56 @@ main .main-content .main-nav .main-button {
   margin-top: 15px;
   margin-right: 20px;
 }
-.main-section .main-section3 {
+.main_section .main-section3 {
   display: flex;
   height: 180px;
   margin: -10px 10px 20px;
   background-color: white;
 }
-.main-section .main-section3 .section3-img {
+.main_section .main-section3 .section3-img {
   display: none;
 }
-.main-section .main-section3 .section3-detail {
+.main_section .main-section3 .section3-detail {
   width: 100%;
   margin-left: 10px;
 }
-.main-section .main-section3 .section3-detail .detail3-url {
+.main_section .main-section3 .section3-detail .detail3-url {
   height: 20px;
   margin-top: 10px;
 }
-.main-section .main-section3 .section3-detail .detail3-url .url3-text {
+.main_section .main-section3 .section3-detail .detail3-url .url3-text {
   color: deepskyblue;
   margin-left: 2px;
 }
-.main-section .main-section3 .section3-detail .detail3-status {
+.main_section .main-section3 .section3-detail .detail3-status {
   display: none;
 }
-.main-section .main-section3 .section3-detail .detail3-ip {
+.main_section .main-section3 .section3-detail .detail3-ip {
   height: 20px;
   margin-top: 10px;
 }
-.main-section .main-section3 .section3-detail .detail3-location {
+.main_section .main-section3 .section3-detail .detail3-location {
   height: 20px;
   margin-top: 10px;
 }
-.main-section .main-section3 .section3-detail .detail3-bottom {
+.main_section .main-section3 .section3-detail .detail3-bottom {
   display: flex;
   margin-top: 10px;
 }
-.main-section .main-section3 .section3-detail .detail3-bottom .detail3-browser {
+.main_section .main-section3 .section3-detail .detail3-bottom .detail3-browser {
   margin-left: 10px;
 }
-.main-section .main-section3 .section3-detail .detail3-bottom .detail3-line1 .firefox3 {
+.main_section .main-section3 .section3-detail .detail3-bottom .detail3-line1 .firefox3 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section3 .section3-detail .detail3-bottom .detail3-line1 .safari3 {
+.main_section .main-section3 .section3-detail .detail3-bottom .detail3-line1 .safari3 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section3 .section3-detail .deny3 {
+.main_section .main-section3 .section3-detail .deny3 {
   float: right;
   color: white;
   font-size: 16px;
@@ -405,56 +405,56 @@ main .main-content .main-nav .main-button {
   margin-top: 15px;
   margin-right: 20px;
 }
-.main-section .main-section4 {
+.main_section .main-section4 {
   display: flex;
   height: 180px;
   margin: -10px 10px 20px;
   background-color: white;
 }
-.main-section .main-section4 .section4-img {
+.main_section .main-section4 .section4-img {
   display: none;
 }
-.main-section .main-section4 .section4-detail {
+.main_section .main-section4 .section4-detail {
   width: 100%;
   margin-left: 10px;
 }
-.main-section .main-section4 .section4-detail .detail4-url {
+.main_section .main-section4 .section4-detail .detail4-url {
   height: 20px;
   margin-top: 10px;
 }
-.main-section .main-section4 .section4-detail .detail4-url .url4-text {
+.main_section .main-section4 .section4-detail .detail4-url .url4-text {
   color: deepskyblue;
   margin-left: 2px;
 }
-.main-section .main-section4 .section4-detail .detail4-status {
+.main_section .main-section4 .section4-detail .detail4-status {
   display: none;
 }
-.main-section .main-section4 .section4-detail .detail4-ip {
+.main_section .main-section4 .section4-detail .detail4-ip {
   height: 20px;
   margin-top: 10px;
 }
-.main-section .main-section4 .section4-detail .detail4-location {
+.main_section .main-section4 .section4-detail .detail4-location {
   height: 20px;
   margin-top: 10px;
 }
-.main-section .main-section4 .section4-detail .detail4-bottom {
+.main_section .main-section4 .section4-detail .detail4-bottom {
   display: flex;
   margin-top: 10px;
 }
-.main-section .main-section4 .section4-detail .detail4-bottom .detail4-browser {
+.main_section .main-section4 .section4-detail .detail4-bottom .detail4-browser {
   margin-left: 10px;
 }
-.main-section .main-section4 .section4-detail .detail4-bottom .detail4-line1 .firefox4 {
+.main_section .main-section4 .section4-detail .detail4-bottom .detail4-line1 .firefox4 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section4 .section4-detail .detail4-bottom .detail4-line1 .safari4 {
+.main_section .main-section4 .section4-detail .detail4-bottom .detail4-line1 .safari4 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section4 .section4-detail .deny4 {
+.main_section .main-section4 .section4-detail .deny4 {
   float: right;
   color: white;
   font-size: 16px;
@@ -463,46 +463,46 @@ main .main-content .main-nav .main-button {
   margin-top: 15px;
   margin-right: 20px;
 }
-.main-section .main-section5 {
+.main_section .main-section5 {
   display: flex;
   height: 170px;
   margin: -10px 10px 20px;
   background-color: white;
 }
-.main-section .main-section5 .section5-img {
+.main_section .main-section5 .section5-img {
   display: none;
 }
-.main-section .main-section5 .section5-detail {
+.main_section .main-section5 .section5-detail {
   width: 100%;
   margin-left: 10px;
 }
-.main-section .main-section5 .section5-detail .detail5-url {
+.main_section .main-section5 .section5-detail .detail5-url {
   height: 20px;
   margin-top: 10px;
 }
-.main-section .main-section5 .section5-detail .detail5-url .url5-text {
+.main_section .main-section5 .section5-detail .detail5-url .url5-text {
   color: deepskyblue;
   margin-left: 2px;
 }
-.main-section .main-section5 .section5-detail .detail5-status {
+.main_section .main-section5 .section5-detail .detail5-status {
   display: none;
 }
-.main-section .main-section5 .section5-detail .detail5-ip {
+.main_section .main-section5 .section5-detail .detail5-ip {
   height: 20px;
   margin-top: 10px;
 }
-.main-section .main-section5 .section5-detail .detail5-location {
+.main_section .main-section5 .section5-detail .detail5-location {
   height: 20px;
   margin-top: 10px;
 }
-.main-section .main-section5 .section5-detail .detail5-bottom {
+.main_section .main-section5 .section5-detail .detail5-bottom {
   display: flex;
   margin-top: 10px;
 }
-.main-section .main-section5 .section5-detail .detail5-bottom .detail5-browser {
+.main_section .main-section5 .section5-detail .detail5-bottom .detail5-browser {
   margin-left: 10px;
 }
-.main-section .main-section5 .section5-detail .deny5 {
+.main_section .main-section5 .section5-detail .deny5 {
   float: right;
   color: white;
   font-size: 16px;
@@ -511,69 +511,69 @@ main .main-content .main-nav .main-button {
   margin-top: 15px;
   margin-right: 20px;
 }
-.main-section .main-section6 {
+.main_section .main-section6 {
   display: flex;
   height: 170px;
   margin: -10px 10px 20px;
   background-color: white;
 }
-.main-section .main-section6 .section6-img {
+.main_section .main-section6 .section6-img {
   display: none;
 }
-.main-section .main-section6 .section6-detail {
+.main_section .main-section6 .section6-detail {
   width: 100%;
   margin-left: 10px;
 }
-.main-section .main-section6 .section6-detail .detail6-url {
+.main_section .main-section6 .section6-detail .detail6-url {
   height: 20px;
   margin-top: 10px;
 }
-.main-section .main-section6 .section6-detail .detail6-url .url6-text {
+.main_section .main-section6 .section6-detail .detail6-url .url6-text {
   color: deepskyblue;
   margin-left: 2px;
 }
-.main-section .main-section6 .section6-detail .detail6-status {
+.main_section .main-section6 .section6-detail .detail6-status {
   display: none;
 }
-.main-section .main-section6 .section6-detail .detail6-ip {
+.main_section .main-section6 .section6-detail .detail6-ip {
   height: 20px;
   margin-top: 10px;
 }
-.main-section .main-section6 .section6-detail .detail6-location {
+.main_section .main-section6 .section6-detail .detail6-location {
   height: 20px;
   margin-top: 10px;
 }
-.main-section .main-section6 .section6-detail .detail6-bottom {
+.main_section .main-section6 .section6-detail .detail6-bottom {
   display: flex;
   margin-top: 10px;
 }
-.main-section .main-section6 .section6-detail .detail6-bottom .detail6-browser {
+.main_section .main-section6 .section6-detail .detail6-bottom .detail6-browser {
   margin-left: 10px;
 }
-.main-section .main-section6 .section6-detail .detail6-bottom .detail6-line1 .firefox6 {
+.main_section .main-section6 .section6-detail .detail6-bottom .detail6-line1 .firefox6 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section6 .section6-detail .detail6-bottom .detail6-line1 .safari6 {
+.main_section .main-section6 .section6-detail .detail6-bottom .detail6-line1 .safari6 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section6 .section6-detail .detail6-bottom .detail6-line2 {
+.main_section .main-section6 .section6-detail .detail6-bottom .detail6-line2 {
   margin-top: 10px;
 }
-.main-section .main-section6 .section6-detail .detail6-bottom .detail6-line2 .ubuntu6 {
+.main_section .main-section6 .section6-detail .detail6-bottom .detail6-line2 .ubuntu6 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section6 .section6-detail .detail6-bottom .detail6-line2 .chrome6 {
+.main_section .main-section6 .section6-detail .detail6-bottom .detail6-line2 .chrome6 {
   padding: 2px 5px;
   margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section .main-section6 .section6-detail .deny6 {
+.main_section .main-section6 .section6-detail .deny6 {
   float: right;
   color: white;
   font-size: 16px;
