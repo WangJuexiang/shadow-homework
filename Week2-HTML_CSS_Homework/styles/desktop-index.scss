@@ -16,7 +16,6 @@ header {
     width: 50%;
     text-align: right;
     margin-left: 800px;
-
   }
 
   .cruise-image {
@@ -159,20 +158,13 @@ main {
 
           .text-all {
             @include statistics-item;
-            margin-top: 10px;
-            font-size: 12px;
           }
 
           .text-physical {
             @include statistics-item;
-            margin-top: 10px;
-            font-size: 12px;
-
           }
           .text-virtual {
             @include statistics-item;
-            margin-top: 10px;
-            font-size: 12px;
           }
         }
 
@@ -258,7 +250,6 @@ main {
         color: gray;
       }
 
-
         .main-button {
         justify-content: right;
         display: flex;
@@ -305,7 +296,6 @@ main {
         margin-left: 10px;
       }
 
-
    .detail1-status {
         @include detail-status($background: #7FBC39);
         width: 54px;
@@ -318,14 +308,10 @@ main {
       .detail1-location {
         margin-left: 20px;
       }
-
     }
 
     .detail1-bottom {
-      display: flex;
-      margin-left: 40px;
-      margin-top: 25px;
-
+      @include detail-bottom;
 
       .detail1-browser {
         display: flex;
@@ -334,18 +320,12 @@ main {
       .detail1-line1 {
         display: flex;
 
-
-
-
         .firefox1 {
           @include browser-icon;
-          margin-left: 10px;
         }
 
         .safari1 {
           @include browser-icon;
-          margin-left: 10px;
-
         }
       }
 
@@ -354,14 +334,10 @@ main {
 
         .ubuntu1 {
           @include browser-icon;
-          margin-left: 10px;
-
         }
 
         .chrome1 {
           @include browser-icon;
-          margin-left: 10px;
-
         }
       }
     }
@@ -393,9 +369,8 @@ main {
         margin-left: 10px;
       }
 
-
       .detail2-status {
-        @include detail-status($background: #7FBC39);
+        @include detail-status($background: #FF9A2A);
         width: 54px;
       }
 
@@ -406,16 +381,13 @@ main {
       .detail2-location {
         margin-left: 20px;
       }
-
     }
 
     .detail2-middle {
       display: flex;
 
       .detail2-bottom {
-        display: flex;
-        margin-left: 40px;
-        margin-top: 25px;
+        @include detail-bottom;
 
         .detail2-browser {
           display: flex;
@@ -426,13 +398,10 @@ main {
 
           .firefox2 {
             @include browser-icon;
-            margin-left: 10px;
           }
 
           .safari2 {
             @include browser-icon;
-            margin-left: 10px;
-
           }
         }
 
@@ -441,13 +410,10 @@ main {
 
           .ubuntu2 {
             @include browser-icon;
-            margin-left: 10px;
-
           }
 
           .chrome2 {
             @include browser-icon;
-            margin-left: 10px;
           }
         }
       }
@@ -486,7 +452,7 @@ main {
 
 
       .detail3-status {
-        @include detail-status($background: #7FBC39);
+        @include detail-status($background: #FF9A2A);
         width: 54px;
       }
 
@@ -503,9 +469,7 @@ main {
       display: flex;
 
       .detail3-bottom {
-        display: flex;
-        margin-left: 40px;
-        margin-top: 25px;
+        @include detail-bottom;
 
         .detail3-browser {
           display: flex;
@@ -516,12 +480,10 @@ main {
 
           .firefox3 {
             @include browser-icon;
-            margin-left: 10px;
           }
 
           .safari3 {
             @include browser-icon;
-            margin-left: 10px;
           }
         }
       }
@@ -551,21 +513,18 @@ main {
     .detail4-top {
       @include detail-top;
 
-
       .url4-text {
         @include detail-url;
         margin-left: 10px;
       }
 
-
       .detail4-status {
-        @include detail-status($background: #7FBC39);
+        @include detail-status($background: #FF9A2A);
         width: 54px;
       }
 
       .detail4-ip {
         margin-left: 35px;
-
       }
 
       .detail4-location {
@@ -577,9 +536,7 @@ main {
       display: flex;
 
       .detail4-bottom {
-        display: flex;
-        margin-left: 40px;
-        margin-top: 25px;
+        @include detail-bottom;
 
         .detail4-browser {
           display: flex;
@@ -590,13 +547,10 @@ main {
 
           .firefox4 {
             @include browser-icon;
-            margin-left: 10px;
           }
 
           .safari4 {
             @include browser-icon;
-            margin-left: 10px;
-
           }
         }
 
@@ -605,13 +559,10 @@ main {
 
           .ubuntu4 {
             @include browser-icon;
-            margin-left: 10px;
-
           }
 
           .chrome4 {
             @include browser-icon;
-            margin-left: 10px;
           }
         }
       }
@@ -648,7 +599,6 @@ main {
         margin-left: 10px;
       }
 
-
       .detail5-status {
         @include detail-status($background: #7FBC39);
         width: 54px;
@@ -661,18 +611,10 @@ main {
       .detail5-location {
         margin-left: 20px;
       }
-
     }
 
     .detail5-bottom {
-      display: flex;
-      margin-left: 40px;
-      margin-top: 25px;
-
-
-      .detail5-browser {
-        display: flex;
-      }
+      @include detail-bottom;
     }
   }
 }
@@ -696,12 +638,10 @@ main {
     .detail6-top {
       @include detail-top;
 
-
       .url6-text {
         @include detail-url;
         margin-left: 10px;
       }
-
 
       .detail6-status {
         @include detail-status($background: #7FBC39);
@@ -715,14 +655,10 @@ main {
       .detail6-location {
         margin-left: 20px;
       }
-
     }
 
     .detail6-bottom {
-      display: flex;
-      margin-left: 40px;
-      margin-top: 25px;
-
+      @include detail-bottom;
 
       .detail6-browser {
         display: flex;
@@ -731,34 +667,23 @@ main {
       .detail6-line1 {
         display: flex;
 
-
-
-
         .firefox6 {
           @include browser-icon;
-          margin-left: 10px;
         }
 
         .safari6 {
           @include browser-icon;
-          margin-left: 10px;
-
         }
       }
-
       .detail6-line2 {
         display: flex;
 
         .ubuntu6 {
           @include browser-icon;
-          margin-left: 10px;
-
         }
 
         .chrome6 {
           @include browser-icon;
-          margin-left: 10px;
-
         }
       }
     }

@@ -224,31 +224,36 @@ main .main-content .main-nav .main-button .button-right {
   text-align: right;
 }
 
-.main-first-section {
+.main-section1 {
   display: flex;
   height: 100px;
+  width: 85%;
   margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
   background-color: white;
+  margin-left: 9px;
+  width: 772px;
+  height: 100px;
 }
-.main-first-section .section1-img {
+.main-section1 .section1-img {
   display: none;
 }
-.main-first-section .section1-detail {
-  width: 100%;
+.main-section1 .section1-detail .detail1-top {
+  display: flex;
+}
+.main-section1 .section1-detail .detail1-top .detail1-url {
   margin-left: 10px;
 }
-.main-first-section .section1-detail .detail1-top {
+.main-section1 .section1-detail .detail1-top {
   margin-top: 15px;
 }
-.main-first-section .section1-detail .detail1-top .detail1-url {
+.main-section1 .section1-detail .detail1-top .url1-text {
   color: deepskyblue;
   font-size: 14px;
   font-weight: bolder;
   margin-left: 10px;
+  margin-left: 10px;
 }
-.main-first-section .section1-detail .detail1-top .detail1-status {
+.main-section1 .section1-detail .detail1-top .detail1-status {
   margin-left: 20px;
   padding-left: 7px;
   padding-right: 7px;
@@ -257,144 +262,155 @@ main .main-content .main-nav .main-button .button-right {
   background-color: #7FBC39;
   width: 54px;
 }
-.main-first-section .section1-detail .detail1-top .detail1-message {
-  float: right;
-  margin-right: 110px;
+.main-section1 .section1-detail .detail1-top .detail1-ip {
+  margin-left: 60px;
 }
-.main-first-section .section1-detail .detail1-top .detail1-message .exclamation1 {
-  margin-top: 10px;
-  padding-left: 40px;
-}
-.main-first-section .section1-detail .detail1-top .detail1-message .detail1-ip {
+.main-section1 .section1-detail .detail1-top .detail1-location {
   margin-left: 20px;
-  margin-right: 20px;
 }
-.main-first-section .section1-detail .detail1-top .detail1-message .detail1-address {
-  margin-left: 5px;
-}
-.main-first-section .section1-detail .detail1-bottom {
-  margin-top: 30px;
-}
-.main-first-section .section1-detail .detail1-bottom .firefox1 {
-  padding: 2px 5px;
-  background-color: #E1E4E6;
+.main-section1 .section1-detail .detail1-bottom {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 25px;
   margin-left: 10px;
 }
-.main-first-section .section1-detail .detail1-bottom .safari1 {
+.main-section1 .section1-detail .detail1-bottom .detail1-browser {
+  display: flex;
+}
+.main-section1 .section1-detail .detail1-bottom .detail1-line1 {
+  display: flex;
+}
+.main-section1 .section1-detail .detail1-bottom .detail1-line1 .firefox1 {
   padding: 2px 5px;
+  margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-first-section .section1-detail .detail1-bottom .ubuntu1 {
+.main-section1 .section1-detail .detail1-bottom .detail1-line1 .safari1 {
   padding: 2px 5px;
+  margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-first-section .section1-detail .detail1-bottom .chrome1 {
+.main-section1 .section1-detail .detail1-bottom .detail1-line2 {
+  display: flex;
+}
+.main-section1 .section1-detail .detail1-bottom .detail1-line2 .ubuntu1 {
   padding: 2px 5px;
+  margin-left: 10px;
+  background-color: #E1E4E6;
+}
+.main-section1 .section1-detail .detail1-bottom .detail1-line2 .chrome1 {
+  padding: 2px 5px;
+  margin-left: 10px;
   background-color: #E1E4E6;
 }
 
-.main-second-section {
+.main-section2 {
   display: flex;
   height: 100px;
+  width: 85%;
   margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
   background-color: white;
+  margin-left: 9px;
+  width: 772px;
+  height: 100px;
 }
-.main-second-section .section2-img {
+.main-section2 .section2-img {
   display: none;
 }
-.main-second-section .section2-detail {
-  width: 100%;
+.main-section2 .section2-detail .detail2-top {
+  display: flex;
+}
+.main-section2 .section2-detail .detail2-top .detail2-url {
   margin-left: 10px;
 }
-.main-second-section .detail2-top {
+.main-section2 .section2-detail .detail2-top {
   margin-top: 15px;
 }
-.main-second-section .detail2-url {
+.main-section2 .section2-detail .detail2-top .url2-text {
   color: deepskyblue;
   font-size: 14px;
   font-weight: bolder;
   margin-left: 10px;
+  margin-left: 10px;
 }
-.main-second-section .detail2-status {
+.main-section2 .section2-detail .detail2-top .detail2-status {
   margin-left: 20px;
   padding-left: 7px;
   padding-right: 7px;
   color: white;
   font-size: 12px;
   background-color: #FF9A2A;
+  width: 54px;
 }
-.main-second-section .detail2-message {
-  float: right;
-  margin-right: 110px;
+.main-section2 .section2-detail .detail2-top .detail2-ip {
+  margin-left: 35px;
 }
-.main-second-section .detail2-message .exclamation2 {
-  margin-top: 10px;
-  padding-left: 40px;
-}
-.main-second-section .detail2-message .detail2-ip {
+.main-section2 .section2-detail .detail2-top .detail2-location {
   margin-left: 20px;
-  margin-right: 20px;
 }
-.main-second-section .detail2-message .detail2-address {
-  margin-left: 5px;
-}
-.main-second-section .detail2-bottom {
-  margin-top: 30px;
-}
-.main-second-section .firefox2 {
-  padding: 2px 5px;
-  background-color: #E1E4E6;
+.main-section2 .section2-detail .detail2-bottom {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 25px;
   margin-left: 10px;
 }
-.main-second-section .safari2 {
+.main-section2 .section2-detail .detail2-bottom .detail2-browser {
+  display: flex;
+}
+.main-section2 .section2-detail .detail2-bottom .detail2-line1 {
+  display: flex;
+}
+.main-section2 .section2-detail .detail2-bottom .detail2-line1 .firefox2 {
   padding: 2px 5px;
+  margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-second-section .ubuntu2 {
+.main-section2 .section2-detail .detail2-bottom .detail2-line1 .safari2 {
   padding: 2px 5px;
+  margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-second-section .chrome2 {
+.main-section2 .section2-detail .detail2-bottom .detail2-line2 {
+  display: flex;
+}
+.main-section2 .section2-detail .detail2-bottom .detail2-line2 .ubuntu2 {
   padding: 2px 5px;
+  margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-second-section .deny2 {
-  position: absolute;
-  right: 250px;
-  margin-top: 15px;
-  height: 30px;
-  width: 100px;
-  padding-top: 8px;
-  padding-left: 40px;
-  color: white;
-  font-size: 14px;
-  background-color: #00B4CF;
+.main-section2 .section2-detail .detail2-bottom .detail2-line2 .chrome2 {
+  padding: 2px 5px;
+  margin-left: 10px;
+  background-color: #E1E4E6;
 }
 
 .main-section3 {
   display: flex;
   height: 100px;
+  width: 85%;
   margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
   background-color: white;
+  margin-left: 9px;
+  width: 772px;
+  height: 100px;
 }
 .main-section3 .section3-img {
   display: none;
 }
-.main-section3 .section3-detail {
-  width: 100%;
+.main-section3 .section3-detail .detail3-top {
+  display: flex;
+}
+.main-section3 .section3-detail .detail3-top .detail3-url {
   margin-left: 10px;
 }
 .main-section3 .section3-detail .detail3-top {
   margin-top: 15px;
 }
-.main-section3 .section3-detail .detail3-top .detail3-url {
+.main-section3 .section3-detail .detail3-top .url3-text {
   color: deepskyblue;
   font-size: 14px;
   font-weight: bolder;
+  margin-left: 10px;
   margin-left: 10px;
 }
 .main-section3 .section3-detail .detail3-top .detail3-status {
@@ -404,141 +420,144 @@ main .main-content .main-nav .main-button .button-right {
   color: white;
   font-size: 12px;
   background-color: #FF9A2A;
-}
-.main-section3 .section3-detail .detail3-top .detail3-message {
-  float: right;
-  margin-right: 110px;
-}
-.main-section3 .section3-detail .detail3-top .exclamation3 {
-  margin-top: 10px;
-  padding-left: 40px;
+  width: 54px;
 }
 .main-section3 .section3-detail .detail3-top .detail3-ip {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 35px;
 }
-.main-section3 .section3-detail .detail3-top .detail3-address {
-  margin-left: 5px;
+.main-section3 .section3-detail .detail3-top .detail3-location {
+  margin-left: 20px;
 }
 .main-section3 .section3-detail .detail3-bottom {
-  margin-top: 30px;
-}
-.main-section3 .section3-detail .firefox3 {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 25px;
   margin-left: 10px;
+}
+.main-section3 .section3-detail .detail3-bottom .detail3-browser {
+  display: flex;
+}
+.main-section3 .section3-detail .detail3-bottom .detail3-line1 {
+  display: flex;
+}
+.main-section3 .section3-detail .detail3-bottom .detail3-line1 .firefox3 {
   padding: 2px 5px;
+  margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section3 .section3-detail .safari3 {
+.main-section3 .section3-detail .detail3-bottom .detail3-line1 .safari3 {
   padding: 2px 5px;
+  margin-left: 10px;
   background-color: #E1E4E6;
-}
-.main-section3 .section3-detail .deny3 {
-  position: absolute;
-  right: 250px;
-  margin-top: 15px;
-  height: 30px;
-  width: 100px;
-  padding-top: 8px;
-  padding-left: 40px;
-  color: white;
-  font-size: 14px;
-  background-color: #00B4CF;
 }
 
 .main-section4 {
   display: flex;
   height: 100px;
+  width: 85%;
   margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
   background-color: white;
+  margin-left: 9px;
+  width: 772px;
+  height: 100px;
 }
 .main-section4 .section4-img {
   display: none;
 }
-.main-section4 .section4-detail {
-  width: 100%;
+.main-section4 .section4-detail .detail4-top {
+  display: flex;
+}
+.main-section4 .section4-detail .detail4-top .detail4-url {
   margin-left: 10px;
 }
-.main-section4 .detail4-top {
+.main-section4 .section4-detail .detail4-top {
   margin-top: 15px;
 }
-.main-section4 .detail4-top .detail4-url {
+.main-section4 .section4-detail .detail4-top .url4-text {
   color: deepskyblue;
   font-size: 14px;
   font-weight: bolder;
   margin-left: 10px;
+  margin-left: 10px;
 }
-.main-section4 .detail4-top .detail4-status {
+.main-section4 .section4-detail .detail4-top .detail4-status {
   margin-left: 20px;
   padding-left: 7px;
   padding-right: 7px;
   color: white;
   font-size: 12px;
   background-color: #FF9A2A;
+  width: 54px;
 }
-.main-section4 .detail4-top .detail4-message {
-  float: right;
-  margin-right: 110px;
+.main-section4 .section4-detail .detail4-top .detail4-ip {
+  margin-left: 35px;
 }
-.main-section4 .detail4-top .detail4-message .exclamation4 {
-  margin-top: 10px;
-  padding-left: 40px;
-}
-.main-section4 .detail4-top .detail4-message .detail4-ip {
+.main-section4 .section4-detail .detail4-top .detail4-location {
   margin-left: 20px;
-  margin-right: 20px;
 }
-.main-section4 .detail4-top .detail4-message .detail4-address {
-  margin-left: 5px;
-}
-.main-section4 .detail4-bottom {
-  margin-top: 30px;
-}
-.main-section4 .detail4-bottom .firefox4 {
-  padding: 2px 5px;
-  background-color: #E1E4E6;
+.main-section4 .section4-detail .detail4-bottom {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 25px;
   margin-left: 10px;
 }
-.main-section4 .detail4-bottom .safari4 {
+.main-section4 .section4-detail .detail4-bottom .detail4-browser {
+  display: flex;
+}
+.main-section4 .section4-detail .detail4-bottom .detail4-line1 {
+  display: flex;
+}
+.main-section4 .section4-detail .detail4-bottom .detail4-line1 .firefox4 {
   padding: 2px 5px;
+  margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section4 .detail4-bottom .deny4 {
-  position: absolute;
-  right: 250px;
-  margin-top: 15px;
-  height: 30px;
-  width: 100px;
-  padding-top: 8px;
-  padding-left: 40px;
-  color: white;
-  font-size: 14px;
-  background-color: #00B4CF;
+.main-section4 .section4-detail .detail4-bottom .detail4-line1 .safari4 {
+  padding: 2px 5px;
+  margin-left: 10px;
+  background-color: #E1E4E6;
+}
+.main-section4 .section4-detail .detail4-bottom .detail4-line2 {
+  display: flex;
+}
+.main-section4 .section4-detail .detail4-bottom .detail4-line2 .ubuntu4 {
+  padding: 2px 5px;
+  margin-left: 10px;
+  background-color: #E1E4E6;
+}
+.main-section4 .section4-detail .detail4-bottom .detail4-line2 .chrome4 {
+  padding: 2px 5px;
+  margin-left: 10px;
+  background-color: #E1E4E6;
 }
 
 .main-section5 {
   display: flex;
   height: 100px;
+  width: 85%;
   margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
   background-color: white;
+  margin-left: 9px;
+  width: 772px;
+  height: 100px;
 }
 .main-section5 .section5-img {
   display: none;
 }
-.main-section5 .section5-detail {
-  width: 100%;
+.main-section5 .section5-detail .detail5-top {
+  display: flex;
+}
+.main-section5 .section5-detail .detail5-top .detail5-url {
   margin-left: 10px;
 }
 .main-section5 .section5-detail .detail5-top {
   margin-top: 15px;
 }
-.main-section5 .section5-detail .detail5-top .detail5-url {
+.main-section5 .section5-detail .detail5-top .url5-text {
   color: deepskyblue;
   font-size: 14px;
   font-weight: bolder;
+  margin-left: 10px;
   margin-left: 10px;
 }
 .main-section5 .section5-detail .detail5-top .detail5-status {
@@ -548,91 +567,101 @@ main .main-content .main-nav .main-button .button-right {
   color: white;
   font-size: 12px;
   background-color: #7FBC39;
+  width: 54px;
 }
-.main-section5 .section5-detail .detail5-top .detail5-message {
-  float: right;
-  margin-right: 110px;
+.main-section5 .section5-detail .detail5-top .detail5-ip {
+  margin-left: 60px;
 }
-.main-section5 .section5-detail .detail5-top .detail5-message .exclamation5 {
-  margin-top: 10px;
-  padding-left: 40px;
-}
-.main-section5 .section5-detail .detail5-top .detail5-message .detail5-ip {
+.main-section5 .section5-detail .detail5-top .detail5-location {
   margin-left: 20px;
-  margin-right: 20px;
-}
-.main-section5 .section5-detail .detail5-top .detail5-message .detail5-address {
-  margin-left: 5px;
 }
 .main-section5 .section5-detail .detail5-bottom {
-  margin-top: 30px;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+.main-section5 .section5-detail .detail5-bottom .detail5-browser {
+  display: flex;
 }
 
 .main-section6 {
   display: flex;
   height: 100px;
+  width: 85%;
   margin-bottom: 20px;
-  margin-left: 10px;
-  margin-right: 10px;
   background-color: white;
+  margin-left: 9px;
+  width: 772px;
+  height: 100px;
 }
 .main-section6 .section6-img {
   display: none;
 }
-.main-section6 .section6-detail {
-  width: 100%;
+.main-section6 .section6-detail .detail6-top {
+  display: flex;
+}
+.main-section6 .section6-detail .detail6-top .detail6-url {
   margin-left: 10px;
 }
-.main-section6 .detail6-top {
+.main-section6 .section6-detail .detail6-top {
   margin-top: 15px;
 }
-.main-section6 .detail6-top .detail6-url {
+.main-section6 .section6-detail .detail6-top .url6-text {
   color: deepskyblue;
   font-size: 14px;
   font-weight: bolder;
   margin-left: 10px;
+  margin-left: 10px;
 }
-.main-section6 .detail6-top .detail6-status {
+.main-section6 .section6-detail .detail6-top .detail6-status {
   margin-left: 20px;
   padding-left: 7px;
   padding-right: 7px;
   color: white;
   font-size: 12px;
   background-color: #7FBC39;
+  width: 54px;
 }
-.main-section6 .detail6-top .detail6-message {
-  float: right;
-  margin-right: 110px;
+.main-section6 .section6-detail .detail6-top .detail6-ip {
+  margin-left: 60px;
 }
-.main-section6 .detail6-top .detail6-message .exclamation6 {
-  margin-top: 10px;
-  padding-left: 40px;
-}
-.main-section6 .detail6-top .detail6-message .detail6-ip {
+.main-section6 .section6-detail .detail6-top .detail6-location {
   margin-left: 20px;
-  margin-right: 20px;
 }
-.main-section6 .detail6-top .detail6-message .detail6-address {
-  margin-left: 5px;
-}
-.main-section6 .detail6-bottom {
-  margin-top: 30px;
-}
-.main-section6 .detail6-bottom .firefox6 {
+.main-section6 .section6-detail .detail6-bottom {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 25px;
   margin-left: 10px;
+}
+.main-section6 .section6-detail .detail6-bottom .detail6-browser {
+  display: flex;
+}
+.main-section6 .section6-detail .detail6-bottom .detail6-line1 {
+  display: flex;
+}
+.main-section6 .section6-detail .detail6-bottom .detail6-line1 .firefox6 {
   padding: 2px 5px;
+  margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section6 .detail6-bottom .safari6 {
+.main-section6 .section6-detail .detail6-bottom .detail6-line1 .safari6 {
   padding: 2px 5px;
+  margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section6 .detail6-bottom .ubuntu6 {
+.main-section6 .section6-detail .detail6-bottom .detail6-line2 {
+  display: flex;
+}
+.main-section6 .section6-detail .detail6-bottom .detail6-line2 .ubuntu6 {
   padding: 2px 5px;
+  margin-left: 10px;
   background-color: #E1E4E6;
 }
-.main-section6 .detail6-bottom .chrome6 {
+.main-section6 .section6-detail .detail6-bottom .detail6-line2 .chrome6 {
   padding: 2px 5px;
+  margin-left: 10px;
   background-color: #E1E4E6;
 }
 

@@ -37,6 +37,8 @@
   text-align: center;
   width: 112px;
   height: 50px;
+  margin-top: 10px;
+  font-size: 12px;
 }
 
 @mixin main-section() {
@@ -97,11 +99,14 @@
 }
 
 @mixin detail-bottom() {
-  margin-top: 30px;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 25px;
 }
 
 @mixin browser-icon() {
   padding: 2px 5px;
+  margin-left: 10px;
   background-color: $primary-gray;
 }
 

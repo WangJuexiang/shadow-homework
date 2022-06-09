@@ -200,18 +200,24 @@ main .main-content .main-header .statistics .statistics-figure .figure-all {
   text-align: center;
   width: 112px;
   height: 50px;
+  margin-top: 10px;
+  font-size: 12px;
   font-size: 20px;
 }
 main .main-content .main-header .statistics .statistics-figure .figure-physical {
   text-align: center;
   width: 112px;
   height: 50px;
+  margin-top: 10px;
+  font-size: 12px;
   font-size: 20px;
 }
 main .main-content .main-header .statistics .statistics-figure .figure-virtual {
   text-align: center;
   width: 112px;
   height: 50px;
+  margin-top: 10px;
+  font-size: 12px;
   font-size: 20px;
 }
 main .main-content .main-nav {
@@ -337,26 +343,26 @@ main .main-content .main-nav .main-button .button-right {
 }
 .main-section1 .section1-detail .detail1-bottom .detail1-line1 .firefox1 {
   padding: 2px 5px;
-  background-color: #E1E4E6;
   margin-left: 10px;
+  background-color: #E1E4E6;
 }
 .main-section1 .section1-detail .detail1-bottom .detail1-line1 .safari1 {
   padding: 2px 5px;
-  background-color: #E1E4E6;
   margin-left: 10px;
+  background-color: #E1E4E6;
 }
 .main-section1 .section1-detail .detail1-bottom .detail1-line2 {
   display: flex;
 }
 .main-section1 .section1-detail .detail1-bottom .detail1-line2 .ubuntu1 {
   padding: 2px 5px;
-  background-color: #E1E4E6;
   margin-left: 10px;
+  background-color: #E1E4E6;
 }
 .main-section1 .section1-detail .detail1-bottom .detail1-line2 .chrome1 {
   padding: 2px 5px;
-  background-color: #E1E4E6;
   margin-left: 10px;
+  background-color: #E1E4E6;
 }
 
 .main-section2 {
@@ -392,7 +398,7 @@ main .main-content .main-nav .main-button .button-right {
   padding-right: 7px;
   color: white;
   font-size: 12px;
-  background-color: #7FBC39;
+  background-color: #FF9A2A;
   width: 54px;
 }
 .main-section2 .section2-detail .detail2-top .detail2-ip {
@@ -417,26 +423,26 @@ main .main-content .main-nav .main-button .button-right {
 }
 .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line1 .firefox2 {
   padding: 2px 5px;
-  background-color: #E1E4E6;
   margin-left: 10px;
+  background-color: #E1E4E6;
 }
 .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line1 .safari2 {
   padding: 2px 5px;
-  background-color: #E1E4E6;
   margin-left: 10px;
+  background-color: #E1E4E6;
 }
 .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line2 {
   display: flex;
 }
 .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line2 .ubuntu2 {
   padding: 2px 5px;
-  background-color: #E1E4E6;
   margin-left: 10px;
+  background-color: #E1E4E6;
 }
 .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line2 .chrome2 {
   padding: 2px 5px;
-  background-color: #E1E4E6;
   margin-left: 10px;
+  background-color: #E1E4E6;
 }
 .main-section2 .section2-detail .detail2-middle .deny2 {
   position: absolute;
@@ -484,7 +490,7 @@ main .main-content .main-nav .main-button .button-right {
   padding-right: 7px;
   color: white;
   font-size: 12px;
-  background-color: #7FBC39;
+  background-color: #FF9A2A;
   width: 54px;
 }
 .main-section3 .section3-detail .detail3-top .detail3-ip {
@@ -509,13 +515,13 @@ main .main-content .main-nav .main-button .button-right {
 }
 .main-section3 .section3-detail .detail3-middle .detail3-bottom .detail3-line1 .firefox3 {
   padding: 2px 5px;
-  background-color: #E1E4E6;
   margin-left: 10px;
+  background-color: #E1E4E6;
 }
 .main-section3 .section3-detail .detail3-middle .detail3-bottom .detail3-line1 .safari3 {
   padding: 2px 5px;
-  background-color: #E1E4E6;
   margin-left: 10px;
+  background-color: #E1E4E6;
 }
 .main-section3 .section3-detail .detail3-middle .deny3 {
   position: absolute;
@@ -563,7 +569,7 @@ main .main-content .main-nav .main-button .button-right {
   padding-right: 7px;
   color: white;
   font-size: 12px;
-  background-color: #7FBC39;
+  background-color: #FF9A2A;
   width: 54px;
 }
 .main-section4 .section4-detail .detail4-top .detail4-ip {
@@ -588,26 +594,26 @@ main .main-content .main-nav .main-button .button-right {
 }
 .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line1 .firefox4 {
   padding: 2px 5px;
-  background-color: #E1E4E6;
   margin-left: 10px;
+  background-color: #E1E4E6;
 }
 .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line1 .safari4 {
   padding: 2px 5px;
-  background-color: #E1E4E6;
   margin-left: 10px;
+  background-color: #E1E4E6;
 }
 .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line2 {
   display: flex;
 }
 .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line2 .ubuntu4 {
   padding: 2px 5px;
-  background-color: #E1E4E6;
   margin-left: 10px;
+  background-color: #E1E4E6;
 }
 .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line2 .chrome4 {
   padding: 2px 5px;
-  background-color: #E1E4E6;
   margin-left: 10px;
+  background-color: #E1E4E6;
 }
 .main-section4 .section4-detail .detail4-middle .deny4 {
   position: absolute;
@@ -669,9 +675,6 @@ main .main-content .main-nav .main-button .button-right {
   margin-left: 40px;
   margin-top: 25px;
 }
-.main-section5 .section5-detail .detail5-bottom .detail5-browser {
-  display: flex;
-}
 
 .main-section6 {
   display: flex;
@@ -728,26 +731,26 @@ main .main-content .main-nav .main-button .button-right {
 }
 .main-section6 .section6-detail .detail6-bottom .detail6-line1 .firefox6 {
   padding: 2px 5px;
-  background-color: #E1E4E6;
   margin-left: 10px;
+  background-color: #E1E4E6;
 }
 .main-section6 .section6-detail .detail6-bottom .detail6-line1 .safari6 {
   padding: 2px 5px;
-  background-color: #E1E4E6;
   margin-left: 10px;
+  background-color: #E1E4E6;
 }
 .main-section6 .section6-detail .detail6-bottom .detail6-line2 {
   display: flex;
 }
 .main-section6 .section6-detail .detail6-bottom .detail6-line2 .ubuntu6 {
   padding: 2px 5px;
-  background-color: #E1E4E6;
   margin-left: 10px;
+  background-color: #E1E4E6;
 }
 .main-section6 .section6-detail .detail6-bottom .detail6-line2 .chrome6 {
   padding: 2px 5px;
-  background-color: #E1E4E6;
   margin-left: 10px;
+  background-color: #E1E4E6;
 }
 
 footer {
