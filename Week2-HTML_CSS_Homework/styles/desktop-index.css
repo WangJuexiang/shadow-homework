@@ -396,7 +396,7 @@ main .main-content .main-nav .main-button .button-right {
   width: 54px;
 }
 .main-section2 .section2-detail .detail2-top .detail2-ip {
-  margin-left: 60px;
+  margin-left: 35px;
 }
 .main-section2 .section2-detail .detail2-top .detail2-location {
   margin-left: 20px;
@@ -435,6 +435,15 @@ main .main-content .main-nav .main-button .button-right {
   background-color: #E1E4E6;
   margin-left: 10px;
 }
+.main-section2 .section2-detail .deny2 {
+  float: right;
+  color: white;
+  font-size: 14px;
+  background-color: #00B4CF;
+  padding: 5px 20px;
+  margin-right: -200px;
+  margin-top: -30px;
+}
 
 .main-section3 {
   display: flex;
@@ -447,17 +456,20 @@ main .main-content .main-nav .main-button .button-right {
   padding-left: 35px;
   padding-top: 10px;
 }
-.main-section3 .section3-detail {
-  width: 100%;
+.main-section3 .section3-detail .detail3-top {
+  display: flex;
+}
+.main-section3 .section3-detail .detail3-top .detail3-url {
   margin-left: 40px;
 }
 .main-section3 .section3-detail .detail3-top {
   margin-top: 15px;
 }
-.main-section3 .section3-detail .detail3-top .detail3-url {
+.main-section3 .section3-detail .detail3-top .url3-text {
   color: deepskyblue;
   font-size: 14px;
   font-weight: bolder;
+  margin-left: 10px;
   margin-left: 10px;
 }
 .main-section3 .section3-detail .detail3-top .detail3-status {
@@ -466,34 +478,35 @@ main .main-content .main-nav .main-button .button-right {
   padding-right: 7px;
   color: white;
   font-size: 12px;
-  background-color: #FF9A2A;
-}
-.main-section3 .section3-detail .detail3-top .detail3-message {
-  float: right;
-  margin-right: 110px;
-}
-.main-section3 .section3-detail .detail3-top .exclamation3 {
-  margin-top: 10px;
-  padding-left: 40px;
+  background-color: #7FBC39;
+  width: 54px;
 }
 .main-section3 .section3-detail .detail3-top .detail3-ip {
-  margin-left: 20px;
-  margin-right: 20px;
+  margin-left: 35px;
 }
-.main-section3 .section3-detail .detail3-top .detail3-address {
-  margin-left: 5px;
+.main-section3 .section3-detail .detail3-top .detail3-location {
+  margin-left: 20px;
 }
 .main-section3 .section3-detail .detail3-bottom {
-  margin-top: 30px;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 25px;
 }
-.main-section3 .section3-detail .firefox3 {
+.main-section3 .section3-detail .detail3-bottom .detail3-browser {
+  display: flex;
+}
+.main-section3 .section3-detail .detail3-bottom .detail3-line1 {
+  display: flex;
+}
+.main-section3 .section3-detail .detail3-bottom .detail3-line1 .firefox3 {
+  padding: 2px 5px;
+  background-color: #E1E4E6;
   margin-left: 10px;
-  padding: 2px 5px;
-  background-color: #E1E4E6;
 }
-.main-section3 .section3-detail .safari3 {
+.main-section3 .section3-detail .detail3-bottom .detail3-line1 .safari3 {
   padding: 2px 5px;
   background-color: #E1E4E6;
+  margin-left: 10px;
 }
 .main-section3 .section3-detail .deny3 {
   float: right;
@@ -501,7 +514,9 @@ main .main-content .main-nav .main-button .button-right {
   font-size: 14px;
   background-color: #00B4CF;
   padding: 5px 20px;
-  margin-right: 45px;
+  margin-right: -200px;
+  margin-top: -30px;
+  margin-right: -210px;
 }
 
 .main-section4 {
@@ -515,61 +530,80 @@ main .main-content .main-nav .main-button .button-right {
   padding-left: 35px;
   padding-top: 10px;
 }
-.main-section4 .section4-detail {
-  width: 100%;
+.main-section4 .section4-detail .detail4-top {
+  display: flex;
+}
+.main-section4 .section4-detail .detail4-top .detail4-url {
   margin-left: 40px;
 }
-.main-section4 .detail4-top {
+.main-section4 .section4-detail .detail4-top {
   margin-top: 15px;
 }
-.main-section4 .detail4-top .detail4-url {
+.main-section4 .section4-detail .detail4-top .url4-text {
   color: deepskyblue;
   font-size: 14px;
   font-weight: bolder;
   margin-left: 10px;
+  margin-left: 10px;
 }
-.main-section4 .detail4-top .detail4-status {
+.main-section4 .section4-detail .detail4-top .detail4-status {
   margin-left: 20px;
   padding-left: 7px;
   padding-right: 7px;
   color: white;
   font-size: 12px;
-  background-color: #FF9A2A;
+  background-color: #7FBC39;
+  width: 54px;
 }
-.main-section4 .detail4-top .detail4-message {
-  float: right;
-  margin-right: 110px;
+.main-section4 .section4-detail .detail4-top .detail4-ip {
+  margin-left: 35px;
 }
-.main-section4 .detail4-top .detail4-message .exclamation4 {
-  margin-top: 10px;
-  padding-left: 40px;
-}
-.main-section4 .detail4-top .detail4-message .detail4-ip {
+.main-section4 .section4-detail .detail4-top .detail4-location {
   margin-left: 20px;
-  margin-right: 20px;
 }
-.main-section4 .detail4-top .detail4-message .detail4-address {
-  margin-left: 5px;
+.main-section4 .section4-detail .detail4-bottom {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 25px;
 }
-.main-section4 .detail4-bottom {
-  margin-top: 30px;
+.main-section4 .section4-detail .detail4-bottom .detail4-browser {
+  display: flex;
 }
-.main-section4 .detail4-bottom .firefox4 {
+.main-section4 .section4-detail .detail4-bottom .detail4-line1 {
+  display: flex;
+}
+.main-section4 .section4-detail .detail4-bottom .detail4-line1 .firefox4 {
   padding: 2px 5px;
   background-color: #E1E4E6;
   margin-left: 10px;
 }
-.main-section4 .detail4-bottom .safari4 {
+.main-section4 .section4-detail .detail4-bottom .detail4-line1 .safari4 {
   padding: 2px 5px;
   background-color: #E1E4E6;
+  margin-left: 10px;
 }
-.main-section4 .detail4-bottom .deny4 {
+.main-section4 .section4-detail .detail4-bottom .detail4-line2 {
+  display: flex;
+}
+.main-section4 .section4-detail .detail4-bottom .detail4-line2 .ubuntu4 {
+  padding: 2px 5px;
+  background-color: #E1E4E6;
+  margin-left: 10px;
+}
+.main-section4 .section4-detail .detail4-bottom .detail4-line2 .chrome4 {
+  padding: 2px 5px;
+  background-color: #E1E4E6;
+  margin-left: 10px;
+}
+.main-section4 .section4-detail .deny4 {
   float: right;
   color: white;
   font-size: 14px;
   background-color: #00B4CF;
   padding: 5px 20px;
-  margin-right: 45px;
+  margin-right: -200px;
+  margin-top: -30px;
+  margin-right: -205px;
 }
 
 .main-section5 {
@@ -583,17 +617,20 @@ main .main-content .main-nav .main-button .button-right {
   padding-left: 35px;
   padding-top: 10px;
 }
-.main-section5 .section5-detail {
-  width: 100%;
+.main-section5 .section5-detail .detail5-top {
+  display: flex;
+}
+.main-section5 .section5-detail .detail5-top .detail5-url {
   margin-left: 40px;
 }
 .main-section5 .section5-detail .detail5-top {
   margin-top: 15px;
 }
-.main-section5 .section5-detail .detail5-top .detail5-url {
+.main-section5 .section5-detail .detail5-top .url5-text {
   color: deepskyblue;
   font-size: 14px;
   font-weight: bolder;
+  margin-left: 10px;
   margin-left: 10px;
 }
 .main-section5 .section5-detail .detail5-top .detail5-status {
@@ -603,24 +640,21 @@ main .main-content .main-nav .main-button .button-right {
   color: white;
   font-size: 12px;
   background-color: #7FBC39;
+  width: 54px;
 }
-.main-section5 .section5-detail .detail5-top .detail5-message {
-  float: right;
-  margin-right: 110px;
+.main-section5 .section5-detail .detail5-top .detail5-ip {
+  margin-left: 60px;
 }
-.main-section5 .section5-detail .detail5-top .detail5-message .exclamation5 {
-  margin-top: 10px;
-  padding-left: 40px;
-}
-.main-section5 .section5-detail .detail5-top .detail5-message .detail5-ip {
+.main-section5 .section5-detail .detail5-top .detail5-location {
   margin-left: 20px;
-  margin-right: 20px;
-}
-.main-section5 .section5-detail .detail5-top .detail5-message .detail5-address {
-  margin-left: 5px;
 }
 .main-section5 .section5-detail .detail5-bottom {
-  margin-top: 30px;
+  display: flex;
+  margin-left: 40px;
+  margin-top: 25px;
+}
+.main-section5 .section5-detail .detail5-bottom .detail5-browser {
+  display: flex;
 }
 
 .main-section6 {
@@ -634,61 +668,70 @@ main .main-content .main-nav .main-button .button-right {
   padding-left: 35px;
   padding-top: 10px;
 }
-.main-section6 .section6-detail {
-  width: 100%;
+.main-section6 .section6-detail .detail6-top {
+  display: flex;
+}
+.main-section6 .section6-detail .detail6-top .detail6-url {
   margin-left: 40px;
 }
-.main-section6 .detail6-top {
+.main-section6 .section6-detail .detail6-top {
   margin-top: 15px;
 }
-.main-section6 .detail6-top .detail6-url {
+.main-section6 .section6-detail .detail6-top .url6-text {
   color: deepskyblue;
   font-size: 14px;
   font-weight: bolder;
   margin-left: 10px;
+  margin-left: 10px;
 }
-.main-section6 .detail6-top .detail6-status {
+.main-section6 .section6-detail .detail6-top .detail6-status {
   margin-left: 20px;
   padding-left: 7px;
   padding-right: 7px;
   color: white;
   font-size: 12px;
   background-color: #7FBC39;
+  width: 54px;
 }
-.main-section6 .detail6-top .detail6-message {
-  float: right;
-  margin-right: 110px;
+.main-section6 .section6-detail .detail6-top .detail6-ip {
+  margin-left: 60px;
 }
-.main-section6 .detail6-top .detail6-message .exclamation6 {
-  margin-top: 10px;
-  padding-left: 40px;
-}
-.main-section6 .detail6-top .detail6-message .detail6-ip {
+.main-section6 .section6-detail .detail6-top .detail6-location {
   margin-left: 20px;
-  margin-right: 20px;
 }
-.main-section6 .detail6-top .detail6-message .detail6-address {
-  margin-left: 5px;
+.main-section6 .section6-detail .detail6-bottom {
+  display: flex;
+  margin-left: 40px;
+  margin-top: 25px;
 }
-.main-section6 .detail6-bottom {
-  margin-top: 30px;
+.main-section6 .section6-detail .detail6-bottom .detail6-browser {
+  display: flex;
 }
-.main-section6 .detail6-bottom .firefox6 {
+.main-section6 .section6-detail .detail6-bottom .detail6-line1 {
+  display: flex;
+}
+.main-section6 .section6-detail .detail6-bottom .detail6-line1 .firefox6 {
+  padding: 2px 5px;
+  background-color: #E1E4E6;
   margin-left: 10px;
-  padding: 2px 5px;
-  background-color: #E1E4E6;
 }
-.main-section6 .detail6-bottom .safari6 {
+.main-section6 .section6-detail .detail6-bottom .detail6-line1 .safari6 {
   padding: 2px 5px;
   background-color: #E1E4E6;
+  margin-left: 10px;
 }
-.main-section6 .detail6-bottom .ubuntu6 {
-  padding: 2px 5px;
-  background-color: #E1E4E6;
+.main-section6 .section6-detail .detail6-bottom .detail6-line2 {
+  display: flex;
 }
-.main-section6 .detail6-bottom .chrome6 {
+.main-section6 .section6-detail .detail6-bottom .detail6-line2 .ubuntu6 {
   padding: 2px 5px;
   background-color: #E1E4E6;
+  margin-left: 10px;
+}
+.main-section6 .section6-detail .detail6-bottom .detail6-line2 .chrome6 {
+  padding: 2px 5px;
+  background-color: #E1E4E6;
+  margin-left: 10px;
 }
 
 footer {

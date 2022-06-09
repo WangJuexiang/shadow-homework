@@ -294,7 +294,6 @@ main {
       .detail1-url {
         margin-left: 40px;
       }
-
     }
 
     .detail1-top {
@@ -383,7 +382,6 @@ main {
       .detail2-url {
         margin-left: 40px;
       }
-
     }
 
     .detail2-top {
@@ -402,7 +400,7 @@ main {
       }
 
       .detail2-ip {
-        margin-left: 60px;
+        margin-left: 35px;
       }
 
       .detail2-location {
@@ -415,7 +413,6 @@ main {
       display: flex;
       margin-left: 40px;
       margin-top: 25px;
-
 
       .detail2-browser {
         display: flex;
@@ -448,77 +445,16 @@ main {
         .chrome2 {
           @include browser-icon;
           margin-left: 10px;
-
         }
       }
     }
+    .deny2 {
+      @include deny-button;
+      margin-top:-30px;
+
+    }
   }
 }
-
-//.main-section2 {
-//  @include main-section;
-//
-//  .section2-img {
-//    @include section-img
-//  }
-//
-//  .section2-detail {
-//    @include section-detail;
-//  }
-//
-//  .detail2-top {
-//    @include detail-top;
-//  }
-//
-//  .detail2-url {
-//    @include detail-url
-//  }
-//
-//  .detail2-status {
-//    @include detail-status
-//  }
-//
-//  .detail2-message {
-//    @include detail-message;
-//
-//    .exclamation2 {
-//      @include exclamation
-//    }
-//
-//    .detail2-ip {
-//      @include detail-ip
-//    }
-//
-//    .detail2-address {
-//      @include detail-address
-//    }
-//  }
-//
-//  .detail2-bottom {
-//    @include detail-bottom;
-//  }
-//
-//  .firefox2 {
-//    @include browser-icon;
-//    margin-left: 10px;
-//  }
-//
-//  .safari2 {
-//    @include browser-icon
-//  }
-//
-//  .ubuntu2 {
-//    @include browser-icon
-//  }
-//
-//  .chrome2 {
-//    @include browser-icon
-//  }
-//
-//  .deny2 {
-//    @include deny-button
-//  }
-//}
 
 .main-section3 {
   @include main-section;
@@ -528,51 +464,66 @@ main {
   }
 
   .section3-detail {
-    @include section-detail;
+    .detail3-top {
+      display: flex;
+
+      .detail3-url {
+        margin-left: 40px;
+      }
+    }
 
     .detail3-top {
       @include detail-top;
 
-      .detail3-url {
-        @include detail-url
+
+      .url3-text {
+        @include detail-url;
+        margin-left: 10px;
       }
+
 
       .detail3-status {
-        @include detail-status
-      }
-
-      .detail3-message {
-        @include detail-message
-      }
-
-      .exclamation3 {
-        @include exclamation
+        @include detail-status($background: #7FBC39);
+        width: 54px;
       }
 
       .detail3-ip {
-        @include detail-ip
+        margin-left: 35px;
       }
 
-      .detail3-address {
-        @include detail-address;
+      .detail3-location {
+        margin-left: 20px;
       }
+
     }
 
     .detail3-bottom {
-      @include detail-bottom
-    }
+      display: flex;
+      margin-left: 40px;
+      margin-top: 25px;
 
-    .firefox3 {
-      margin-left: 10px;
-      @include browser-icon
-    }
+      .detail3-browser {
+        display: flex;
+      }
 
-    .safari3 {
-      @include browser-icon
-    }
+      .detail3-line1 {
+        display: flex;
 
+        .firefox3 {
+          @include browser-icon;
+          margin-left: 10px;
+        }
+
+        .safari3 {
+          @include browser-icon;
+          margin-left: 10px;
+        }
+      }
+    }
     .deny3 {
-      @include deny-button
+      @include deny-button;
+      margin-top:-30px;
+      margin-right: -210px;
     }
   }
 }
@@ -581,55 +532,88 @@ main {
   @include main-section;
 
   .section4-img {
-    @include section-img
+    @include section-img;
   }
 
   .section4-detail {
-    @include section-detail
-  }
+    .detail4-top {
+      display: flex;
 
-  .detail4-top {
-    @include detail-top;
-
-    .detail4-url {
-      @include detail-url
+      .detail4-url {
+        margin-left: 40px;
+      }
     }
 
-    .detail4-status {
-      @include detail-status
-    }
+    .detail4-top {
+      @include detail-top;
 
-    .detail4-message {
-      @include detail-message;
 
-      .exclamation4 {
-        @include exclamation
+      .url4-text {
+        @include detail-url;
+        margin-left: 10px;
+      }
+
+
+      .detail4-status {
+        @include detail-status($background: #7FBC39);
+        width: 54px;
       }
 
       .detail4-ip {
-        @include detail-ip
+        margin-left: 35px;
+
       }
 
-      .detail4-address {
-        @include detail-address
+      .detail4-location {
+        margin-left: 20px;
+      }
+
+    }
+
+    .detail4-bottom {
+      display: flex;
+      margin-left: 40px;
+      margin-top: 25px;
+
+      .detail4-browser {
+        display: flex;
+      }
+
+      .detail4-line1 {
+        display: flex;
+
+        .firefox4 {
+          @include browser-icon;
+          margin-left: 10px;
+        }
+
+        .safari4 {
+          @include browser-icon;
+          margin-left: 10px;
+
+        }
+      }
+
+      .detail4-line2 {
+        display: flex;
+
+        .ubuntu4 {
+          @include browser-icon;
+          margin-left: 10px;
+
+        }
+
+        .chrome4 {
+          @include browser-icon;
+          margin-left: 10px;
+        }
       }
     }
-  }
-
-  .detail4-bottom {
-    @include detail-bottom;
-
-    .firefox4 {
-      @include browser-icon;
-      margin-left: 10px;
-    }
-
-    .safari4 {
-      @include browser-icon;
-    }
-
     .deny4 {
-      @include deny-button
+      @include deny-button;
+      margin-top:-30px;
+      margin-right: -205px;
+
     }
   }
 }
@@ -638,42 +622,52 @@ main {
   @include main-section;
 
   .section5-img {
-    @include section-img
+    @include section-img;
   }
 
   .section5-detail {
-    @include section-detail;
+    .detail5-top {
+      display: flex;
+
+      .detail5-url {
+        margin-left: 40px;
+      }
+    }
 
     .detail5-top {
       @include detail-top;
 
-      .detail5-url {
-        @include detail-url
+
+      .url5-text {
+        @include detail-url;
+        margin-left: 10px;
       }
+
 
       .detail5-status {
-        @include detail-status($background: #7FBC39)
+        @include detail-status($background: #7FBC39);
+        width: 54px;
       }
 
-      .detail5-message {
-        @include detail-message;
-
-        .exclamation5 {
-          @include exclamation
-        }
-
-        .detail5-ip {
-          @include detail-ip
-        }
-
-        .detail5-address {
-          @include detail-address
-        }
+      .detail5-ip {
+        margin-left: 60px;
       }
+
+      .detail5-location {
+        margin-left: 20px;
+      }
+
     }
 
     .detail5-bottom {
-      @include detail-bottom
+      display: flex;
+      margin-left: 40px;
+      margin-top: 25px;
+
+
+      .detail5-browser {
+        display: flex;
+      }
     }
   }
 }
@@ -682,59 +676,86 @@ main {
   @include main-section;
 
   .section6-img {
-    @include section-img
+    @include section-img;
   }
 
   .section6-detail {
-    @include section-detail
-  }
+    .detail6-top {
+      display: flex;
 
-  .detail6-top {
-    @include detail-top;
-
-    .detail6-url {
-      @include detail-url
+      .detail6-url {
+        margin-left: 40px;
+      }
     }
 
-    .detail6-status {
-      @include detail-status($background: #7FBC39)
-    }
+    .detail6-top {
+      @include detail-top;
 
-    .detail6-message {
-      @include detail-message;
 
-      .exclamation6 {
-        @include exclamation
+      .url6-text {
+        @include detail-url;
+        margin-left: 10px;
+      }
+
+
+      .detail6-status {
+        @include detail-status($background: #7FBC39);
+        width: 54px;
       }
 
       .detail6-ip {
-        @include detail-ip
+        margin-left: 60px;
       }
 
-      .detail6-address {
-        @include detail-address;
+      .detail6-location {
+        margin-left: 20px;
       }
-    }
-  }
 
-  .detail6-bottom {
-    @include detail-bottom;
-
-    .firefox6 {
-      margin-left: 10px;
-      @include browser-icon
     }
 
-    .safari6 {
-      @include browser-icon
-    }
+    .detail6-bottom {
+      display: flex;
+      margin-left: 40px;
+      margin-top: 25px;
 
-    .ubuntu6 {
-      @include browser-icon
-    }
 
-    .chrome6 {
-      @include browser-icon
+      .detail6-browser {
+        display: flex;
+      }
+
+      .detail6-line1 {
+        display: flex;
+
+
+
+
+        .firefox6 {
+          @include browser-icon;
+          margin-left: 10px;
+        }
+
+        .safari6 {
+          @include browser-icon;
+          margin-left: 10px;
+
+        }
+      }
+
+      .detail6-line2 {
+        display: flex;
+
+        .ubuntu6 {
+          @include browser-icon;
+          margin-left: 10px;
+
+        }
+
+        .chrome6 {
+          @include browser-icon;
+          margin-left: 10px;
+
+        }
+      }
     }
   }
 }
