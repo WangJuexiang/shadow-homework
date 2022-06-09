@@ -401,48 +401,54 @@ main .main-content .main-nav .main-button .button-right {
 .main-section2 .section2-detail .detail2-top .detail2-location {
   margin-left: 20px;
 }
-.main-section2 .section2-detail .detail2-bottom {
+.main-section2 .section2-detail .detail2-middle {
+  display: flex;
+}
+.main-section2 .section2-detail .detail2-middle .detail2-bottom {
   display: flex;
   margin-left: 40px;
   margin-top: 25px;
 }
-.main-section2 .section2-detail .detail2-bottom .detail2-browser {
+.main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-browser {
   display: flex;
 }
-.main-section2 .section2-detail .detail2-bottom .detail2-line1 {
+.main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line1 {
   display: flex;
 }
-.main-section2 .section2-detail .detail2-bottom .detail2-line1 .firefox2 {
+.main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line1 .firefox2 {
   padding: 2px 5px;
   background-color: #E1E4E6;
   margin-left: 10px;
 }
-.main-section2 .section2-detail .detail2-bottom .detail2-line1 .safari2 {
+.main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line1 .safari2 {
   padding: 2px 5px;
   background-color: #E1E4E6;
   margin-left: 10px;
 }
-.main-section2 .section2-detail .detail2-bottom .detail2-line2 {
+.main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line2 {
   display: flex;
 }
-.main-section2 .section2-detail .detail2-bottom .detail2-line2 .ubuntu2 {
+.main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line2 .ubuntu2 {
   padding: 2px 5px;
   background-color: #E1E4E6;
   margin-left: 10px;
 }
-.main-section2 .section2-detail .detail2-bottom .detail2-line2 .chrome2 {
+.main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-line2 .chrome2 {
   padding: 2px 5px;
   background-color: #E1E4E6;
   margin-left: 10px;
 }
-.main-section2 .section2-detail .deny2 {
-  float: right;
+.main-section2 .section2-detail .detail2-middle .deny2 {
+  position: absolute;
+  right: 250px;
+  margin-top: 15px;
+  height: 30px;
+  width: 100px;
+  padding-top: 8px;
+  padding-left: 40px;
   color: white;
   font-size: 14px;
   background-color: #00B4CF;
-  padding: 5px 20px;
-  margin-right: -200px;
-  margin-top: -30px;
 }
 
 .main-section3 {
@@ -487,36 +493,41 @@ main .main-content .main-nav .main-button .button-right {
 .main-section3 .section3-detail .detail3-top .detail3-location {
   margin-left: 20px;
 }
-.main-section3 .section3-detail .detail3-bottom {
+.main-section3 .section3-detail .detail3-middle {
+  display: flex;
+}
+.main-section3 .section3-detail .detail3-middle .detail3-bottom {
   display: flex;
   margin-left: 40px;
   margin-top: 25px;
 }
-.main-section3 .section3-detail .detail3-bottom .detail3-browser {
+.main-section3 .section3-detail .detail3-middle .detail3-bottom .detail3-browser {
   display: flex;
 }
-.main-section3 .section3-detail .detail3-bottom .detail3-line1 {
+.main-section3 .section3-detail .detail3-middle .detail3-bottom .detail3-line1 {
   display: flex;
 }
-.main-section3 .section3-detail .detail3-bottom .detail3-line1 .firefox3 {
+.main-section3 .section3-detail .detail3-middle .detail3-bottom .detail3-line1 .firefox3 {
   padding: 2px 5px;
   background-color: #E1E4E6;
   margin-left: 10px;
 }
-.main-section3 .section3-detail .detail3-bottom .detail3-line1 .safari3 {
+.main-section3 .section3-detail .detail3-middle .detail3-bottom .detail3-line1 .safari3 {
   padding: 2px 5px;
   background-color: #E1E4E6;
   margin-left: 10px;
 }
-.main-section3 .section3-detail .deny3 {
-  float: right;
+.main-section3 .section3-detail .detail3-middle .deny3 {
+  position: absolute;
+  right: 250px;
+  margin-top: 15px;
+  height: 30px;
+  width: 100px;
+  padding-top: 8px;
+  padding-left: 40px;
   color: white;
   font-size: 14px;
   background-color: #00B4CF;
-  padding: 5px 20px;
-  margin-right: -200px;
-  margin-top: -30px;
-  margin-right: -210px;
 }
 
 .main-section4 {
@@ -561,49 +572,54 @@ main .main-content .main-nav .main-button .button-right {
 .main-section4 .section4-detail .detail4-top .detail4-location {
   margin-left: 20px;
 }
-.main-section4 .section4-detail .detail4-bottom {
+.main-section4 .section4-detail .detail4-middle {
+  display: flex;
+}
+.main-section4 .section4-detail .detail4-middle .detail4-bottom {
   display: flex;
   margin-left: 40px;
   margin-top: 25px;
 }
-.main-section4 .section4-detail .detail4-bottom .detail4-browser {
+.main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-browser {
   display: flex;
 }
-.main-section4 .section4-detail .detail4-bottom .detail4-line1 {
+.main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line1 {
   display: flex;
 }
-.main-section4 .section4-detail .detail4-bottom .detail4-line1 .firefox4 {
+.main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line1 .firefox4 {
   padding: 2px 5px;
   background-color: #E1E4E6;
   margin-left: 10px;
 }
-.main-section4 .section4-detail .detail4-bottom .detail4-line1 .safari4 {
+.main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line1 .safari4 {
   padding: 2px 5px;
   background-color: #E1E4E6;
   margin-left: 10px;
 }
-.main-section4 .section4-detail .detail4-bottom .detail4-line2 {
+.main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line2 {
   display: flex;
 }
-.main-section4 .section4-detail .detail4-bottom .detail4-line2 .ubuntu4 {
+.main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line2 .ubuntu4 {
   padding: 2px 5px;
   background-color: #E1E4E6;
   margin-left: 10px;
 }
-.main-section4 .section4-detail .detail4-bottom .detail4-line2 .chrome4 {
+.main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-line2 .chrome4 {
   padding: 2px 5px;
   background-color: #E1E4E6;
   margin-left: 10px;
 }
-.main-section4 .section4-detail .deny4 {
-  float: right;
+.main-section4 .section4-detail .detail4-middle .deny4 {
+  position: absolute;
+  right: 250px;
+  margin-top: 15px;
+  height: 30px;
+  width: 100px;
+  padding-top: 8px;
+  padding-left: 40px;
   color: white;
   font-size: 14px;
   background-color: #00B4CF;
-  padding: 5px 20px;
-  margin-right: -200px;
-  margin-top: -30px;
-  margin-right: -205px;
 }
 
 .main-section5 {

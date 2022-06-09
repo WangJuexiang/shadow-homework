@@ -409,49 +409,52 @@ main {
 
     }
 
-    .detail2-bottom {
+    .detail2-middle {
       display: flex;
-      margin-left: 40px;
-      margin-top: 25px;
 
-      .detail2-browser {
+      .detail2-bottom {
         display: flex;
+        margin-left: 40px;
+        margin-top: 25px;
+
+        .detail2-browser {
+          display: flex;
+        }
+
+        .detail2-line1 {
+          display: flex;
+
+          .firefox2 {
+            @include browser-icon;
+            margin-left: 10px;
+          }
+
+          .safari2 {
+            @include browser-icon;
+            margin-left: 10px;
+
+          }
+        }
+
+        .detail2-line2 {
+          display: flex;
+
+          .ubuntu2 {
+            @include browser-icon;
+            margin-left: 10px;
+
+          }
+
+          .chrome2 {
+            @include browser-icon;
+            margin-left: 10px;
+          }
+        }
       }
 
-      .detail2-line1 {
-        display: flex;
-
-        .firefox2 {
-          @include browser-icon;
-          margin-left: 10px;
-        }
-
-        .safari2 {
-          @include browser-icon;
-          margin-left: 10px;
-
-        }
+      .deny2 {
+        @include deny-button;
       }
-
-      .detail2-line2 {
-        display: flex;
-
-        .ubuntu2 {
-          @include browser-icon;
-          margin-left: 10px;
-
-        }
-
-        .chrome2 {
-          @include browser-icon;
-          margin-left: 10px;
-        }
-      }
-    }
-    .deny2 {
-      @include deny-button;
-      margin-top:-30px;
-
     }
   }
 }
@@ -494,36 +497,37 @@ main {
       .detail3-location {
         margin-left: 20px;
       }
-
     }
 
-    .detail3-bottom {
+    .detail3-middle {
       display: flex;
-      margin-left: 40px;
-      margin-top: 25px;
 
-      .detail3-browser {
+      .detail3-bottom {
         display: flex;
-      }
+        margin-left: 40px;
+        margin-top: 25px;
 
-      .detail3-line1 {
-        display: flex;
-
-        .firefox3 {
-          @include browser-icon;
-          margin-left: 10px;
+        .detail3-browser {
+          display: flex;
         }
 
-        .safari3 {
-          @include browser-icon;
-          margin-left: 10px;
+        .detail3-line1 {
+          display: flex;
+
+          .firefox3 {
+            @include browser-icon;
+            margin-left: 10px;
+          }
+
+          .safari3 {
+            @include browser-icon;
+            margin-left: 10px;
+          }
         }
       }
-    }
-    .deny3 {
-      @include deny-button;
-      margin-top:-30px;
-      margin-right: -210px;
+      .deny3 {
+        @include deny-button;
+      }
     }
   }
 }
@@ -567,53 +571,54 @@ main {
       .detail4-location {
         margin-left: 20px;
       }
-
     }
 
-    .detail4-bottom {
+    .detail4-middle {
       display: flex;
-      margin-left: 40px;
-      margin-top: 25px;
 
-      .detail4-browser {
+      .detail4-bottom {
         display: flex;
+        margin-left: 40px;
+        margin-top: 25px;
+
+        .detail4-browser {
+          display: flex;
+        }
+
+        .detail4-line1 {
+          display: flex;
+
+          .firefox4 {
+            @include browser-icon;
+            margin-left: 10px;
+          }
+
+          .safari4 {
+            @include browser-icon;
+            margin-left: 10px;
+
+          }
+        }
+
+        .detail4-line2 {
+          display: flex;
+
+          .ubuntu4 {
+            @include browser-icon;
+            margin-left: 10px;
+
+          }
+
+          .chrome4 {
+            @include browser-icon;
+            margin-left: 10px;
+          }
+        }
       }
 
-      .detail4-line1 {
-        display: flex;
-
-        .firefox4 {
-          @include browser-icon;
-          margin-left: 10px;
-        }
-
-        .safari4 {
-          @include browser-icon;
-          margin-left: 10px;
-
-        }
+      .deny4 {
+        @include deny-button;
       }
-
-      .detail4-line2 {
-        display: flex;
-
-        .ubuntu4 {
-          @include browser-icon;
-          margin-left: 10px;
-
-        }
-
-        .chrome4 {
-          @include browser-icon;
-          margin-left: 10px;
-        }
-      }
-    }
-    .deny4 {
-      @include deny-button;
-      margin-top:-30px;
-      margin-right: -205px;
-
     }
   }
 }
