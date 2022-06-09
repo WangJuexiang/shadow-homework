@@ -56,6 +56,7 @@ main {
   .main-content {
     width: 100%;
     border: solid 2px lightgray;
+    background-color: $primary-gray;
 
     .main-header {
       display: flex;
@@ -236,11 +237,16 @@ main {
   }
 }
 
+.main-section {
+  background-color: $primary-gray;
+
+
 .main-section1 {
   @include main-section;
-  margin-left: 9px;
-  width: 772px;
-  height: 100px;
+  width: 863px;
+  margin-left: 10px;
+  margin-right: 10px;
+
 
   .section1-img {
     display: none;
@@ -316,9 +322,9 @@ main {
 
 .main-section2 {
   @include main-section;
-  margin-left: 9px;
-  width: 772px;
-  height: 100px;
+  width: 863px;
+  margin-left: 10px;
+  margin-right: 10px;
 
   .section2-img {
     display: none;
@@ -357,47 +363,54 @@ main {
       }
     }
 
-    .detail2-bottom {
-      @include detail-bottom;
-      margin-left: 10px;
+    .detail2-middle {
+      display: flex;
 
-      .detail2-browser {
-        display: flex;
+      .detail2-bottom {
+        @include detail-bottom;
+        margin-left: 10px;
+
+        .detail2-browser {
+          display: flex;
+        }
+
+        .detail2-line1 {
+          display: flex;
+
+          .firefox2 {
+            @include browser-icon;
+          }
+
+          .safari2 {
+            @include browser-icon;
+          }
+        }
+
+        .detail2-line2 {
+          display: flex;
+
+          .ubuntu2 {
+            @include browser-icon;
+          }
+
+          .chrome2 {
+            @include browser-icon;
+          }
+        }
       }
-
-      .detail2-line1 {
-        display: flex;
-
-        .firefox2 {
-          @include browser-icon;
-        }
-
-        .safari2 {
-          @include browser-icon;
-        }
-      }
-
-      .detail2-line2 {
-        display: flex;
-
-        .ubuntu2 {
-          @include browser-icon;
-        }
-
-        .chrome2 {
-          @include browser-icon;
-        }
+      .deny2 {
+        @include deny-button;
+        right: 50px;
       }
     }
   }
 }
 
-
 .main-section3 {
   @include main-section;
-  margin-left: 9px;
-  width: 772px;
-  height: 100px;
+  width: 863px;
+  margin-left: 10px;
+  margin-right: 10px;
 
   .section3-img {
     display: none;
@@ -436,37 +449,43 @@ main {
       }
     }
 
-    .detail3-bottom {
-      @include detail-bottom;
-      margin-left: 10px;
+    .detail3-middle {
+      display: flex;
 
-      .detail3-browser {
-        display: flex;
+      .detail3-bottom {
+        @include detail-bottom;
+        margin-left: 10px;
+
+        .detail3-browser {
+          display: flex;
+        }
+
+        .detail3-line1 {
+          display: flex;
+
+          .firefox3 {
+            @include browser-icon;
+          }
+
+          .safari3 {
+            @include browser-icon;
+          }
+        }
       }
 
-      .detail3-line1 {
-        display: flex;
-
-        .firefox3 {
-          @include browser-icon;
-        }
-
-        .safari3 {
-          @include browser-icon;
-        }
+      .deny3 {
+        @include deny-button;
+        right: 50px;
       }
     }
   }
 }
 
-
-
-
 .main-section4 {
   @include main-section;
-  margin-left: 9px;
-  width: 772px;
-  height: 100px;
+  width: 863px;
+  margin-left: 10px;
+  margin-right: 10px;
 
   .section4-img {
     display: none;
@@ -505,36 +524,45 @@ main {
       }
     }
 
-    .detail4-bottom {
-      @include detail-bottom;
-      margin-left: 10px;
+    .detail4-middle {
+      display: flex;
 
-      .detail4-browser {
-        display: flex;
+      .detail4-bottom {
+        @include detail-bottom;
+        margin-left: 10px;
+
+        .detail4-browser {
+          display: flex;
+        }
+
+        .detail4-line1 {
+          display: flex;
+
+          .firefox4 {
+            @include browser-icon;
+          }
+
+          .safari4 {
+            @include browser-icon;
+          }
+        }
+
+        .detail4-line2 {
+          display: flex;
+
+          .ubuntu4 {
+            @include browser-icon;
+          }
+
+          .chrome4 {
+            @include browser-icon;
+          }
+        }
       }
 
-      .detail4-line1 {
-        display: flex;
-
-        .firefox4 {
-          @include browser-icon;
-        }
-
-        .safari4 {
-          @include browser-icon;
-        }
-      }
-
-      .detail4-line2 {
-        display: flex;
-
-        .ubuntu4 {
-          @include browser-icon;
-        }
-
-        .chrome4 {
-          @include browser-icon;
-        }
+      .deny4 {
+        @include deny-button;
+        right: 50px;
       }
     }
   }
@@ -544,9 +572,9 @@ main {
 
 .main-section5 {
   @include main-section;
-  margin-left: 9px;
-  width: 772px;
-  height: 100px;
+  width: 863px;
+  margin-left: 10px;
+  margin-right: 10px;
 
   .section5-img {
     display: none;
@@ -598,9 +626,9 @@ main {
 
 .main-section6 {
   @include main-section;
-  margin-left: 9px;
-  width: 772px;
-  height: 100px;
+  width: 863px;
+  margin-left: 10px;
+  margin-right: 10px;
 
   .section6-img {
     display: none;
@@ -670,6 +698,7 @@ main {
           @include browser-icon;
         }
       }
+    }
     }
   }
 }
