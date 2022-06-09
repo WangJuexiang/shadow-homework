@@ -400,6 +400,7 @@ main .main_content .main_nav .main_button .button_right {
   color: white;
   font-size: 14px;
   background-color: #00B4CF;
+  cursor: pointer;
   right: 50px;
 }
 .main_section .main-section3 {
@@ -482,6 +483,7 @@ main .main_content .main_nav .main_button .button_right {
   color: white;
   font-size: 14px;
   background-color: #00B4CF;
+  cursor: pointer;
   right: 50px;
 }
 .main_section .main-section4 {
@@ -577,6 +579,7 @@ main .main_content .main_nav .main_button .button_right {
   color: white;
   font-size: 14px;
   background-color: #00B4CF;
+  cursor: pointer;
   right: 50px;
 }
 .main_section .main-section5 {

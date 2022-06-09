@@ -3,6 +3,7 @@
   height: 45px;
   margin-top: 30px;
   margin-left: 60px;
+  cursor: pointer;
 }
 
 @mixin aside_nav_div_text() {
@@ -39,6 +40,14 @@
   height: 50px;
   margin-top: 10px;
   font-size: 12px;
+}
+
+@mixin main_nav_text_style() {
+  width: 33%;
+  border-right: solid lightgrey;
+  text-align: center;
+  line-height: 50px;
+  cursor: pointer;
 }
 
 @mixin main_section() {
@@ -121,4 +130,5 @@
   color: white;
   font-size: 14px;
   background-color: #00B4CF;
+  cursor: pointer;
 }

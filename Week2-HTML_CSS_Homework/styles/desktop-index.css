@@ -38,6 +38,7 @@ header .user_img {
   width: 40px;
   border-radius: 50%;
   margin-left: 150px;
+  cursor: pointer;
 }
 
 aside {
@@ -56,6 +57,7 @@ aside nav .dashboard {
   height: 45px;
   margin-top: 30px;
   margin-left: 60px;
+  cursor: pointer;
 }
 aside nav .dashboard .text_dashboard {
   font-weight: lighter;
@@ -66,6 +68,7 @@ aside nav .agent {
   height: 45px;
   margin-top: 30px;
   margin-left: 60px;
+  cursor: pointer;
 }
 aside nav .agent .text_agent {
   font-weight: lighter;
@@ -76,6 +79,7 @@ aside nav .my_cruise {
   height: 45px;
   margin-top: 30px;
   margin-left: 60px;
+  cursor: pointer;
 }
 aside nav .my_cruise .text_mycruise {
   font-weight: lighter;
@@ -86,6 +90,7 @@ aside nav .help {
   height: 45px;
   margin-top: 30px;
   margin-left: 60px;
+  cursor: pointer;
 }
 aside nav .help .text_help {
   font-weight: lighter;
@@ -126,6 +131,7 @@ main .main_content .main_header .building {
   height: 100px;
   width: 500px;
   background-color: #FF9A2A;
+  cursor: pointer;
 }
 main .main_content .main_header .building .text_building {
   padding-left: 10px;
@@ -147,6 +153,7 @@ main .main_content .main_header .idle {
   height: 100px;
   width: 500px;
   background-color: #7FBC39;
+  cursor: pointer;
 }
 main .main_content .main_header .idle .text_idle {
   padding-left: 10px;
@@ -236,18 +243,21 @@ main .main_content .main_nav .main_nav_text .all {
   border-right: solid lightgrey;
   text-align: center;
   line-height: 50px;
+  cursor: pointer;
 }
 main .main_content .main_nav .main_nav_text .physical {
   width: 33%;
   border-right: solid lightgrey;
   text-align: center;
   line-height: 50px;
+  cursor: pointer;
 }
 main .main_content .main_nav .main_nav_text .virtual {
   width: 33%;
   border-right: solid lightgrey;
   text-align: center;
   line-height: 50px;
+  cursor: pointer;
 }
 main .main_content .main_nav .search {
   position: relative;
@@ -280,10 +290,12 @@ main .main_content .main_nav .main_button {
 main .main_content .main_nav .main_button .button_left {
   padding-top: 20px;
   padding-bottom: 20px;
+  cursor: pointer;
 }
 main .main_content .main_nav .main_button .button_right {
   padding-top: 20px;
   padding-bottom: 20px;
+  cursor: pointer;
   width: 40px;
   text-align: right;
 }
@@ -334,6 +346,9 @@ main .main_content .main_nav .main_button .button_right {
   display: flex;
   margin-left: 40px;
   margin-top: 25px;
+}
+.main_section1 .section1_detail .detail1-bottom .add-button1 {
+  cursor: pointer;
 }
 .main_section1 .section1_detail .detail1-bottom .detail1-browser {
   display: flex;
@@ -415,6 +430,9 @@ main .main_content .main_nav .main_button .button_right {
   margin-left: 40px;
   margin-top: 25px;
 }
+.main-section2 .section2-detail .detail2-middle .detail2-bottom .add-button2 {
+  cursor: pointer;
+}
 .main-section2 .section2-detail .detail2-middle .detail2-bottom .detail2-browser {
   display: flex;
 }
@@ -455,6 +473,7 @@ main .main_content .main_nav .main_button .button_right {
   color: white;
   font-size: 14px;
   background-color: #00B4CF;
+  cursor: pointer;
 }
 
 .main-section3 {
@@ -507,6 +526,9 @@ main .main_content .main_nav .main_button .button_right {
   margin-left: 40px;
   margin-top: 25px;
 }
+.main-section3 .section3-detail .detail3-middle .detail3-bottom .add-button3 {
+  cursor: pointer;
+}
 .main-section3 .section3-detail .detail3-middle .detail3-bottom .detail3-browser {
   display: flex;
 }
@@ -534,6 +556,7 @@ main .main_content .main_nav .main_button .button_right {
   color: white;
   font-size: 14px;
   background-color: #00B4CF;
+  cursor: pointer;
 }
 
 .main-section4 {
@@ -586,6 +609,9 @@ main .main_content .main_nav .main_button .button_right {
   margin-left: 40px;
   margin-top: 25px;
 }
+.main-section4 .section4-detail .detail4-middle .detail4-bottom .add-button4 {
+  cursor: pointer;
+}
 .main-section4 .section4-detail .detail4-middle .detail4-bottom .detail4-browser {
   display: flex;
 }
@@ -626,6 +652,7 @@ main .main_content .main_nav .main_button .button_right {
   color: white;
   font-size: 14px;
   background-color: #00B4CF;
+  cursor: pointer;
 }
 
 .main-section5 {
@@ -675,6 +702,9 @@ main .main_content .main_nav .main_button .button_right {
   margin-left: 40px;
   margin-top: 25px;
 }
+.main-section5 .section5-detail .add-button5 {
+  cursor: pointer;
+}
 
 .main-section6 {
   display: flex;
@@ -722,6 +752,9 @@ main .main_content .main_nav .main_button .button_right {
   display: flex;
   margin-left: 40px;
   margin-top: 25px;
+}
+.main-section6 .section6-detail .detail6-bottom .add-button6 {
+  cursor: pointer;
 }
 .main-section6 .section6-detail .detail6-bottom .detail6-browser {
   display: flex;

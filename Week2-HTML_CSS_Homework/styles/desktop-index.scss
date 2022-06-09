@@ -35,6 +35,7 @@ header {
     width: 40px;
     border-radius: 50%;
     margin-left: 150px;
+    cursor: pointer;
   }
 }
 
@@ -59,6 +60,7 @@ aside {
 
     .agent {
       @include aside_nav_div;
+
 
       .text_agent {
         @include aside_nav_div_text
@@ -120,6 +122,7 @@ main {
         height: 100px;
         width: 500px;
         background-color: #FF9A2A;
+        cursor: pointer;
 
         .text_building {
           @include main_header_div_text
@@ -136,6 +139,7 @@ main {
         height: 100px;
         width: 500px;
         background-color: #7FBC39;
+        cursor: pointer;
 
         .text_idle {
           @include main_header_div_text
@@ -203,24 +207,15 @@ main {
         width: 335px;
 
         .all {
-          width: 33%;
-          border-right: solid lightgrey;
-          text-align: center;
-          line-height: 50px;
+          @include main_nav_text_style
         }
 
         .physical {
-          width: 33%;
-          border-right: solid lightgrey;
-          text-align: center;
-          line-height: 50px;
+          @include main_nav_text_style
         }
 
         .virtual {
-          width: 33%;
-          border-right: solid lightgrey;
-          text-align: center;
-          line-height: 50px;
+          @include main_nav_text_style
         }
       }
 
@@ -258,11 +253,13 @@ main {
         .button_left {
           padding-top: 20px;
           padding-bottom: 20px;
+          cursor:pointer;
         }
 
         .button_right {
           padding-top: 20px;
           padding-bottom: 20px;
+          cursor:pointer;
           width: 40px;
           text-align: right;
         }
@@ -312,6 +309,10 @@ main {
 
     .detail1-bottom {
       @include detail_bottom;
+
+      .add-button1 {
+        cursor:pointer;
+      }
 
       .detail1-browser {
         display: flex;
@@ -388,6 +389,10 @@ main {
 
       .detail2-bottom {
         @include detail_bottom;
+
+        .add-button2 {
+          cursor:pointer;
+        }
 
         .detail2-browser {
           display: flex;
@@ -471,6 +476,10 @@ main {
       .detail3-bottom {
         @include detail_bottom;
 
+        .add-button3 {
+          cursor:pointer;
+        }
+
         .detail3-browser {
           display: flex;
         }
@@ -537,6 +546,10 @@ main {
 
       .detail4-bottom {
         @include detail_bottom;
+
+        .add-button4 {
+          cursor:pointer;
+        }
 
         .detail4-browser {
           display: flex;
@@ -616,6 +629,10 @@ main {
     .detail5-bottom {
       @include detail_bottom;
     }
+
+    .add-button5 {
+      cursor:pointer;
+    }
   }
 }
 
@@ -659,6 +676,10 @@ main {
 
     .detail6-bottom {
       @include detail_bottom;
+
+      .add-button6 {
+        cursor:pointer;
+      }
 
       .detail6-browser {
         display: flex;
