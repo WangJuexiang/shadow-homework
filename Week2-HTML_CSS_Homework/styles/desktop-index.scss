@@ -297,8 +297,6 @@ main {
 
     }
 
-
-
     .detail1-top {
       @include detail-top;
 
@@ -375,66 +373,152 @@ main {
   @include main-section;
 
   .section2-img {
-    @include section-img
+    @include section-img;
   }
 
   .section2-detail {
-    @include section-detail;
-  }
+    .detail2-top {
+      display: flex;
 
-  .detail2-top {
-    @include detail-top;
-  }
+      .detail2-url {
+        margin-left: 40px;
+      }
 
-  .detail2-url {
-    @include detail-url
-  }
-
-  .detail2-status {
-    @include detail-status
-  }
-
-  .detail2-message {
-    @include detail-message;
-
-    .exclamation2 {
-      @include exclamation
     }
 
-    .detail2-ip {
-      @include detail-ip
+    .detail2-top {
+      @include detail-top;
+
+
+      .url2-text {
+        @include detail-url;
+        margin-left: 10px;
+      }
+
+
+      .detail2-status {
+        @include detail-status($background: #7FBC39);
+        width: 54px;
+      }
+
+      .detail2-ip {
+        margin-left: 60px;
+      }
+
+      .detail2-location {
+        margin-left: 20px;
+      }
+
     }
 
-    .detail2-address {
-      @include detail-address
+    .detail2-bottom {
+      display: flex;
+      margin-left: 40px;
+      margin-top: 25px;
+
+
+      .detail2-browser {
+        display: flex;
+      }
+
+      .detail2-line1 {
+        display: flex;
+
+        .firefox2 {
+          @include browser-icon;
+          margin-left: 10px;
+        }
+
+        .safari2 {
+          @include browser-icon;
+          margin-left: 10px;
+
+        }
+      }
+
+      .detail2-line2 {
+        display: flex;
+
+        .ubuntu2 {
+          @include browser-icon;
+          margin-left: 10px;
+
+        }
+
+        .chrome2 {
+          @include browser-icon;
+          margin-left: 10px;
+
+        }
+      }
     }
-  }
-
-  .detail2-bottom {
-    @include detail-bottom;
-  }
-
-  .firefox2 {
-    @include browser-icon;
-    margin-left: 10px;
-  }
-
-  .safari2 {
-    @include browser-icon
-  }
-
-  .ubuntu2 {
-    @include browser-icon
-  }
-
-  .chrome2 {
-    @include browser-icon
-  }
-
-  .deny2 {
-    @include deny-button
   }
 }
+
+//.main-section2 {
+//  @include main-section;
+//
+//  .section2-img {
+//    @include section-img
+//  }
+//
+//  .section2-detail {
+//    @include section-detail;
+//  }
+//
+//  .detail2-top {
+//    @include detail-top;
+//  }
+//
+//  .detail2-url {
+//    @include detail-url
+//  }
+//
+//  .detail2-status {
+//    @include detail-status
+//  }
+//
+//  .detail2-message {
+//    @include detail-message;
+//
+//    .exclamation2 {
+//      @include exclamation
+//    }
+//
+//    .detail2-ip {
+//      @include detail-ip
+//    }
+//
+//    .detail2-address {
+//      @include detail-address
+//    }
+//  }
+//
+//  .detail2-bottom {
+//    @include detail-bottom;
+//  }
+//
+//  .firefox2 {
+//    @include browser-icon;
+//    margin-left: 10px;
+//  }
+//
+//  .safari2 {
+//    @include browser-icon
+//  }
+//
+//  .ubuntu2 {
+//    @include browser-icon
+//  }
+//
+//  .chrome2 {
+//    @include browser-icon
+//  }
+//
+//  .deny2 {
+//    @include deny-button
+//  }
+//}
 
 .main-section3 {
   @include main-section;
