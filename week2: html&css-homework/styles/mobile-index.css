@@ -37,7 +37,7 @@ header .user_login {
 header .user_img {
   display: flex;
   margin-top: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
   height: 40px;
   width: 40px;
   border-radius: 50%;
