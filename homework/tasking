@@ -57,7 +57,13 @@ reuse-mixin?
 
 mobile:reverse/background
 
-git push
+点击事件：onclick与回调函数
+
+模态框：点击button，6个位置的div，调整css为：position:absolute visibility z-index
+
+添加：根据input内容插入对应DOM：innerHTML creatElement appendChild
+
+删除：点击button，删除DOM, 索引数组下标
 
 
 

@@ -347,8 +347,15 @@ main .main_content .main_nav .main_button .button_right {
   margin-left: 40px;
   margin-top: 25px;
 }
-.main_section1 .section1_detail .detail1-bottom .add-button1 {
+.main_section1 .section1_detail .detail1-bottom .addBrowser {
   cursor: pointer;
+  border: none;
+  padding: 0 0;
+}
+.main_section1 .section1_detail .detail1-bottom .deleteBrowser {
+  cursor: pointer;
+  border: none;
+  padding: 0 0;
 }
 .main_section1 .section1_detail .detail1-bottom .detail1-browser {
   display: flex;

@@ -310,8 +310,18 @@ main {
     .detail1-bottom {
       @include detail_bottom;
 
-      .add-button1 {
+      .addBrowser {
         cursor:pointer;
+        border: none;
+        padding: 0 0;
+      }
+
+      .deleteBrowser {
+        cursor: pointer;
+        border: none;
+        padding: 0 0;
+
+
       }
 
       .detail1-browser {
